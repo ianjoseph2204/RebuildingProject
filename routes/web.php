@@ -26,3 +26,9 @@ Route::get('/contact', function () {
 Route::get('/getinvolved', function () {
     return view('getinvolved');
 });
+Route::get('/add', function () {
+    return view('add');
+});
+
+Route::post('/insertContact','DataController@contact');
+Route::post('/insertArticle','DataController@article');

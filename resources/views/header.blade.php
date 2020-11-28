@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -50,7 +51,7 @@
                         <a class="nav-link mx-5 my-2" href="getinvolved">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2 px-3" href="login" id="login">Login<span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5 my-2 px-3" href="add" id="login">Login<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +64,7 @@
     <footer class="footer mt-5" style="bottom: 0px;">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <img src="assets/vector.png" width="100%">
+                <img src="assets/foot.png" width="100%">
             </div>
             <div class="row justify-content-center text-center" style="background-color: #FFB341; color:black">
                 <div class="col-lg-12 col-sm-12 justify-content-center text-center mt-3 mb-3">

@@ -15,42 +15,42 @@
                 </div>
             </div>
             <div class="col-lg-7">
-            <form method="POST" action="validasiLogin">
+            <form method="POST" action="insertContact">
                     @csrf
                     <div class="row justify-content-center" >
                         <div class="col-lg-9 col-10 p-5" id="back">
                             <label for="nama" style="font-size: 14px; font-weight: bold;">Nama/Nama Perusahaan</label>
-                            <input id="nama" style="border-color: #0a0a0a;" type="name" class="form-control" name="email" required autofocus>
+                            <input id="nama" style="border-radius:10px; border-color:transparent" type="name" class="form-control" name="name" required autofocus>
                             <br>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label for="email" style="font-size: 14px; font-weight: bold;">Email</label>
-                                    <input id="email" style="border-color: #0a0a0a;" type="email" class="form-control" name="email" required autofocus>
+                                    <input id="email" style="border-radius:10px; border-color:transparent" type="email" class="form-control" name="email" required autofocus>
                                 </div>
                                 <div class="col-lg-6">
                                     <label for="phone" style="font-size: 14px; font-weight: bold;">Nomor Telephone</label>
-                                    <input id="phone" style="border-color: #0a0a0a;" type="phone" class="form-control" name="email" required autofocus>
+                                    <input id="phone" style="border-radius:10px; border-color:transparent" type="phone" class="form-control" name="phone" required autofocus>
                                 </div>
                             </div>
                             <br>
                             <label for="judul" style="font-size: 14px; font-weight: bold;">Judul</label>
-                            <input id="judul" style="border-color: #0a0a0a;" type="name" class="form-control" name="judul" required autofocus>
+                            <input id="judul" style="border-radius:10px; border-color:transparent" type="name" class="form-control" name="judul" required autofocus>
                             <br>
                             <label for="Pesan" style="font-size: 14px; font-weight: bold;">Pesan</label>
-                            <textarea id="Pesan" style="border-color: #0a0a0a;" type="name" class="form-control" name="Pesan" required autofocus>
+                            <textarea id="Pesan" style="border-radius:10px; border-color:transparent" type="name" class="form-control" name="pesan" required autofocus>
                             </textarea>
-                            <!-- if(\Session::has('failLoginNoAkun'))
+                            @if(\Session::has('successContact'))
                                 <script>
                                     swal({
-                                        title: "Akun tidak Terdaftar",
-                                        text: "Email Anda belum terdaftar di sistem kami. Tekan tombol sign up pada bagian kanan atas untuk membuat akun",
-                                        icon: "error",
+                                        title: "Success",
+                                        text: "Your Message Has Been Sent!",
+                                        icon: "success",
                                         confirmButtonText: 'OK',
                                         closeOnConfirm: true, 
                                         allowOutsideClick: false
                                     });
                                 </script>
-                            endif -->
+                            @endif
                         </div>
                     </div>
                     <div class="row">

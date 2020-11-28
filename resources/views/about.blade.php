@@ -11,15 +11,8 @@
             </div>
         </div>  
         <div class="row justify-content-center">
-            <div class="col-lg-4 my-1 text-right">
-                <img src="assets/kiri.png" width="70%"> 
-            </div>
-            <div class="col-lg-3 my-1 text-center">
-                <img src="assets/atas.png" width="70%"> 
-                <img src="assets/bawah.png" width="70%"> 
-            </div>
-            <div class="col-lg-4 my-1 text-left">
-                <img src="assets/kanan.png" width="70%"> 
+            <div class="col-lg-10 my-4 text-right">
+                <img src="assets/bg.jpg" width="100%"> 
             </div>
         </div>   
     </div>     
