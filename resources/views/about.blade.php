@@ -251,7 +251,7 @@
                         <h4><i id="headerFAQ2a" class="fa fa-lg fa-times carrot2"></i></h4>
                     </div>
                 </div>
-                <a id="down2">Sebagai starting point, proyek-proyek kami akan dimulai dengan panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti asuhan di seluruh kota di Indonesia.  </a>
+                <a id="down2" style="color:white">Sebagai starting point, proyek-proyek kami akan dimulai dengan panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti asuhan di seluruh kota di Indonesia.  </a>
             </div>
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
                 <div class="row">
@@ -275,7 +275,7 @@
                         <h4><i id="headerFAQ4a" class="fa fa-lg fa-times carrot2"></i></h4>
                     </div>
                 </div>
-                <a id="down4">Target Rebuilding Project adalah anak-anak yatim piatu yang memiliki umur berkisar 6 sampai 18 tahun, dan ternaung di dalam panti asuhan di Indonesia. </a>
+                <a id="down4" style="color:white">Target Rebuilding Project adalah anak-anak yatim piatu yang memiliki umur berkisar 6 sampai 18 tahun, dan ternaung di dalam panti asuhan di Indonesia. </a>
             </div>
         </div>
     </div>
