@@ -64,6 +64,13 @@
                 </div>  
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12 my-5 text-center">
+                <a href="#" class="page mx-1"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="page mx-1 px-3">1</a>
+                <a href="#" class="page mx-1"><i class="fas fa-chevron-right"></i></a>
+            </div>   
+        </div>
     </div>
 </section>
 @endsection 

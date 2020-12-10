@@ -14,7 +14,7 @@
                 <h1 class="grid2">Children</h1>
                 <h1 class="grid1">Through</h1>
                 <h1 class="grid2">Education</h1>
-                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="donate"><b>DONATE</b></a>
+                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="getinvolved"><b>DONATE</b></a>
             </div>
         </div>   
     </div>     
@@ -106,7 +106,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
                 <h2 class="grid2 text-center">01</h2>
                 <div class="panel p-3" id="back">
-                    <img  src="assets/frame.png" alt="Avatar" style="width:100%">
+                    <img  src="assets/ilus1.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p> 
                     </div>
@@ -115,7 +115,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">02</h2>
                 <div class="panel p-3" id="back">
-                    <img  src="assets/frame.png" alt="Avatar" style="width:100%">
+                    <img  src="assets/ilus2.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p> 
                     </div>
@@ -124,7 +124,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">03</h2>
                 <div class="panel p-3" id="back">
-                    <img  src="assets/frame.png" alt="Avatar" style="width:100%">
+                    <img  src="assets/ilus3.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p> 
                     </div>
@@ -133,7 +133,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">04</h2>
                 <div class="panel p-3" id="back">
-                    <img  src="assets/frame.png" alt="Avatar" style="width:100%">
+                    <img  src="assets/ilus4.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p> 
                     </div>
