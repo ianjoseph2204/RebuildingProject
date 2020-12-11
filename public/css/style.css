@@ -32,7 +32,7 @@ option{
     transition: 0.5s;
 }
 .navbar a:hover, .active{
-    color: #f5c150;
+    color: #FFA216;
 }
 .navbar-nav{
     margin: auto;
@@ -40,8 +40,8 @@ option{
 .logoutama{
     display: none;
 }
-#login{
-    background-color:  #f5c150;
+#login, #expand{
+    background-color:  #FFA216;
     border-radius: 20px;
     border-color: transparent; 
     cursor: pointer;
@@ -49,16 +49,16 @@ option{
     transition: 0.5s;
     text-decoration: none;
 }
-#login:hover{
+#login:hover, #expand:hover{
     /* background-color:  #dfaf49; */
     background-color: transparent;
     border-width: 2px;
-    border-color: #f5c150 !important;
-    color: #f5c150;
+    border-color: #FFA216 !important;
+    color: #FFA216;
 }
 #misikami{
     font-weight: bold;
-    color: #f5c150;
+    color: #FFA216;
 }
 .grid1{
     font-weight: bold;
@@ -66,7 +66,7 @@ option{
 }
 .grid2{
     font-weight: bold;
-    color: #f5c150;
+    color: #FFA216;
 }
 .grid3{
     font-weight: bold;
@@ -106,7 +106,7 @@ option{
     transition: 0.3s;
 }
 .panel{
-    height: 320px;
+    height: 360px;
 }
 .panelvolunteer{
     background-color: #FBEFE4;
@@ -165,7 +165,7 @@ option{
 .prevnexthp{
     display: none;
 }
-.prevnext{
+.prevnext, .aligned{
     margin-top: auto;
     margin-bottom: auto;
 }

@@ -6,7 +6,7 @@
         <div class="row jeda"></div>
         <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
-                <img src="assets/landing.png" width="70%" class="mx-1 my-1"> 
+                <img src="assets/landing.png" width="60%" class="mx-1 my-1"> 
             </div>
             <div class="col-lg-5 col-sm-5 col-10 mt-3">
                 <a id="misikami">01-Misi Kami</a>
@@ -98,14 +98,15 @@
     <div class="container my-5">
         <div class="row p-3">
             <div class="col-lg-12 text-center">
-                <a class="mt-3" id="misikami">04-Apa yang Kami Lakukan</a><br><br>
-                <h2 class="grid1 px-5"> What We Do</h2>
+                <a class="mt-3" id="misikami">04-Apa yang Kami Lakukan</a><br>
+                <h1 class="grid1 px-5"> What We Do</h1><br>
                </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
                 <h2 class="grid2 text-center">01</h2>
                 <div class="panel p-3" id="back">
+                    <br>
                     <img  src="assets/ilus1.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p> 
@@ -115,6 +116,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">02</h2>
                 <div class="panel p-3" id="back">
+                    <br>
                     <img  src="assets/ilus2.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p> 
@@ -124,6 +126,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">03</h2>
                 <div class="panel p-3" id="back">
+                    <br>
                     <img  src="assets/ilus3.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p> 
@@ -133,6 +136,7 @@
             <div class="col-lg-3 col-sm-6 col-10 mb-3">
             <h2 class="grid2 text-center">04</h2>
                 <div class="panel p-3" id="back">
+                    <br>
                     <img  src="assets/ilus4.png" alt="Avatar" style="width:100%">
                     <div class="box mt-3 text-center">
                         <p>Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p> 

@@ -5,13 +5,13 @@
     <div class="container">
         <div class="row jeda"></div>
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h1 class="grid1 my-2">Let’s get to know <span class="grid2">Rebuilding Project</span> and <span class="grid2">the people</span> behind !</h1>
+            <div class="col-lg-8 col-sm-12 col-11 text-center">
+                <h1 class="grid1 mt-5 mb-2">Let’s get to know <span class="grid2">Rebuilding Project</span> and <span class="grid2">the people</span> behind !</h1>
                 <a>Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia.</a>
             </div>
         </div>  
         <div class="row justify-content-center">
-            <div class="col-lg-10 my-4 text-right">
+            <div class="col-lg-10 col-sm-10 col-10 my-4 text-right">
                 <img src="assets/bg.jpg" width="100%"> 
             </div>
         </div>   
@@ -29,44 +29,44 @@
         <div class="row justify-content-center">
             <div class="col-lg-5 mx-2">
                 <div class="row my-3 mx-1" id="back">
-                    <div class="col-lg-1 col-1 ml-2 my-2">
-                        <h1 class="grid2">01</h1>
+                    <div class="col-lg-1 col-1 ml-2 my-3">
+                        <h1 class="grid2 aligned">01</h1>
                     </div>
-                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-2">
+                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-3">
                         <a>Meningkatkan kualitas pendidikan di panti asuhan di Indonesia.</a>
                     </div>
                 </div>
                 <div class="row my-3 mx-1" id="back">
-                    <div class="col-lg-1 col-1 ml-2 my-2">
-                        <h1 class="grid2">02</h1>
+                    <div class="col-lg-1 col-1 ml-2 my-3">
+                        <h1 class="grid2 aligned">02</h1>
                     </div>
-                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-2">
+                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-3">
                         <a>Memperbanyak dan memperlengkapi variasi pengembangan pengetahuan untuk anak-anak di panti asuhan, yang berumur 6 - 18 tahun.</a>
                     </div>
                 </div>
                 <div class="row my-3 mx-1" id="back">
-                    <div class="col-lg-1 col-1 ml-2 my-2">
-                        <h1 class="grid2">03</h1>
+                    <div class="col-lg-1 col-1 ml-2 my-3">
+                        <h1 class="grid2 aligned">03</h1>
                     </div>
-                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-2">
+                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-3">
                         <a>Mendorong dan mengembangkan pengetahuan serta keterampilan anak-anak di panti asuhan melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap kategori umur anak.</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 mx-2">
                 <div class="row my-3 mx-1" id="back">
-                    <div class="col-lg-1 col-1 ml-2 my-2">
-                        <h1 class="grid2">04</h1>
+                    <div class="col-lg-1 col-1 ml-2 my-3">
+                        <h1 class="grid2 aligned">04</h1>
                     </div>
-                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-2">
+                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-3">
                         <a>Menjalin sinergi dan aktif bekerjasama dengan panti asuhan yang ada di Indonesia</a>
                     </div>
                 </div>
                 <div class="row my-3 mx-1" id="back">
-                    <div class="col-lg-1 col-1 ml-2 my-2">
-                        <h1 class="grid2">05</h1>
+                    <div class="col-lg-1 col-1 ml-2 my-3">
+                        <h1 class="grid2 aligned">05</h1>
                     </div>
-                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-2">
+                    <div class="col-lg-10 col-sm-10 col-9 ml-4 my-3">
                         <a>Mendorong anak-anak muda untuk berkontribusi secara aktif dalam kegiatan sosial melalui program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</a>
                     </div>
                 </div>
@@ -78,8 +78,11 @@
 <section id="back">
     <div class="container-fluid my-5">
         <div class="row justify-content-center">
-            <div class="col-lg-12 my-5 text-center">
+            <div class="col-lg-12 mt-5 text-center">
                 <h1 class="grid1 my-2">Our Team</h1>
+            </div>
+            <div style="border: 3px solid #FFA216; width:140px;"></div>
+            <div class="col-lg-12 col-10 mt-4 mb-5 text-center">   
                 <a>The wonderful faces behind Rebuilding Project. Hey, There!</a>
             </div>
             <div class="col-lg-12 text-center prevnexthp">
@@ -229,12 +232,18 @@
             </div>
         </div>
         <div class="row justify-content-center">
+            <div class="col-lg-8 col-sm-8"></div>
+            <div class="col-lg-3 col-sm-4 col-7 text-center">
+                <a class="nav-link mx-5 my-2 px-2" id="expand">Expand All</span></a>
+            </div>
+        </div>
+         <div class="row justify-content-center">
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-11 col-sm-11 col-10">
                         <h3 class="grid2">Apa itu Rebuilding Project?</h3>
                     </div>
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 col-sm-1 col-1 aligned">
                         <h4><i id="headerFAQ1" class="fa fa-lg fa-caret-down carrot1"></i></h4>
                         <h4><i id="headerFAQ1a" class="fa fa-lg fa-times carrot1"></i></h4>
                     </div>
@@ -243,10 +252,10 @@
             </div>
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back2">
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-11 col-sm-11 col-10">
                         <h3 class="grid3">Dimana lokasi gerakan sosial Rebuilding Project?</h3> 
                     </div>
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 col-sm-1 col-1 aligned">
                         <h4><i id="headerFAQ2" class="fa fa-lg fa-caret-down carrot2"></i></h4>
                         <h4><i id="headerFAQ2a" class="fa fa-lg fa-times carrot2"></i></h4>
                     </div>
@@ -255,10 +264,10 @@
             </div>
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-11 col-sm-11 col-10">
                         <h3 class="grid2">Mengapa Rebuilding Project dibentuk?</h3>
                     </div>
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 col-sm-1 col-1 aligned">
                         <h4><i id="headerFAQ3" class="fa fa-lg fa-caret-down carrot1"></i></h4>
                         <h4><i id="headerFAQ3a" class="fa fa-lg fa-times carrot1"></i></h4>
                     </div>
@@ -267,10 +276,10 @@
             </div>
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back2">
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-11 col-sm-11 col-10">
                         <h3 class="grid3">Siapa target Rebuilding Project?</h3>
                     </div>
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 col-sm-1 col-1 aligned">
                         <h4><i id="headerFAQ4" class="fa fa-lg fa-caret-down carrot2"></i></h4>
                         <h4><i id="headerFAQ4a" class="fa fa-lg fa-times carrot2"></i></h4>
                     </div>
@@ -302,6 +311,7 @@
     down2.style.display="none";
     down3.style.display="none";
     down4.style.display="none";
+    var expand = document.getElementById("expand");
     c1.onclick = function (event) {
         down1.style.display="block";
         x1.style.display="block";
@@ -321,6 +331,21 @@
         // down3.style.transition="0.3s"
     }
     c4.onclick = function (event) {
+        x4.style.display="block";
+        c4.style.display="none";
+        x4.style.transition="2s"
+        down4.style.display="block";
+    }
+    expand.onclick = function(event){
+        down1.style.display="block";
+        x1.style.display="block";
+        c1.style.display="none";
+        down2.style.display="block";
+        x2.style.display="block";
+        c2.style.display="none";
+        down3.style.display="block";
+        x3.style.display="block";
+        c3.style.display="none";
         x4.style.display="block";
         c4.style.display="none";
         x4.style.transition="2s"
