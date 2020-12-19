@@ -9,13 +9,13 @@
                 <h1 class="grid1 mt-5 mb-2">Let’s get to know <span class="grid2">Rebuilding Project</span> and <span class="grid2">the people</span> behind !</h1>
                 <a>Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia.</a>
             </div>
-        </div>  
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-10 col-sm-10 col-10 my-4 text-right">
-                <img src="assets/bg.jpg" width="100%"> 
+                <img src="assets/bg.jpg" width="100%">
             </div>
-        </div>   
-    </div>     
+        </div>
+    </div>
 </section>
 
 <section id="02">
@@ -25,7 +25,7 @@
             <div class="col-lg-8 text-center">
                 <h1 class="grid1 my-2"><span class="grid2">Our</span> Mission</h1>
             </div>
-        </div>  
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-5 mx-2">
                 <div class="row my-3 mx-1" id="back">
@@ -71,8 +71,8 @@
                     </div>
                 </div>
             </div>
-        </div>   
-    </div>     
+        </div>
+    </div>
 </section>
 
 <section id="back">
@@ -82,7 +82,7 @@
                 <h1 class="grid1 my-2">Our Team</h1>
             </div>
             <div style="border: 3px solid #FFA216; width:140px;"></div>
-            <div class="col-lg-12 col-10 mt-4 mb-5 text-center">   
+            <div class="col-lg-12 col-10 mt-4 mb-5 text-center">
                 <a>The wonderful faces behind Rebuilding Project. Hey, There!</a>
             </div>
             <div class="col-lg-12 text-center prevnexthp">
@@ -97,16 +97,16 @@
                     </div>
                     <div class="col-lg-10 col-sm-10 text-center">
                         <div class="carousel-inner text-center">
-                            <div class="row row-equal carousel-item my-2 active"> 
+                            <div class="row row-equal carousel-item my-2 active">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
                                         <div class="cardlayanan">
                                             <img src="assets/1.png" style="width:100%">
                                             <div class="box p-3 text-center">
-                                                <h4 class="grid1">Josephine Edwina</h4>
+                                                <h4 class="grid1">Joshlyne Edwina</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
                                         <div class="cardlayanan">
@@ -115,7 +115,7 @@
                                                 <h4 class="grid1">Karen Lie</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Chief Operating Officer</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
                                         <div class="cardlayanan">
@@ -124,7 +124,7 @@
                                                 <h4 class="grid1">Bella Dewanti</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 mt-3 mb-5">
                                         <div class="cardlayanan">
@@ -133,7 +133,7 @@
                                                 <h4 class="grid1">Ediva Chandra</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Marketing Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
                                         <div class="cardlayanan">
@@ -142,7 +142,7 @@
                                                 <h4 class="grid1">Kevin Sutarman</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Program Development Lead</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
                                         <div class="cardlayanan">
@@ -151,20 +151,20 @@
                                                 <h4 class="grid1">Angelica Lucyane</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Secretary & Program Development Lead</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row row-equal carousel-item justify-content-center my-2"> 
+                            <div class="row row-equal carousel-item justify-content-center my-2">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
                                         <div class="cardlayanan">
                                             <img src="assets/1.png" style="width:100%">
                                             <div class="box p-3 text-center">
-                                                <h4 class="grid1">Josephine Edwina</h4>
+                                                <h4 class="grid1">Joshlyne Edwina</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
                                         <div class="cardlayanan">
@@ -173,7 +173,7 @@
                                                 <h4 class="grid1">Karen Lie</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Chief Operating Officer</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
                                         <div class="cardlayanan">
@@ -182,7 +182,7 @@
                                                 <h4 class="grid1">Bella Dewanti</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 mt-3 mb-5">
                                         <div class="cardlayanan">
@@ -191,7 +191,7 @@
                                                 <h4 class="grid1">Ediva Chandra</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Marketing Director</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
                                         <div class="cardlayanan">
@@ -200,7 +200,7 @@
                                                 <h4 class="grid1">Kevin Sutarman</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Program Development Lead</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
                                         <div class="cardlayanan">
@@ -209,7 +209,7 @@
                                                 <h4 class="grid1">Angelica Lucyane</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Secretary & Program Development Lead</b></a>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@
             <div class="col-lg-10 col-sm-10 col-10 my-3 p-4" id="back2">
                 <div class="row">
                     <div class="col-lg-11 col-sm-11 col-10">
-                        <h3 class="grid3">Dimana lokasi gerakan sosial Rebuilding Project?</h3> 
+                        <h3 class="grid3">Dimana lokasi gerakan sosial Rebuilding Project?</h3>
                     </div>
                     <div class="col-lg-1 col-sm-1 col-1 aligned">
                         <h4><i id="headerFAQ2" class="fa fa-lg fa-caret-down carrot2"></i></h4>
