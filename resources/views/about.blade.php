@@ -100,116 +100,78 @@
                             <div class="row row-equal carousel-item my-2 active">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
+                                        <a style="text-decoration:none" href="joshlyene">
                                         <div class="cardlayanan">
                                             <img src="assets/1.png" style="width:100%">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Joshlyne Edwina</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
+                                    <a style="text-decoration:none" href="karen">
                                         <div class="cardlayanan">
                                             <img src="assets/2.png" style="width:100%">
                                             <div class="box p-3 text-center">
-                                                <h4 class="grid1">Karen Lie</h4>
+                                                <h4 class="grid1">Karen</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Chief Operating Officer</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
+                                    <a style="text-decoration:none" href="bella">
                                         <div class="cardlayanan">
                                             <img src="assets/3.png" style="width:100%">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Bella Dewanti</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 mt-3 mb-5">
+                                    <a style="text-decoration:none" href="ediva">
                                         <div class="cardlayanan">
                                             <img src="assets/4.png" style="width:100%">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Ediva Chandra</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Marketing Director</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
+                                    <a style="text-decoration:none" href="kevin">
                                         <div class="cardlayanan">
                                             <img src="assets/5.png" style="width:100%">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Kevin Sutarman</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Program Development Lead</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                     <div class="col-lg-3 col-sm-5 col-10 mx-1 my-3">
+                                    <a style="text-decoration:none" href="angel">
                                         <div class="cardlayanan">
                                             <img src="assets/6.png" style="width:100%">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Angelica Lucyane</h4>
                                                 <a style="color:#f5c150; font-size:14px;"><b>Secretary & Program Development Lead</b></a>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="row row-equal carousel-item justify-content-center my-2">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
+                                    <a style="text-decoration:none" href="celine">
                                         <div class="cardlayanan">
-                                            <img src="assets/1.png" style="width:100%">
+                                            <img src="assets/7.png" style="width:100%">
                                             <div class="box p-3 text-center">
-                                                <h4 class="grid1">Joshlyne Edwina</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
+                                                <h4 class="grid1">Celine Miranda</h4>
+                                                <a style="color:#f5c150; font-size:14px;"><b>Program Development Team</b></a>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
-                                        <div class="cardlayanan">
-                                            <img src="assets/2.png" style="width:100%">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Karen Lie</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Chief Operating Officer</b></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
-                                        <div class="cardlayanan">
-                                            <img src="assets/3.png" style="width:100%">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Bella Dewanti</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-sm-5 col-10 mx-3 mt-3 mb-5">
-                                        <div class="cardlayanan">
-                                            <img src="assets/4.png" style="width:100%">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Ediva Chandra</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Marketing Director</b></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
-                                        <div class="cardlayanan">
-                                            <img src="assets/5.png" style="width:100%">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Kevin Sutarman</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Program Development Lead</b></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-sm-5 col-10 mx-3 my-3">
-                                        <div class="cardlayanan">
-                                            <img src="assets/6.png" style="width:100%">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Angelica Lucyane</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Secretary & Program Development Lead</b></a>
-                                            </div>
-                                        </div>
+                                        </div></a>
                                     </div>
                                 </div>
                             </div>

@@ -40,21 +40,82 @@ option{
 .logoutama{
     display: none;
 }
+
 #login, #expand{
     background-color:  #FFA216;
     border-radius: 20px;
-    border-color: transparent; 
+    border-color:  #FFA216; 
     cursor: pointer;
     color: white;
     transition: 0.5s;
     text-decoration: none;
 }
 #login:hover, #expand:hover{
-    /* background-color:  #dfaf49; */
     background-color: transparent;
-    border-width: 2px;
-    border-color: #FFA216 !important;
+    border: 2px solid #FFA216 !important;
     color: #FFA216;
+}
+#buttonpostarticle, #buttonpostmerch, #buttonpostmember{
+    background-color:  #FFA216;
+    border-radius: 20px 20px 0px 0px;
+    border-color: transparent; 
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.drop-zone{
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color:#0a0a0a;
+    background-color: white;
+    border-radius: 20px;
+}
+.drop-zone__input{
+    display: none;
+}
+.drop-zone__thumb{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FBEFE4;
+    background-size: cover;
+    position: relative;
+}
+.drop-zone__thumb::after{
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    columns: #0a0a0a;;
+    background-color: #FBEFE4;
+    text-align: center;
+}
+#buttonpostarticle:target, #buttonpostmerch:target, #buttonpostmember:target{
+    background-color:  #FBEFE4;
+    border-radius: 20px 20px 0px 0px;
+    border-color: transparent; 
+    cursor: pointer;
+    color: #FFA216;
+    transition: 0.5s;
+    text-decoration: none;
+}
+#buttonpostarticle{
+    content: attr('Post an Article');
+}
+#buttonpostmerch{
+    content: attr('Post a New Merch');
+}
+#buttonpostmember{
+    content: attr('Post a New Member');
 }
 #misikami{
     font-weight: bold;
@@ -138,6 +199,14 @@ option{
 #everyone{
     background-image: url('../assets/donate.png');;
 }
+#moretop{
+    background-image: url('../assets/moretop.png');;
+}
+.fotowriter{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
 .page{
     padding: 12px;
     border: solid 1px #FFA216;
@@ -172,6 +241,19 @@ option{
 .bottomborder{
     border:0px 0px 0px 3px solid #FFA216;
 }
+.iconfooter{
+    font-size: large;
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.iconfooter:hover{
+    background-color: white;
+    color: #FFB341;
+}
 @media(max-width:768px){
     .logonav{
         display: none;
@@ -189,5 +271,14 @@ option{
     }
     .prevnexthp{
         display: block;
+    }
+    #buttonpostarticle{
+        content: 'Article'
+    }
+    #buttonpostmerch{
+        content: attr('Merch');
+    }
+    #buttonpostmember{
+        content: attr('Member');
     }
 }

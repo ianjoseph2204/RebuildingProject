@@ -21,8 +21,8 @@
                     <div class="box p-3">
                         <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
                         <h3 class="grid1">Event #001</h3>
-                        <a>Jakarta, Indonesia</a><br>
-                        <a>Team member A</a>
+                        <a><i class="fas fa-map-marker-alt" style="color:#f5c150"></i> Jakarta, Indonesia</a><br>
+                        <a><i class="fas fa-user" style="color:#f5c150"></i> Team member A</a>
                         <div class="row mt-3">
                             <div class="col-lg-12 text-right">
                                 <a class="btn px-3 py-2 my-4" id="login" href="more"><b>Read More</b></a>
@@ -37,8 +37,8 @@
                     <div class="box p-3">
                         <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
                         <h3 class="grid1">Event #001</h3>
-                        <a>Jakarta, Indonesia</a><br>
-                        <a>Team member A</a>
+                        <a><i class="fas fa-map-marker-alt" style="color:#f5c150"></i> Jakarta, Indonesia</a><br>
+                        <a><i class="fas fa-user" style="color:#f5c150"></i> Team member A</a>
                         <div class="row mt-3">
                             <div class="col-lg-12 text-right">
                                 <a class="btn px-3 py-2 my-4" id="login" href="more"><b>Read More</b></a>
@@ -53,8 +53,8 @@
                     <div class="box p-3">
                         <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
                         <h3 class="grid1">Event #001</h3>
-                        <a>Jakarta, Indonesia</a><br>
-                        <a>Team member A</a>
+                        <a><i class="fas fa-map-marker-alt" style="color:#f5c150"></i> Jakarta, Indonesia</a><br>
+                        <a><i class="fas fa-user" style="color:#f5c150"></i> Team member A</a>
                         <div class="row mt-3">
                             <div class="col-lg-12 text-right">
                                 <a class="btn px-3 py-2 my-4" id="login" href="more"><b>Read More</b></a>

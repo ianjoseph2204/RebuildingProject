@@ -29,6 +29,29 @@ Route::get('/getinvolved', function () {
 Route::get('/add', function () {
     return view('add');
 });
-
+Route::get('/joshlyene', function () {
+    return view('joshlyene');
+});
+Route::get('/karen', function () {
+    return view('karen');
+});
+Route::get('/bella', function () {
+    return view('bella');
+});
+Route::get('/ediva', function () {
+    return view('ediva');
+});
+Route::get('/kevin', function () {
+    return view('kevin');
+});
+Route::get('/angel', function () {
+    return view('angel');
+});
+Route::get('/celine', function () {
+    return view('celine');
+});
+Route::get('/more', function () {
+    return view('more');
+});
 Route::post('/insertContact','DataController@contact');
 Route::post('/insertArticle','DataController@article');
