@@ -24,32 +24,32 @@
 <body>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-            <img src="assets/logo.png" width="130px" class="logoutama mx-1 my-1">      
+            <img src="assets/logo.png" class="logoutama my-1">      
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #0a0a0a;"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99;">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2" href="/">Home<span class="sr-only">(current)</span></a>
+                        <a id="home" class="nav-link mx-lg-3 mx-xl-5 my-2" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2" href="about">About Us<span class="sr-only">(current)</span></a>
+                        <a id="about" class="nav-link mx-lg-3 mx-xl-5 my-2" href="about">About Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
+                        <a id="story" class="nav-link mx-lg-3 mx-xl-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <img src="assets/logo.png" width="200px" class="logonav mx-1 my-1">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2" href="contact">Contact Us<span class="sr-only">(current)</span></a>
+                        <a id="contact" class="nav-link mx-lg-3 mx-xl-5 my-2" href="contact">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2" href="getinvolved">Get Involved<span class="sr-only">(current)</span></a>
+                        <a id="getinvolved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="getinvolved">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-lg-3 mx-xl-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -65,24 +65,24 @@
                 <img src="assets/foot.png" width="100%">
             </div>
             <div class="row justify-content-center" style="background-color: #FFB341; color:black">
-                <div class="col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
+                <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
                     <img src="assets/logofooter.png" width="100%"><br><br>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-phone iconfooter"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope iconfooter"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconfooter"></i></a>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-3 col-sm-6 col-10 text-center justify-content-center my-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6 col-10 text-center justify-content-center my-3">
                     <a href="about" style="text-decoration: none !important; color:#0a0a0a;">About </a> <br><br>
                     <a href="story" style="text-decoration: none !important; color:#0a0a0a;">Our Story</a> <br><br>
                     <a href="contact" style="text-decoration: none !important; color:#0a0a0a;">Contact </a> <br><br>
                     <a href="getinvolved" style="text-decoration: none !important; color:#0a0a0a;">Get Involved</a> <br>
                 </div>
-                 <div class="col-lg-3 col-sm-6 col-9 justify-content-center my-3">
-                    <a><i class="fab fa-instagram "></i> @rebuildingproject </a> <br><br>
-                    <a><i class="fab fa-linkedin"></i> rebuildingproject</a> <br><br>
-                    <a><i class="far fa-envelope"></i> RebuildingProject@gmail.com </a> <br><br>
-                    <a><i class="fab fa-whatsapp"></i> (+62) 8123445678</a> <br>
+                 <div class="col-xl-3 col-lg-4 col-sm-6 col-10 justify-content-center my-3">
+                    <a class="kontak"><i class="fab fa-instagram "></i> @rebuildingproject </a> <br><br>
+                    <a class="kontak"><i class="fab fa-linkedin"></i> rebuildingproject</a> <br><br>
+                    <a class="kontak"><i class="far fa-envelope"></i> RebuildingProject@gmail.com </a> <br><br>
+                    <a class="kontak"><i class="fab fa-whatsapp"></i> (+62) 8123445678</a> <br>
                 </div>
             </div>
             <div class="row justify-content-center text-center" style="background-color: #FFB341; color:black">

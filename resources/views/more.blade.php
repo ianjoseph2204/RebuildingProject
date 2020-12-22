@@ -69,4 +69,5 @@
         </div>
     </div>
 </div>
+<script> var story = document.getElementById('story').id = 'this'; </script>
 @endsection

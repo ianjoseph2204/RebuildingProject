@@ -26,10 +26,10 @@
             <div class="col-lg-12 mt-5 text-center">
                 <h1 class="grid1 my-2">Merchandise</h1>
             </div>
-            <div class="col-lg-4 col-sm-4 col-10 mb-3">
-                <div class="card">
-                    <img src="assets/tshirt.png" style="height:200px;">
-                    <div class="box p-3">
+            <div class="col-lg-4 col-sm-4 col-10 my-4">
+            <img src="assets/tshirt.png" class="fotostory">
+                <div class="card p-3">
+                    <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> T-shirt</h3>
                         <a style="color:#f5c150"><b>IDR 150.000</b></a>
                         <div class="row mt-3">
@@ -40,10 +40,10 @@
                     </div>
                 </div>  
             </div>
-            <div class="col-lg-4 col-sm-4 col-10 mb-3">
-                <div class="card">
-                    <img src="assets/bottle.png" style="height:200px;">
-                    <div class="box p-3">
+            <div class="col-lg-4 col-sm-4 col-10 my-4">
+            <img src="assets/bottle.png" class="fotostory">
+                <div class="card p-3">
+                    <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> Bottle</h3>
                         <a style="color:#f5c150"><b>IDR 150.000</b></a>
                         <div class="row mt-3">
@@ -54,10 +54,10 @@
                     </div>
                 </div>  
             </div>
-            <div class="col-lg-4 col-sm-4 col-10 mb-3">
-                <div class="card">
-                    <img src="assets/watch.png" style="height:200px;">
-                    <div class="box p-3">
+            <div class="col-lg-4 col-sm-4 col-10 my-4">
+            <img src="assets/watch.png" class="fotostory">
+                <div class="card p-3">
+                    <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> Watch</h3>
                         <a style="color:#f5c150"><b>IDR 150.000</b></a>
                         <div class="row mt-3">
@@ -109,4 +109,6 @@
     </div>
     </div>
 </section>
+
+<script> var getinvolved = document.getElementById('getinvolved').id = 'this'; </script>
 @endsection 

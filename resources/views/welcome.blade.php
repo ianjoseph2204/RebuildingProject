@@ -24,18 +24,17 @@
     <div class="container">
         <div class="row my-5 mx-2 justify-content-center" id="back">
             <div class="row p-3 mt-4 justify-content-center">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 col-sm-10 col-12 text-center">
                     <a class="mt-3" id="misikami">02-Program Kami</a><br><br>
                     <h2 class="grid1 px-5">
-                        “Karena setiap individu itu <span class="grid2">Unik</span>,<br>
-                        Kami juga memfasilitasi <span class="grid2">kelas skill</span> yang mungkin<br>
+                        “Karena setiap individu itu <span class="grid2">Unik</span>,<br>Kami juga memfasilitasi <span class="grid2">kelas skill</span> yang mungkin<br>
                         tidak didapatkan di sekolah.”
                     </h2>
-                    <a>Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
+                    <a class="col-10">Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
                 </div>
             </div>
             <div class="row p-3 my-2 justify-content-center">
-                <div class="col-lg-3 col-sm-6 col-10 my-2">
+                <div class="col-lg-3 col-sm-6 col-11 my-2">
                     <div class="cardlayanan p-3">
                         <img class="mt-5" src="assets/image1.png" alt="Avatar" style="width:40%"><br><br>
                         <div class="box">
@@ -44,7 +43,7 @@
                         </div>
                     </div>  
                 </div>
-                <div class="col-lg-3 col-sm-6 col-10 my-2">
+                <div class="col-lg-3 col-sm-6 col-11 my-2">
                     <div class="cardlayanan p-3">
                         <img class="mt-5" src="assets/image2.png" alt="Avatar" style="width:40%"><br><br>
                         <div class="box">
@@ -53,7 +52,7 @@
                         </div>
                     </div>  
                 </div>
-                <div class="col-lg-3 col-sm-6 col-10 my-2">
+                <div class="col-lg-3 col-sm-6 col-11 my-2">
                     <div class="cardlayanan p-3">
                         <img class="mt-5" src="assets/image3.png" alt="Avatar" style="width:40%"><br><br>
                         <div class="box">
@@ -62,7 +61,7 @@
                         </div>
                     </div>  
                 </div>
-                <div class="col-lg-3 col-sm-6 col-10 my-2">
+                <div class="col-lg-3 col-sm-6 col-11 my-2">
                     <div class="cardlayanan p-3">
                         <img class="mt-5" src="assets/image4.png" alt="Avatar" style="width:40%"><br><br>
                         <div class="box">
@@ -147,4 +146,5 @@
     </div>
 </section>
 
+<script> var home = document.getElementById('home').id = 'this'; </script>
 @endsection

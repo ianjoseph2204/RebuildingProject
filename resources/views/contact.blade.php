@@ -66,4 +66,5 @@
     </div>
 </section>
 
+<script> var contact = document.getElementById('contact').id = 'this'; </script>
 @endsection 

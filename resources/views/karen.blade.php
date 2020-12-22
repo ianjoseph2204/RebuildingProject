@@ -14,4 +14,6 @@
         </div>
     </div>
 </div>
+
+<script> var about = document.getElementById('about').id = 'this'; </script>
 @endsection

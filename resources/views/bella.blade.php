@@ -13,4 +13,6 @@
             <a class="my-3">“I believe that being educated is such a privilege. Since I was young, I realized that I am privileged, to be educated in a good school and university, and to be supported supportively by my parents. And I believe a privilege that has been entrusted and given to me is not something that should be consumed only for my own sake. Instead, the more privileged we are, the more we need to extend hands for those who are not as privileged as we are. That also explains why we decided to build Rebuilding Project as a platform, to empower more orphan children to receive and value how important education is, and also allowing them to be able to pursue their dream for the future. Education is power, and education change lives. So, let's empower children through education together, shall we?”</a></div>
     </div>
 </div>
+
+<script> var about = document.getElementById('about').id = 'this'; </script>
 @endsection
