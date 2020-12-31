@@ -48,9 +48,9 @@
                     <li class="nav-item">
                         <a id="getinvolved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="getinvolved">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link mx-lg-3 mx-xl-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>

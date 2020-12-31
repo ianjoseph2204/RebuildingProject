@@ -9,12 +9,12 @@
                 <img src="assets/landing.png" width="60%" class="mx-1 my-1"> 
             </div>
             <div class="col-lg-5 col-sm-5 col-10 mt-3">
-                <a id="misikami">01-Misi Kami</a>
-                <h1 class="grid1">Empowering</h1>
-                <h1 class="grid2">Children</h1>
-                <h1 class="grid1">Through</h1>
-                <h1 class="grid2">Education</h1>
-                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="getinvolved"><b>DONATE</b></a>
+                <a id="misikami">01 - MISI KAMI</a>
+                <h1 class="grid0">Empowering</h1>
+                <h1 class="grid4">Children</h1>
+                <h1 class="grid0">Through</h1>
+                <h1 class="grid4">Education</h1>
+                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="getinvolved"><b>Donate Now</b></a>
             </div>
         </div>   
     </div>     
@@ -25,12 +25,11 @@
         <div class="row my-5 mx-2 justify-content-center" id="back">
             <div class="row p-3 mt-4 justify-content-center">
                 <div class="col-lg-12 col-sm-10 col-12 text-center">
-                    <a class="mt-3" id="misikami">02-Program Kami</a><br><br>
+                    <a class="mt-3" id="misikami">02 - PROGRAM KAMI</a><br><br>
                     <h2 class="grid1 px-5">
-                        “Karena setiap individu itu <span class="grid2">Unik</span>,<br>Kami juga memfasilitasi <span class="grid2">kelas skill</span> yang mungkin<br>
-                        tidak didapatkan di sekolah.”
+                        "Karena pembelajaran <span class="grid2">tidak hanya di ruang kelas</span>, <br>kami memfasilitasi program edukasi yang <span class="grid2">menarik </span> dan menyenangkan untuk anak-anak”<br>
                     </h2>
-                    <a class="col-10">Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
+                    <a class="col-10" id="quote">Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
                 </div>
             </div>
             <div class="row p-3 my-2 justify-content-center">
@@ -68,8 +67,8 @@
                             <h4><b>Pendidikan Karakter</b></h4> 
                             <p>Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p> 
                         </div>
-                    </div>  
                 </div>
+            </div>
             </div>
             <div class="row p-3 justify-content-center">
                 <a class="btn px-5 py-2 mb-4" type="submit" id="login" href="getinvolved"><b>Get Involved</b></a>
@@ -85,9 +84,9 @@
                 <img src="assets/who.png" width="70%" class="mx-1 my-1"> 
             </div>
             <div class="col-lg-5 col-10 mt-3">
-                <a><b>03-Siapakah Kami</b></a>
+             <a id="siapakahkami">03 - SIAPAKAH KAMI</a>
                 <h1 class="grid2">Who We Are</h1>
-                <a>Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
+                <a id="quote">Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
             </div>
         </div>   
     </div>     
@@ -97,7 +96,7 @@
     <div class="container my-5">
         <div class="row p-3">
             <div class="col-lg-12 text-center">
-                <a class="mt-3" id="misikami">04-Apa yang Kami Lakukan</a><br>
+                <a class="mt-3" id="misikami">04 - APA YANG KAMI LAKUKAN</a><br>
                 <h1 class="grid1 px-5"> What We Do</h1><br>
                </div>
         </div>
