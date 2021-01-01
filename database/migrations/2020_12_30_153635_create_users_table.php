@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->bigInteger('position_id');
+            $table->unsignedBigInteger('position_id');
             $table->foreign('position_id')->references('id')->on('user_positions');
             $table->string('story');
             $table->binary('photo');

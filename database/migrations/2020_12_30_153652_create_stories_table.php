@@ -17,7 +17,7 @@ class CreateStoriesTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('writer');
-            $table->bigInteger('category_id');
+            $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('story_categories');
             $table->string('content');
             $table->timestamps();
