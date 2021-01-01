@@ -37,7 +37,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/image1.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pelajaran Umum</b></h5>
-                            <p>Matematika, Bahasa Inggris, dsb.</p>
+                            <p id="quote1">Matematika, Bahasa Inggris, dsb.</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/image2.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Skill</b></h5>
-                            <p>Bisnis, kepemimpinan, kewirausahaan, seni, public speaking, dsb.</p>
+                            <p id="quote1">Bisnis, kepemimpinan, kewirausahaan, seni, public speaking, dsb.</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/image3.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Sharing Session</b></h5>
-                            <p>Khusus untuk remaja, sharing session seputar passion dan dunia kerja</p>
+                            <p id="quote1">Khusus untuk remaja, sharing session seputar passion dan dunia kerja</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/image4.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pendidikan Karakter</b></h5>
-                            <p>Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p>
+                            <p id="quote1">Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
             <div class="col-lg-5 col-10 mt-3">
                 <a id="siapakahkami">03 - SIAPAKAH KAMI</a>
                 <h1 class="grid2">Who We Are</h1>
-                <a id="quote">Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
+                <a id="quote2">Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
                         <h2 class="number text-center">01</h2>
                         <br>
                         <img src="assets/ilus1.png" alt="Avatar" style="width:100%"><br><br>
-                        <p id="quote1">Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p>
+                        <p id="quote">Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         <h2 class="number text-center">02</h2>
                         <br>
                         <img src="assets/ilus2.png" alt="Avatar" style="width:100%"><br><br>
-                        <p id="quote1">Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p>
+                        <p id="quote">Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                         <h2 class="number text-center">03</h2>
                         <br>
                         <img src="assets/ilus3.png" alt="Avatar" style="width:100%"><br><br>
-                        <p id="quote1">Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p>
+                        <p id="quote">Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                     <h2 class="number text-center">04</h2>
                         <br>
                         <img src="assets/ilus4.png" alt="Avatar" style="width:100%"><br><br>
-                        <p id="quote1">Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p>
+                        <p id="quote">Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p>
                     </div>
                 </div>
             </div>
