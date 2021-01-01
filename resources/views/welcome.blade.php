@@ -21,7 +21,7 @@
 </section>
 
 <section id="02">
-    <div class="container" id="back">
+    <div class="container" id="backwelcome">
         <div class="row">
             <div class="col-lg-12 col-sm-10 col-12 mt-5 text-center">
                 <a class="mt-10" id="misikami">02 - PROGRAM KAMI</a><br><br>
@@ -33,7 +33,7 @@
 
             <div class="row p-5 my-2 justify-content-start">
                 <div class="col-lg-3 col-md-6">
-                    <div class="card">
+                    <div class="cardProgramK">
                         <div class="card-body">
                             <img class="mt-5" src="assets/image1.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pelajaran Umum</b></h5>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="card">
+                    <div class="cardProgramK">
                         <div class="card-body">
                             <img class="mt-5" src="assets/image2.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Skill</b></h5>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="card">
+                    <div class="cardProgramK">
                         <div class="card-body">
                             <img class="mt-5" src="assets/image3.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Sharing Session</b></h5>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="card">
+                    <div class="cardProgramK">
                         <div class="card-body">
                             <img class="mt-5" src="assets/image4.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pendidikan Karakter</b></h5>
