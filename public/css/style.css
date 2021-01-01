@@ -8,6 +8,11 @@
 }
 
 @font-face {
+    src: url('/fonts/PoppinsBold.otf');
+    font-family: PoppinsB;
+}
+
+@font-face {
     src: url('/fonts/MADETOMMYBold.otf');
     font-family: madetommy;
 }
@@ -314,8 +319,16 @@ h4 {
     border-color: transparent !important;
     border-radius: 30px 30px 30px 30px;
     transition: 0.3s;
-    width: 326px;
-    height: 403px;
+    width: 260px;
+    height: 420px;
+}
+
+.number {
+    color: #FFA216;
+    font-family: PoppinsB;
+    position: relative;
+    font-size: 65px;
+    margin-top: -60px;
 }
 
 .cardprofile {

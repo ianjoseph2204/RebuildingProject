@@ -99,14 +99,14 @@
         <div class="row p-3 justify-content-center">
             <div class="col-lg-12 text-center">
                 <a class="mt-3" id="misikami">04 - APA YANG KAMI LAKUKAN</a><br>
-                <h1 class="grid1 px-5"> What We Do</h1><br>
+                <h1 class="grid1 px-5"> What We Do</h1><br><br>
             </div>
         </div>
         <div class="row my-2">
             <div class="col-lg-3 col-md-6">
                 <div class="cardWWD">
                     <div class="card-body">
-                        <h2 class="grid2 text-center">01</h2>
+                        <h2 class="number text-center">01</h2>
                         <br>
                         <img src="assets/ilus1.png" alt="Avatar" style="width:100%"><br><br>
                         <p id="quote1">Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p>
@@ -117,7 +117,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="cardWWD">
                     <div class="card-body">
-                        <h2 class="grid2 text-center">02</h2>
+                        <h2 class="number text-center">02</h2>
                         <br>
                         <img src="assets/ilus2.png" alt="Avatar" style="width:100%"><br><br>
                         <p id="quote1">Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p>
@@ -128,7 +128,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="cardWWD">
                     <div class="card-body">
-                        <h2 class="grid2 text-center">03</h2>
+                        <h2 class="number text-center">03</h2>
                         <br>
                         <img src="assets/ilus3.png" alt="Avatar" style="width:100%"><br><br>
                         <p id="quote1">Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p>
@@ -139,7 +139,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="cardWWD">
                     <div class="card-body">
-                    <h2 class="grid2 text-center">04</h2>
+                    <h2 class="number text-center">04</h2>
                         <br>
                         <img src="assets/ilus4.png" alt="Avatar" style="width:100%"><br><br>
                         <p id="quote1">Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p>
