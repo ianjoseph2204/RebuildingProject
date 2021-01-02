@@ -9,7 +9,7 @@
                 <a class="mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostarticle" id="buttonpostarticle"><b> Article</b></a>
                 <a class="mt-5 mx-1 px-3 py-2 text-center"  href="#buttonpostmember" id="buttonpostmember"><b>Member</b></a>
                 <a class="mt-5 mx-1 px-3 py-2 text-center"  href="#buttonpostmerch" id="buttonpostmerch"><b>Merch</b></a>
-            </div>    
+            </div>
             <div class="col-lg-11 col-10" id="back">
             <div class="section" id="postarticle">
                 <h1 class="grid1 pt-5 px-4 pb-4  animate__animated animate__fadeIn">Post an Article</h1>
@@ -18,7 +18,8 @@
                     <div class="row justify-content-center  animate__animated animate__fadeIn" >
                         <div class="col-lg-6 col-12 px-5 pb-4">
                             <label for="namawriter" style="font-size: 14px; font-weight: bold;">Nama Lengkap</label>
-                            <input id="namawriter" style="border-radius:10px;" type="name" class="form-control col-lg-12 col-12" name="namewriter" required autofocus>
+                            <input id="namawriter" style="border-radius:10px;" type="name" class="form-control col-lg-12 col-12" name="writer"
+                                   required autofocus>
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6 col-12 mt-3">
                                     <label for="emailwriter" style="font-size: 14px; font-weight: bold;">Email</label>
@@ -32,7 +33,8 @@
                         </div>
                         <div class="col-lg-6 col-12 px-5 pb-4">
                             <label for="titlearticle" style="font-size: 14px; font-weight: bold;">Judul Artikel</label>
-                            <input id="titlearticle" style="border-radius:10px;" type="name" class="form-control col-lg-12 col-12" name="titlearticle" required autofocus>
+                            <input id="titlearticle" style="border-radius:10px;" type="name" class="form-control col-lg-12 col-12" name="title"
+                                   required autofocus>
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6 col-12 mt-3">
                                     <label for="location" style="font-size: 14px; font-weight: bold;">Lokasi Kegiatan</label>
@@ -40,7 +42,8 @@
                                 </div>
                                 <div class="col-lg-6 col-sm-6 col-12 mt-3">
                                     <label for="category" style="font-size: 14px; font-weight: bold;">Kategori</label>
-                                    <input id="category" style="border-radius:10px;" type="category" class="form-control" name="category" required autofocus>
+                                    <input id="category" style="border-radius:10px;" type="category" class="form-control" name="category_id"
+                                           required autofocus>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +51,8 @@
                     <div class="row justify-content-center  animate__animated animate__fadeIn" >
                         <div class="col-lg-12 col-12 px-5">
                             <label for="article" style="font-size: 14px; font-weight: bold;">Konten Artikel</label>
-                            <textarea id="article" style="border-radius:10px;" type="text" class="form-control col-lg-12 col-12" rows="8" name="article" required autofocus>
+                            <textarea id="article" style="border-radius:10px;" type="text" class="form-control col-lg-12 col-12" rows="8" name="content"
+                                      required autofocus>
                                 </textarea>
                         </div>
                     </div>
@@ -58,7 +62,7 @@
                                 Post Article
                             </button>
                         </div>
-                    </div>      
+                    </div>
                 </form>
             </div>
             <div class="section" id="postmember">
@@ -97,7 +101,7 @@
                                 Add Member
                             </button>
                         </div>
-                    </div>      
+                    </div>
                 </form>
             </div>
             <div class="section" id="postmerch">
@@ -136,11 +140,11 @@
                                 Add Merch
                             </button>
                         </div>
-                    </div>      
+                    </div>
                 </form>
             </div>
             </div>
-        </div>  
+        </div>
     </div>
 </section>
 
@@ -151,7 +155,7 @@
             text: "Your Post Has Been Saved!",
             icon: "success",
             confirmButtonText: 'OK',
-            closeOnConfirm: true, 
+            closeOnConfirm: true,
             allowOutsideClick: false
         });
     </script>
@@ -229,7 +233,7 @@
         }
         thumbnailElement.dataset.label = file.name;
 
-        if(file.type.startsWith("image/")){ 
+        if(file.type.startsWith("image/")){
             const reader = new FileReader();
             reader.readAsDataURL(file);
             reader.onload = ()=>{
