@@ -11,6 +11,8 @@
 |
 */
 
+use App\Http\Controllers\StoryController;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,6 +22,11 @@ Route::get('/about', function () {
 Route::get('/story', function () {
     return view('story');
 });
+
+Route::get('/stories/{id}', [StoryController::class, 'read']);
+Route::post('/stories', [StoryController::class, 'create']);
+
+
 Route::get('/contact', function () {
     return view('contact');
 });
