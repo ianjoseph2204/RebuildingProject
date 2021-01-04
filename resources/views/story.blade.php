@@ -13,7 +13,7 @@
 </section>
 
 <section id="04">
-    <div class="container-fluid my-5">
+    <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
                 <img src="assets/storypic1.png" class="fotostory">
