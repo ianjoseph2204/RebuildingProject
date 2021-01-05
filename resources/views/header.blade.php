@@ -1,4 +1,4 @@
-  
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +17,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    
+
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-            <img src="assets/logo.png" class="logoutama my-1">      
+            <img src="{{asset('assets/logo.png')}}" class="logoutama my-1">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #0a0a0a;"></i>
             </button>
@@ -57,8 +57,8 @@
     </section>
 
     @yield('content')
-    
-   
+
+
     <footer class="footer mt-5" style="bottom: 0px;">
         <div class="container-fluid">
             <div class="row justify-content-center">

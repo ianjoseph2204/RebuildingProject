@@ -19,9 +19,8 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/story', function () {
-    return view('story');
-});
+
+Route::get('/story', [StoryController::class, 'list']);
 
 Route::get('/stories/{id}', [StoryController::class, 'read']);
 Route::post('/stories', [StoryController::class, 'create']);

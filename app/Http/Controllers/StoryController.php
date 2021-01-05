@@ -19,4 +19,16 @@ class StoryController extends Controller
 
         return redirect('/add');
     }
+
+    public function list(){
+        $stories = Story::paginate(3);
+
+        return view('story', compact('stories'));
+    }
+
+    public function read($id){
+        $story = Story::findOrFail($id);
+
+        return view('more', compact('story'));
+    }
 }

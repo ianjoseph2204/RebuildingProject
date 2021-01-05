@@ -1,491 +1,501 @@
-    * {
-        scroll-behavior: smooth;
-    }
-    
-    @font-face {
-        src: url('/fonts/PoppinsLight.otf');
-        font-family: Poppins;
-    }
-    
-    @font-face {
-        src: url('/fonts/PoppinsBold.otf');
-        font-family: PoppinsB;
-    }
-    
-    @font-face {
-        src: url('/fonts/MADETOMMYBold.otf');
-        font-family: madetommy;
-    }
-    
-    @font-face {
-        src: url('/fonts/PoppinsExtrabold.otf');
-        font-family: PoppinsEB;
-    }
-    
-    @font-face {
-        src: url('/fonts/PoppinsSemibold.otf');
-        font-family: PoppinsSB;
-    }
-    
-    body {
-        width: 100%;
-        color: darkslategrey;
-        background-color: white;
-    }
-    
-    .grid0,
-    .grid4 {
-        font-family: madetommy;
-    }
-    
-    .option {
-        font-family: Poppins !important;
-    }
-    
-     ::selection {
-        background: #f5c150;
-    }
-    
-    .jeda {
-        margin-bottom: 10%;
-    }
-    
-    .jedaatas {
-        margin-bottom: 15%;
-    }
-    
-    .navbar {
-        z-index: 99;
-        background-color: whitesmoke;
-        font-family: Poppins;
-    }
-    
-    .navbar a:hover,
-    .active {
-        color: #000000;
-    }
-    
-    ul li a,
-    #this {
-        text-align: center;
-        position: relative;
-        display: block;
-        color: #000;
-        text-decoration: none;
-        padding: 4px 0;
-        transition: 0.5s;
-    }
-    
-    #this::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 4px;
-        top: 100%;
-        left: 0;
-        background: #FFA216;
-        transition: transform 0.5s;
-        transform: scaleX(1);
-        transform-origin: right;
-    }
-    /* ul li a:hover::after {
-    transform: scaleX(0);
-    transform-origin: left;
+* {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    /*src: url('/fonts/PoppinsLight.otf');*/
+    font-family: Poppins;
+}
+
+@font-face {
+    src: url('/fonts/PoppinsBold.otf');
+    font-family: PoppinsB;
+}
+
+@font-face {
+    src: url('/fonts/MADETOMMYBold.otf');
+    font-family: madetommy;
+}
+
+@font-face {
+    src: url('/fonts/PoppinsExtrabold.otf');
+    font-family: PoppinsEB;
+}
+
+@font-face {
+    src: url('/fonts/PoppinsSemibold.otf');
+    font-family: PoppinsSB;
+}
+
+body {
+    width: 100%;
+    color: darkslategrey;
+    background-color: white;
+}
+
+.grid0,
+.grid4 {
+    font-family: madetommy;
+}
+
+.option {
+    font-family: Poppins !important;
+}
+
+::selection {
+    background: #f5c150;
+}
+
+.jeda {
+    margin-bottom: 10%;
+}
+
+.jedaatas {
+    margin-bottom: 15%;
+}
+
+.navbar {
+    z-index: 99;
+    background-color: whitesmoke;
+    font-family: Poppins;
+}
+
+.navbar a:hover,
+.active {
+    color: #000000;
+}
+
+ul li a,
+#this {
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 4px 0;
+    transition: 0.5s;
+}
+
+#this::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    top: 100%;
+    left: 0;
+    background: #FFA216;
+    transition: transform 0.5s;
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+/* ul li a:hover::after {
+transform: scaleX(0);
+transform-origin: left;
 } */
-    
-    .navbar-nav {
-        margin: auto;
+
+.navbar-nav {
+    margin: auto;
+}
+
+.logoutama {
+    display: none;
+}
+
+#login,
+#expand {
+    background-color: #FFA216;
+    border-radius: 20px;
+    border: 2px solid #FFA216 !important;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    font-family: madetommy;
+    text-decoration: none;
+}
+
+#login:hover,
+#expand:hover {
+    background-color: transparent;
+    color: #FFA216;
+}
+
+#buttonpostarticle,
+#buttonpostmerch,
+#buttonpostmember {
+    background-color: #FFA216;
+    border-radius: 20px 20px 0px 0px;
+    border-color: transparent;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.drop-zone {
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #0a0a0a;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FBEFE4;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    columns: #0a0a0a;;
+    background-color: #FBEFE4;
+    text-align: center;
+}
+
+#buttonpostarticle:target,
+#buttonpostmerch:target,
+#buttonpostmember:target {
+    background-color: #FBEFE4;
+    border-radius: 20px 20px 0px 0px;
+    border-color: transparent;
+    cursor: pointer;
+    color: #FFA216;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#buttonpostarticle {
+    content: attr('Post an Article');
+}
+
+#buttonpostmerch {
+    content: attr('Post a New Merch');
+}
+
+#buttonpostmember {
+    content: attr('Post a New Member');
+}
+
+#misikami {
+    color: #FFA216;
+    font-family: PoppinsEB;
+}
+
+#siapakahkami {
+    color: #545454;
+    font-family: PoppinsEB;
+}
+
+h4 {
+    line-height: 45px;
+    text-align: center;
+}
+
+.grid1,
+.grid0 {
+    color: #545454;
+}
+
+.grid2,
+.grid4 {
+    color: #FFA216;
+}
+
+.grid1,
+.grid2 {
+    font-family: PoppinsEB;
+}
+
+.grid3 {
+    font-weight: bold;
+    color: white;
+}
+
+.card-title {
+    font-family: madetommy;
+}
+
+#quote {
+    line-height: 27px;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+#quote1 {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#quote2 {
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+.carrot1 {
+    font-weight: bold;
+    color: #f5c150;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.carrot2 {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#back {
+    background-color: #FBEFE4;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+#back2 {
+    background-color: #FFA216;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+#backwelcome {
+    background-image: url(../assets/backgroundCream.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cardlayanan {
+    background-color: white;
+    height: 130px;
+    border-color: transparent;
+    border-radius: 0px 0px 30px 30px;
+    transition: 0.3s;
+}
+
+.fototim {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.fotostory {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel {
+    width: 326px;
+    height: 403px;
+}
+
+.panelvolunteer {
+    background-color: #FBEFE4;
+    height: 400px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.card {
+    background-color: white;
+    border-color: transparent !important;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    height: 299px;
+}
+
+.cardProgramK {
+    background-color: white;
+    border-color: transparent !important;
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.3s;
+    width: 246px;
+    height: 299px;
+}
+
+.cardWWD {
+    background-color: #FBEFE4;
+    border-color: transparent !important;
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.3s;
+    width: 260px;
+    height: 420px;
+}
+
+.number {
+    color: #FFA216;
+    font-family: PoppinsB;
+    position: relative;
+    font-size: 65px;
+    margin-top: -60px;
+}
+
+.cardprofile {
+    background-color: white;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 430px;
+}
+
+.contacticon {
+    border-radius: 100%;
+    background-color: #FFA216;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+}
+
+#everyone {
+    background-image: url('../assets/donate.png');
+    background-size: cover;
+}
+
+#moretop {
+    background-image: url("{{asset('assets/moretop.png')}}");
+    background-size: cover;
+}
+
+.fotowriter {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.page {
+    padding: 12px;
+    border: solid 1px #FFA216;
+    color: #FFA216 !important;
+    border-radius: 5px;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+.page:hover {
+    background-color: #FFA216;
+    color: white !important;
+}
+
+#scheduleprevnext {
+    background-color: #FFA216;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#scheduleprevnext:hover {
+    border: 2px solid #FFA216;
+    color: #FFA216;
+    background-color: transparent;
+}
+
+.prevnexthp {
+    display: none;
+}
+
+.prevnext,
+.aligned {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bottomborder {
+    border: 0px 0px 0px 3px solid #FFA216;
+}
+
+.iconfooter {
+    font-size: large;
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.iconfooter:hover {
+    background-color: white;
+    color: #FFB341;
+}
+
+@media (max-width: 768px) {
+    .logonav {
+        display: none;
     }
-    
+
     .logoutama {
-        display: none;
+        display: block;
+        width: 30%;
     }
-    
-    #login,
-    #expand {
-        background-color: #FFA216;
-        border-radius: 20px;
-        border: 2px solid #FFA216 !important;
-        cursor: pointer;
-        color: white;
-        transition: 0.5s;
-        font-family: madetommy;
-        text-decoration: none;
-    }
-    
-    #login:hover,
-    #expand:hover {
-        background-color: transparent;
-        color: #FFA216;
-    }
-    
-    #buttonpostarticle,
-    #buttonpostmerch,
-    #buttonpostmember {
-        background-color: #FFA216;
-        border-radius: 20px 20px 0px 0px;
-        border-color: transparent;
-        cursor: pointer;
-        color: white;
-        transition: 0.5s;
-        text-decoration: none;
-    }
-    
-    .drop-zone {
-        height: 200px;
-        padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        cursor: pointer;
-        color: #0a0a0a;
-        background-color: white;
-        border-radius: 20px;
-    }
-    
-    .drop-zone__input {
-        display: none;
-    }
-    
-    .drop-zone__thumb {
-        width: 35%;
-        height: 100%;
-        border-radius: 10px;
-        overflow: hidden;
-        background-color: #FBEFE4;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .drop-zone__thumb::after {
-        content: attr(data-label);
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 5px 0;
-        columns: #0a0a0a;
-        ;
-        background-color: #FBEFE4;
-        text-align: center;
-    }
-    
-    #buttonpostarticle:target,
-    #buttonpostmerch:target,
-    #buttonpostmember:target {
-        background-color: #FBEFE4;
-        border-radius: 20px 20px 0px 0px;
-        border-color: transparent;
-        cursor: pointer;
-        color: #FFA216;
-        transition: 0.5s;
-        text-decoration: none;
-    }
-    
-    #buttonpostarticle {
-        content: attr('Post an Article');
-    }
-    
-    #buttonpostmerch {
-        content: attr('Post a New Merch');
-    }
-    
-    #buttonpostmember {
-        content: attr('Post a New Member');
-    }
-    
-    #misikami {
-        color: #FFA216;
-        font-family: PoppinsEB;
-    }
-    
-    #siapakahkami {
-        color: #545454;
-        font-family: PoppinsEB;
-    }
-    
-    h4 {
-        line-height: 45px;
-        text-align: center;
-    }
-    
-    .grid1,
-    .grid0 {
-        color: #545454;
-    }
-    
-    .grid2,
-    .grid4 {
-        color: #FFA216;
-    }
-    
-    .grid1,
-    .grid2 {
-        font-family: PoppinsEB;
-    }
-    
-    .grid3 {
-        font-weight: bold;
-        color: white;
-    }
-    
-    .card-title {
-        font-family: madetommy;
-    }
-    
-    #quote {
-        line-height: 27px;
-        font-size: 18px;
-        font-family: Poppins;
-    }
-    
-    #quote1 {
-        font-family: Poppins;
-        font-size: 12px;
-        line-height: 18px;
-    }
-    
-    #quote2 {
-        font-family: Poppins;
-        line-height: 36px;
-    }
-    
-    .carrot1 {
-        font-weight: bold;
-        color: #f5c150;
-        cursor: pointer;
-        transition: 0.5s;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    
-    .carrot2 {
-        font-weight: bold;
-        color: white;
-        cursor: pointer;
-        transition: 0.5s;
-        padding-top: auto;
-        padding-bottom: auto;
-    }
-    
-    #back {
-        background-color: #FBEFE4;
-        border-radius: 20px;
-        border-color: transparent;
-    }
-    
-    #back2 {
-        background-color: #FFA216;
-        border-radius: 20px;
-        border-color: transparent;
-    }
-    
-    #backwelcome {
-        background-image: url(../assets/backgroundCream.png);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        border-radius: 20px 20px 20px 20px;
-    }
-    
+
     .cardlayanan {
-        background-color: white;
-        height: 130px;
-        border-color: transparent;
-        border-radius: 0px 0px 30px 30px;
-        transition: 0.3s;
+        height: 150px;
     }
-    
-    .fototim {
-        border-radius: 30px 30px 0px 0px;
+
+    #this::after {
+        width: 20%;
+        left: 40%;
     }
-    
-    .fotostory {
-        width: 100%;
-        height: 200px;
-        border-radius: 30px 30px 0px 0px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    .panel {
-        width: 326px;
-        height: 403px;
-    }
-    
-    .panelvolunteer {
-        background-color: #FBEFE4;
-        height: 400px;
-        border-color: transparent;
-        border-radius: 20px;
-    }
-    
-    .card {
-        background-color: white;
-        border-color: transparent !important;
-        border-radius: 0px 0px 30px 30px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transition: 0.3s;
-        height: 299px;
-    }
-    
-    .cardProgramK {
-        background-color: white;
-        border-color: transparent !important;
-        border-radius: 30px 30px 30px 30px;
-        transition: 0.3s;
-        width: 246px;
-        height: 299px;
-    }
-    
-    .cardWWD {
-        background-color: #FBEFE4;
-        border-color: transparent !important;
-        border-radius: 30px 30px 30px 30px;
-        transition: 0.3s;
-        width: 260px;
-        height: 420px;
-    }
-    
-    .number {
-        color: #FFA216;
-        font-family: PoppinsB;
-        position: relative;
-        font-size: 65px;
-        margin-top: -60px;
-    }
-    
-    .cardprofile {
-        background-color: white;
-        border-radius: 20px;
-        border-color: transparent;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        height: 430px;
-    }
-    
-    .contacticon {
-        border-radius: 100%;
-        background-color: #FFA216;
-        color: white;
-        padding: 12px;
-        font-size: 22px;
-    }
-    
-    #everyone {
-        background-image: url('../assets/donate.png');
-        background-size: cover;
-    }
-    
-    #moretop {
-        background-image: url('../assets/moretop.png');
-        background-size: cover;
-    }
-    
-    .fotowriter {
-        width: 20px;
-        height: 20px;
-        border-radius: 100px;
-    }
-    
-    .page {
-        padding: 12px;
-        border: solid 1px #FFA216;
-        color: #FFA216 !important;
-        border-radius: 5px;
-        text-decoration: none !important;
-        transition: 0.5s;
-    }
-    
-    .page:hover {
-        background-color: #FFA216;
-        color: white !important;
-    }
-    
-    #scheduleprevnext {
-        background-color: #FFA216;
-        border-radius: 25px;
-        color: white;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-    
-    #scheduleprevnext:hover {
-        border: 2px solid #FFA216;
-        color: #FFA216;
-        background-color: transparent;
-    }
-    
-    .prevnexthp {
+}
+
+@media (max-width: 576px) {
+    .prevnext {
         display: none;
     }
-    
-    .prevnext,
-    .aligned {
-        margin-top: auto;
-        margin-bottom: auto;
+
+    .prevnexthp {
+        display: block;
     }
-    
-    .bottomborder {
-        border: 0px 0px 0px 3px solid #FFA216;
+
+    #buttonpostarticle {
+        content: 'Article'
     }
-    
-    .iconfooter {
-        font-size: large;
-        color: white;
-        padding: 15px;
-        margin-right: 10px;
-        border: 2px solid white;
-        border-radius: 50px;
-        background-color: transparent;
+
+    #buttonpostmerch {
+        content: attr('Merch');
     }
-    
-    .iconfooter:hover {
-        background-color: white;
-        color: #FFB341;
+
+    #buttonpostmember {
+        content: attr('Member');
     }
-    
-    @media(max-width:768px) {
-        .logonav {
-            display: none;
-        }
-        .logoutama {
-            display: block;
-            width: 30%;
-        }
-        .cardlayanan {
-            height: 150px;
-        }
-        #this::after {
-            width: 20%;
-            left: 40%;
-        }
+
+    .kontak {
+        text-align: center;
+        align-items: center;
     }
-    
-    @media(max-width:576px) {
-        .prevnext {
-            display: none;
-        }
-        .prevnexthp {
-            display: block;
-        }
-        #buttonpostarticle {
-            content: 'Article'
-        }
-        #buttonpostmerch {
-            content: attr('Merch');
-        }
-        #buttonpostmember {
-            content: attr('Member');
-        }
-        .kontak {
-            text-align: center;
-            align-items: center;
-        }
-        .logoutama {
-            display: block;
-            width: 45%;
-        }
-        .cardlayanan {
-            height: 100px !important;
-        }
+
+    .logoutama {
+        display: block;
+        width: 45%;
     }
+
+    .cardlayanan {
+        height: 100px !important;
+    }
+}
