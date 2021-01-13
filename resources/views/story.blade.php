@@ -17,7 +17,7 @@
             <div class="row justify-content-center">
                 @foreach($stories as $story)
                     <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
-                        <img src="assets/storypic1.png" class="fotostory">
+                        <img src="assets/story/storypic1.png" class="fotostory">
                         <div class="card p-3">
                             <div class="box p-3">
                                 <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
@@ -36,7 +36,7 @@
                     </div>
                 @endforeach
                             <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
-                            <img src="assets/storypic1.png" class="fotostory">
+                            <img src="assets/story/storypic1.png" class="fotostory">
                                 <div class="card p-3">
                                     <div class="box p-3">
                                         <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>

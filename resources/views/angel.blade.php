@@ -5,7 +5,7 @@
     <div class="row jeda"></div>
     <div class="row justify-content-center animate__animated animate__fadeIn">
         <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 text-center">
-            <img src="assets/angelbig.png" width="100%">
+            <img src="assets/profile/angelbig.png" width="100%">
         </div>
         <div class="col-lg-6 col-sm-10 col-10 my-lg-5 my-sm-0 my-1">
             <h1 class="mt-4 grid2">Angelica Lucyane</h1>

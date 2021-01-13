@@ -12,7 +12,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                <img src="assets/bg.jpg" width="100%">
+                <img src="assets/about/bg.jpg" width="100%">
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
                                 <div class="row justify-content-center">
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                         <a style="text-decoration:none" href="joshlyene">
-                                        <img src="assets/1.png" class="fototim" style="width:100%">
+                                        <img src="assets/about/1.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Joshlyne Edwina</h4>
@@ -111,7 +111,7 @@
                                     </div>
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                     <a style="text-decoration:none" href="karen">
-                                    <img src="assets/2.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/2.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Karen</h4>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                     <a style="text-decoration:none" href="bella">
-                                    <img src="assets/3.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/3.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Bella Dewanti</h4>
@@ -131,7 +131,7 @@
                                     </div>
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 mt-3 mb-5">
                                     <a style="text-decoration:none" href="ediva">
-                                    <img src="assets/4.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/4.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Ediva Chandra</h4>
@@ -141,7 +141,7 @@
                                     </div>
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                     <a style="text-decoration:none" href="kevin">
-                                    <img src="assets/5.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/5.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Kevin Sutarman</h4>
@@ -151,7 +151,7 @@
                                     </div>
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                     <a style="text-decoration:none" href="angel">
-                                    <img src="assets/6.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/6.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Angelica Lucyane</h4>
@@ -165,7 +165,7 @@
                                 <div class="row justify-content-center">
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                     <a style="text-decoration:none" href="celine">
-                                    <img src="assets/7.png" class="fototim" style="width:100%">
+                                    <img src="assets/about/7.png" class="fototim" style="width:100%">
                                         <div class="cardlayanan">
                                             <div class="box p-3 text-center">
                                                 <h4 class="grid1">Celine Miranda</h4>

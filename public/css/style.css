@@ -282,7 +282,7 @@ h4 {
 }
 
 #backwelcome {
-    background-image: url(../assets/backgroundCream.png);
+    background-image: url('../assets/backgroundCream.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -372,12 +372,12 @@ h4 {
 }
 
 #everyone {
-    background-image: url('../assets/donate.png');
+    background-image: url('../assets/getinvolved/donate.png');
     background-size: cover;
 }
 
 #moretop {
-    background-image: url("{{asset('assets/moretop.png')}}");
+    background-image: url("{{asset('assets/more/moretop.png')}}");
     background-size: cover;
 }
 

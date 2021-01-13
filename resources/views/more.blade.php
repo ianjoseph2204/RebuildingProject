@@ -9,14 +9,14 @@
                 <a class="ml-3" style="color: white;">Our Story</a>
                 {{--            <a style="color: #FFB341;"> Event 001</a>--}}
                 <br>
-                <img src="{{asset('assets/line.png')}}" width="30%" class="ml-3">
+                <img src="{{asset('assets/more/line.png')}}" width="30%" class="ml-3">
                 <h1 class="ml-3" style="color: white; font-size:50pt">
 {{--                    Event 001--}}
                     <b>{{$story->title}}</b>
                 </h1>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-11 mb-4 ml-3">
-                        <img src="{{asset('assets/fotowriter.png')}}" class="fotowriter">
+                        <img src="{{asset('assets/more/fotowriter.png')}}" class="fotowriter">
                         <a style="color: white;"> {{$story->writer}} . {{$story->created_at}}</a>
                     </div>
                 </div>
@@ -100,18 +100,18 @@
                         <div class="carousel-inner text-center">
                             <div class="row row-equal carousel-item my-2 active">
                                 <div class="row justify-content-center">
-                                    <img src="{{asset('assets/atas.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/bawah.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/atas.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/bawah.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/atas.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/bawah.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/atas.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/bawah.png')}}" width="20%" class="mx-1">
                                 </div>
                             </div>
                             <div class="row row-equal carousel-item my-2">
                                 <div class="row justify-content-center">
-                                    <img src="{{asset('assets/atas.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/bawah.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/atas.png')}}" width="20%" class="mx-1">
-                                    <img src="{{asset('assets/bawah.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/atas.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/bawah.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/atas.png')}}" width="20%" class="mx-1">
+                                    <img src="{{asset('assets/more/bawah.png')}}" width="20%" class="mx-1">
                                 </div>
                             </div>
                         </div>

@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-5 col-sm-6 col-12 p-5 text-center" style="background-color:#FBEFE4">
                 <h2 class="grid2 my-3">Donate Now</h2>
-                <img src="assets/qr.png" width="40%" class="mx-1 my-1"> 
+                <img src="assets/getinvolved/qr.png" width="40%" class="mx-1 my-1"> 
                 <h3 class="grid2 mt-3">John Smith</h3>
                 <h3 class="grid2">12345678</h3>
             </div>
@@ -27,7 +27,7 @@
                 <h1 class="grid1 my-2">Merchandise</h1>
             </div>
             <div class="col-lg-4 col-sm-4 col-10 my-4">
-            <img src="assets/tshirt.png" class="fotostory">
+            <img src="assets/getinvolved/tshirt.png" class="fotostory">
                 <div class="card p-3">
                     <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> T-shirt</h3>
@@ -41,7 +41,7 @@
                 </div>  
             </div>
             <div class="col-lg-4 col-sm-4 col-10 my-4">
-            <img src="assets/bottle.png" class="fotostory">
+            <img src="assets/getinvolved/bottle.png" class="fotostory">
                 <div class="card p-3">
                     <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> Bottle</h3>
@@ -55,7 +55,7 @@
                 </div>  
             </div>
             <div class="col-lg-4 col-sm-4 col-10 my-4">
-            <img src="assets/watch.png" class="fotostory">
+            <img src="assets/getinvolved/watch.png" class="fotostory">
                 <div class="card p-3">
                     <div class="box p-xl-3 p-lg-3 p-2">
                         <h3 class="grid1">Rebuilding <br> Watch</h3>
@@ -80,10 +80,10 @@
         </div>
         <div class="col-lg-5 col-sm-5 col-10 m-3">
             <div class="panelvolunteer p-3">
-                <img class="mt-5" src="assets/image2.png" alt="Avatar" style="width:40%"><br><br>
+                <img class="mt-5" src="assets/home/image2.png" alt="Avatar" style="width:40%"><br><br>
                 <div class="box">
                     <h4><b>Field Worker</b></h4> 
-                    <p>Matematika, Bahasa Inggris, dsb. Matematika, Bahasa Inggris, dsb</p> 
+                    <p>Matematika, Bahasa Inggris, dsb.</p> 
                     <div class="row mt-3">
                         <div class="col-lg-12 text-center">
                             <a class="btn px-3 py-1 my-4" id="login" href="more"><b>Register Now</b></a>
@@ -94,7 +94,7 @@
         </div>
         <div class="col-lg-5 col-sm-5 col-10 m-3">
             <div class="panelvolunteer p-3">
-                <img class="mt-5" src="assets/image2.png" alt="Avatar" style="width:40%"><br><br>
+                <img class="mt-5" src="assets/home/image3.png" alt="Avatar" style="width:40%"><br><br>
                 <div class="box">
                     <h4><b>Committee</b></h4> 
                     <p>Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p> 

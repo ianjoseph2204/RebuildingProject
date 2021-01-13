@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Rebuilding Project</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.png">
-    <link rel = "apple-touch-icon" type = "image/png" href = "assets/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/headerfooter/logo.png">
+    <link rel = "apple-touch-icon" type = "image/png" href = "assets/headerfooter/logo.png">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-            <img src="{{asset('assets/logo.png')}}" class="logoutama my-1">
+            <img src="{{asset('assets/headerfooter/logo.png')}}" class="logoutama my-1">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #0a0a0a;"></i>
             </button>
@@ -40,7 +40,7 @@
                         <a id="story" class="nav-link mx-lg-3 mx-xl-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <img src="assets/logo.png" width="200px" class="logonav mx-1 my-1">
+                        <img src="assets/headerfooter/logo.png" width="200px" class="logonav mx-1 my-1">
                     </li>
                     <li class="nav-item">
                         <a id="contact" class="nav-link mx-lg-3 mx-xl-5 my-2" href="contact">Contact Us<span class="sr-only">(current)</span></a>
@@ -62,11 +62,11 @@
     <footer class="footer mt-5" style="bottom: 0px;">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <img src="assets/foot.png" width="100%">
+                <img src="assets/headerfooter/foot.png" width="100%">
             </div>
             <div class="row justify-content-center" style="background-color: #FFB341; color:black">
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
-                    <img src="assets/logofooter.png" width="100%"><br><br>
+                    <img src="assets/headerfooter/logofooter.png" width="100%"><br><br>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-phone iconfooter"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope iconfooter"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconfooter"></i></a>
