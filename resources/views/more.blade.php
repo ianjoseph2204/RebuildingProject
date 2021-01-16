@@ -1,24 +1,17 @@
 @extends('header')
 
 @section('content')
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-lg-12 mt-5" id="moretop">
-                <div class="row jeda my-5"></div>
-                <div class="row jeda my-5"></div>
-                <a class="ml-3" style="color: white;">Our Story</a>
-                {{--            <a style="color: #FFB341;"> Event 001</a>--}}
-                <br>
-                <img src="{{asset('assets/more/line.png')}}" width="30%" class="ml-3">
-                <h1 class="ml-3" style="color: white; font-size:50pt">
-{{--                    Event 001--}}
-                    <b>{{$story->title}}</b>
-                </h1>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-11 mb-4 ml-3">
-                        <img src="{{asset('assets/more/fotowriter.png')}}" class="fotowriter">
-                        <a style="color: white;"> {{$story->writer}} . {{$story->created_at}}</a>
-                    </div>
+<div class="container-fluid">
+    <div class="row justify-content-center">   
+        <div class="col-lg-12 mt-5" id="moretop">
+            <div class="row jeda my-5"></div><div class="row jeda my-5"></div>
+            <a class="ml-3" style="color: white;">Our Story /</a><a style="color: #FFB341;"> Event 001</a><br>
+            <img src="{{asset('assets/more/line.png')}}" width="30%" class="ml-3">
+            <h1 class="ml-3" style="color: white; font-size:50pt"><b>Event 001’s Title</b></h1>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-11 mb-4 ml-3">
+                    <img src="{{asset('assets/more/fotowriter.png')}}" class="fotowriter">
+                    <a style="color: white;"> Celine Miranda . Event . 01 Dec 2020</a>
                 </div>
             </div>
         </div>

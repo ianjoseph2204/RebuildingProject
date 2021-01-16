@@ -75,8 +75,8 @@
     </div>
 </section>
 
-<section id="back">
-    <div class="container-fluid my-5">
+<section id="backgroundTeam">
+    <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 mt-5 text-center">
                 <h1 class="grid1 my-2">Our Team</h1>
@@ -89,99 +89,93 @@
                 <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
                 <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
             </div>
-           </div>
-            <section class="carousel slide" id="myCarousel" data-ride="carousel" id="postsCarousel">
-                <div class="row justify-content-center">
-                    <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
-                        <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    </div>
-                    <div class="col-xl-10 col-lg-10 col-sm-10 text-center">
-                        <div class="carousel-inner text-center">
-                            <div class="row row-equal carousel-item my-2 active">
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                        <a style="text-decoration:none" href="joshlyene">
-                                        <img src="assets/about/1.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Joshlyne Edwina</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                    <a style="text-decoration:none" href="karen">
-                                    <img src="assets/about/2.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Karen</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Chief Operating Officer</b></a>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                    <a style="text-decoration:none" href="bella">
-                                    <img src="assets/about/3.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Bella Dewanti</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Founder & Executive Director</b></a>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 mt-3 mb-5">
-                                    <a style="text-decoration:none" href="ediva">
-                                    <img src="assets/about/4.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Ediva Chandra</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Marketing Director</b></a>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                    <a style="text-decoration:none" href="kevin">
-                                    <img src="assets/about/5.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Kevin Sutarman</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Program Development Lead</b></a>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                    <a style="text-decoration:none" href="angel">
-                                    <img src="assets/about/6.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Angelica Lucyane</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Secretary & Program Development Lead</b></a>
-                                            </div>
-                                        </div></a>
+        </div>
+        <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
+            <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Joshlyne.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Joshlyne Edwina</b></h5>
+                                        <p id="card-text">Founder & Executive Director</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row row-equal carousel-item justify-content-center my-2">
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                    <a style="text-decoration:none" href="celine">
-                                    <img src="assets/about/7.png" class="fototim" style="width:100%">
-                                        <div class="cardlayanan">
-                                            <div class="box p-3 text-center">
-                                                <h4 class="grid1">Celine Miranda</h4>
-                                                <a style="color:#f5c150; font-size:14px;"><b>Program Development Team</b></a>
-                                            </div>
-                                        </div></a>
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Karen.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Karen</b></h5>
+                                        <p id="card-text">Founder & Operation Director</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Ediva.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Ediva Chandra</b></h5>
+                                        <p id="card-text">Marketing Director</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 mt-3 mb-5" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Angelica.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Angelica Lucyane</b></h5>
+                                        <p id="card-text">Secretary & Program <br>Development Lead</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Kevin.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Kevin Sutarman</b></h5>
+                                        <p id="card-text">Program Development Lead</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Bella.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title-profile"><b>Bella Dewanti</b></h5>
+                                        <p id="card-text">Program Development Team</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
+
+                    <!-- <div class="carousel-item"> -->
+                        <div class="col-xl-1 col-lg-1 col-sm-1 prevnext" style="float: left; vertical-align: middle;">
+                            <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                        </div>
+                        <div class="row ">
+                            <!-- <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
+                                <div class="cardlayanan">
+                                    <img class="card-img-top" src="assets/profile/Celine.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><b>Celine Miranda</b></h5>
+                                        <p id="card-text">Program Development Team</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    <!-- </div> -->
+                    
+                    <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext" style="float: right; vertical-align: middle;">
                         <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
     </div>
 </section>
 
@@ -199,7 +193,7 @@
                 <a class="nav-link mx-5 my-2 px-2" id="expand">Expand All</span></a>
             </div>
         </div>
-         <div class="row justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
                 <div class="row">
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-10">
@@ -222,7 +216,7 @@
                         <h4><i id="headerFAQ2a" class="fa fa-lg fa-times carrot2"></i></h4>
                     </div>
                 </div>
-                <a id="down2" style="color:white">Sebagai starting point, proyek-proyek kami akan dimulai dengan panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti asuhan di seluruh kota di Indonesia.  </a>
+                <a id="down2" style="color:white">Sebagai starting point, proyek-proyek kami akan dimulai dengan panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti asuhan di seluruh kota di Indonesia. </a>
             </div>
             <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
                 <div class="row">
@@ -234,7 +228,7 @@
                         <h4><i id="headerFAQ3a" class="fa fa-lg fa-times carrot1"></i></h4>
                     </div>
                 </div>
-                <a id="down3">Rebuilding Project dibangun dengan dasar untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia. Gerakan sosial ini juga dilandasi dengan rasa ingin berbagi dengan sesama, dan keinginan untuk memajukan bangsa Indonesia terutama melalui Pendidikan bagi kaum muda.  </a>
+                <a id="down3">Rebuilding Project dibangun dengan dasar untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia. Gerakan sosial ini juga dilandasi dengan rasa ingin berbagi dengan sesama, dan keinginan untuk memajukan bangsa Indonesia terutama melalui Pendidikan bagi kaum muda. </a>
             </div>
             <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back2">
                 <div class="row">
@@ -265,71 +259,71 @@
     var c2 = document.getElementById("headerFAQ2");
     var c3 = document.getElementById("headerFAQ3");
     var c4 = document.getElementById("headerFAQ4");
-    x1.style.display="none";
-    x2.style.display="none";
-    x3.style.display="none";
-    x4.style.display="none";
-    down1.style.display="none";
-    down2.style.display="none";
-    down3.style.display="none";
-    down4.style.display="none";
+    x1.style.display = "none";
+    x2.style.display = "none";
+    x3.style.display = "none";
+    x4.style.display = "none";
+    down1.style.display = "none";
+    down2.style.display = "none";
+    down3.style.display = "none";
+    down4.style.display = "none";
     var expand = document.getElementById("expand");
-    c1.onclick = function (event) {
-        down1.style.display="block";
-        x1.style.display="block";
-        c1.style.display="none";
+    c1.onclick = function(event) {
+        down1.style.display = "block";
+        x1.style.display = "block";
+        c1.style.display = "none";
     }
-    c2.onclick = function (event) {
-        down2.style.display="block";
-        x2.style.display="block";
-        c2.style.display="none";
+    c2.onclick = function(event) {
+        down2.style.display = "block";
+        x2.style.display = "block";
+        c2.style.display = "none";
     }
-    c3.onclick = function (event) {
-        down3.style.display="block";
-        x3.style.display="block";
-        c3.style.display="none";
+    c3.onclick = function(event) {
+        down3.style.display = "block";
+        x3.style.display = "block";
+        c3.style.display = "none";
     }
-    c4.onclick = function (event) {
-        x4.style.display="block";
-        c4.style.display="none";
-        down4.style.display="block";
+    c4.onclick = function(event) {
+        x4.style.display = "block";
+        c4.style.display = "none";
+        down4.style.display = "block";
     }
-    expand.onclick = function(event){
-        down1.style.display="block";
-        x1.style.display="block";
-        c1.style.display="none";
-        down2.style.display="block";
-        x2.style.display="block";
-        c2.style.display="none";
-        down3.style.display="block";
-        x3.style.display="block";
-        c3.style.display="none";
-        x4.style.display="block";
-        c4.style.display="none";
-        x4.style.transition="2s"
-        down4.style.display="block";
+    expand.onclick = function(event) {
+        down1.style.display = "block";
+        x1.style.display = "block";
+        c1.style.display = "none";
+        down2.style.display = "block";
+        x2.style.display = "block";
+        c2.style.display = "none";
+        down3.style.display = "block";
+        x3.style.display = "block";
+        c3.style.display = "none";
+        x4.style.display = "block";
+        c4.style.display = "none";
+        x4.style.transition = "2s"
+        down4.style.display = "block";
     }
     window.onclick = function(event) {
         if (event.target == x1) {
             down1.style.display = "none";
             x1.style.display = "none";
-            c1.style.display="block";
+            c1.style.display = "block";
         }
         if (event.target == x2) {
             down2.style.display = "none";
             x2.style.display = "none";
-            c2.style.display="block";
+            c2.style.display = "block";
         }
         if (event.target == x3) {
             down3.style.display = "none";
             x3.style.display = "none";
-            c3.style.display="block";
+            c3.style.display = "block";
         }
         if (event.target == x4) {
             down4.style.display = "none";
             x4.style.display = "none";
-            c4.style.display="block";
-            c4.style.transition="2s";
+            c4.style.display = "block";
+            c4.style.transition = "2s";
         }
     }
 
