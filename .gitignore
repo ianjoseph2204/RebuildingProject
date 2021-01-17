@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 vendor
+!vendor/composer
 .env.backup
 node_modules/
 npm-debug.log
