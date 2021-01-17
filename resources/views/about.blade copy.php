@@ -96,7 +96,7 @@
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
                             <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan" data-toggle="modal" data-target="#joshlyneCard">
+                                <div class="cardlayanan">
                                     <img class="card-img-top" src="assets/profile/Joshlyne.png" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title-profile"><b>Joshlyne Edwina</b></h5>
@@ -104,49 +104,11 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="modal fade" id="joshlyneCard" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <!-- <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div> -->
-                                        <div class="modal-body">
-                                        <div class="container-fluid">
-                                            <div class="row justify-content-center animate__animated animate__fadeIn">
-                                                <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 text-center">
-                                                    <img src="assets/profile/Joshlyne.png" width="100%">
-                                                </div>
-                                                <div class="col-lg-6 col-sm-10 col-10 my-lg-5 my-sm-0 my-1">
-                                                    <h1 class="mt-4 grid2">Joshlyne Edwina</h1>
-                                                    <h4 class="mt-2 mb-4 grid2">Founder & Executive Director</h4>
-                                                    <a class="my-3">“I believe that being educated is such a privilege.
-                                                        Since I was young, I realized that I am privileged, to be educated in a good school and university, and to be supported supportively by my parents.
-                                                        And I believe a privilege that has been entrusted and given to me is not something that should be consumed only for my own sake.
-                                                        Instead, the more privileged we are, the more we need to extend hands for those who are not as privileged as we are.
-                                                        That also explains why we decided to build Rebuilding Project as a platform, to empower more orphan children to receive and value how important education is,
-                                                        and also allowing them to be able to pursue their dream for the future. Education is power, and education change lives.
-                                                        So, let's empower children through education together, shall we?”</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <!-- <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div> -->
-                                    </div>
-                                </div>
-                            </div>
-
                             <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
                                 <div class="cardlayanan">
                                     <img class="card-img-top" src="assets/profile/Karen.png" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Karen</b></h5>
+                                        <h5 class="card-title-profile" style="line-height: 100px;"><b>Karen</b></h5>
                                         <p id="card-text">Founder & Operation Director</p>
 
                                     </div>
@@ -192,11 +154,11 @@
                     </div>
 
                     <!-- <div class="carousel-item"> -->
-                    <div class="col-xl-1 col-lg-1 col-sm-1 prevnext" style="float: left; vertical-align: middle;">
-                        <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    </div>
-                    <div class="row ">
-                        <!-- <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
+                        <div class="col-xl-1 col-lg-1 col-sm-1 prevnext" style="float: left; vertical-align: middle;">
+                            <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                        </div>
+                        <div class="row ">
+                            <!-- <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
                                 <div class="cardlayanan">
                                     <img class="card-img-top" src="assets/profile/Celine.png" alt="Card image cap">
                                     <div class="card-body">
@@ -205,9 +167,9 @@
                                     </div>
                                 </div>
                             </div> -->
-                    </div>
+                        </div>
                     <!-- </div> -->
-
+                    
                     <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext" style="float: right; vertical-align: middle;">
                         <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
                     </div>
