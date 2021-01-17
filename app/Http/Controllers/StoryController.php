@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 
 class StoryController extends Controller
 {
-    public function create(Request $request){
+    public function create(Request $request)
+    {
         $story = new Story([
             'title' => $request->input('title'),
             'writer' => $request->input('writer'),
@@ -20,13 +21,15 @@ class StoryController extends Controller
         return redirect('/add');
     }
 
-    public function list(){
+    public function list()
+    {
         $stories = Story::paginate(3);
 
         return view('story', compact('stories'));
     }
 
-    public function read($id){
+    public function read($id)
+    {
         $story = Story::findOrFail($id);
 
         return view('more', compact('story'));

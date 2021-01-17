@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
@@ -8,31 +9,33 @@ use Illuminate\Http\Request;
 class DataController extends Controller
 {
     //
-    public function contact(Request $request){
+    public function contact(Request $request)
+    {
 
-        DB::table('contact')->insert([  
+        DB::table('contact')->insert([
             'email' => $request->input('email'),
-            'name'=> $request->input('name'),
-            'phone'=> $request->input('phone'),
+            'name' => $request->input('name'),
+            'phone' => $request->input('phone'),
             'judul' => $request->input('judul'),
-            'pesan'=> $request->input('pesan')
+            'pesan' => $request->input('pesan')
         ]);
 
-        return redirect('contact')->with('successContact','Data Added'); 
+        return redirect('contact')->with('successContact', 'Data Added');
     }
 
-    public function article(Request $request){
+    public function article(Request $request)
+    {
 
-        DB::table('article')->insert([  
+        DB::table('article')->insert([
             'namewriter' => $request->input('namewriter'),
-            'emailwriter'=> $request->input('emailwriter'),
-            'datepublikasi'=> $request->input('datepublikasi'),
+            'emailwriter' => $request->input('emailwriter'),
+            'datepublikasi' => $request->input('datepublikasi'),
             'titlearticle' => $request->input('titlearticle'),
-            'location'=> $request->input('location'),
-            'category'=> $request->input('category'),
-            'article'=> $request->input('article')
+            'location' => $request->input('location'),
+            'category' => $request->input('category'),
+            'article' => $request->input('article')
         ]);
 
-        return redirect('add')->with('successArticle','Data Added'); 
+        return redirect('add')->with('successArticle', 'Data Added');
     }
 }

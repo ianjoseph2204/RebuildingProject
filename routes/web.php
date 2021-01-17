@@ -12,13 +12,12 @@
 */
 
 use App\Http\Controllers\StoryController;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/about', [UserController::class, 'list']);
 
 Route::get('/story', [StoryController::class, 'list']);
 

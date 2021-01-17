@@ -95,99 +95,19 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
+
+                            @foreach($users as $user)
                             <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
                                 <div class="cardlayanan" data-toggle="modal" data-target="#joshlyneCard">
-                                    <img class="card-img-top" src="assets/profile/Joshlyne.png" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('assets/profile/'.$user->photo)}}" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Joshlyne Edwina</b></h5>
-                                        <p id="card-text">Founder & Executive Director</p>
+                                        <h5 class="card-title-profile"><b>{{$user->name}}</b></h5>
+                                        <p id="card-text">{{$user->user_positions->name}}</p>
                                     </div>
                                 </div>
                             </div>
+                            @endforeach
 
-                            <div class="modal fade" id="joshlyneCard" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <!-- <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div> -->
-                                        <div class="modal-body">
-                                        <div class="container-fluid">
-                                            <div class="row justify-content-center animate__animated animate__fadeIn">
-                                                <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 text-center">
-                                                    <img src="assets/profile/Joshlyne.png" width="100%">
-                                                </div>
-                                                <div class="col-lg-6 col-sm-10 col-10 my-lg-5 my-sm-0 my-1">
-                                                    <h1 class="mt-4 grid2">Joshlyne Edwina</h1>
-                                                    <h4 class="mt-2 mb-4 grid2">Founder & Executive Director</h4>
-                                                    <a class="my-3">“I believe that being educated is such a privilege.
-                                                        Since I was young, I realized that I am privileged, to be educated in a good school and university, and to be supported supportively by my parents.
-                                                        And I believe a privilege that has been entrusted and given to me is not something that should be consumed only for my own sake.
-                                                        Instead, the more privileged we are, the more we need to extend hands for those who are not as privileged as we are.
-                                                        That also explains why we decided to build Rebuilding Project as a platform, to empower more orphan children to receive and value how important education is,
-                                                        and also allowing them to be able to pursue their dream for the future. Education is power, and education change lives.
-                                                        So, let's empower children through education together, shall we?”</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <!-- <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Karen.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Karen</b></h5>
-                                        <p id="card-text">Founder & Operation Director</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Ediva.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Ediva Chandra</b></h5>
-                                        <p id="card-text">Marketing Director</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 mt-3 mb-5" id="OTprofile">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Angelica.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Angelica Lucyane</b></h5>
-                                        <p id="card-text">Secretary & Program <br>Development Lead</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Kevin.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Kevin Sutarman</b></h5>
-                                        <p id="card-text">Program Development Lead</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Bella.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>Bella Dewanti</b></h5>
-                                        <p id="card-text">Program Development Team</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -228,7 +148,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-sm-8"></div>
             <div class="col-xl-3 col-lg-3 col-sm-4 col-7 text-center">
-                <a class="nav-link mx-5 my-2 px-2" id="expand">Expand All</span></a>
+                <a class="nav-link mx-5 my-2 px-2" id="expand">Expand All</a>
             </div>
         </div>
         <div class="row justify-content-center">

@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 
 class StoryCategoryController extends Controller
 {
-    public function create(Request $request){
+    public function create(Request $request)
+    {
         $story = new Story([
             'title' => $request->input('title'),
             'writer' => $request->input('writer'),
