@@ -13,6 +13,7 @@ class UserController extends Controller
     {
         //Join between User and UserPositions
         $users = User::with('user_positions')->paginate(6, ['id', 'name', 'photo', 'story', 'position_id']);
+        // return $users;
         return view('about', compact('users'));
     }
 

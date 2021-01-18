@@ -2,7 +2,7 @@
         scroll-behavior: smooth;
     }
     
-    . @font-face {
+    @font-face {
         src: url('/fonts/PoppinsLight.otf');
         font-family: Poppins;
     }
@@ -239,20 +239,22 @@ transform-origin: left;
     
     .card-title-profile {
         font-family: madetommy;
-        font-size: 36px;
-        line-height: 45.11px;
+        font-size: 24px;
+        line-height: 27.11px;
         color: #545454;
+        padding: 0 12.5% 0 12.5%;
     }
     
     #card-text {
         font-family: PoppinsSB;
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 10px;
+        line-height: 15px;
         color: #FFA216;
-        position: absolute;
-        bottom: 0;
+        bottom: 10px;
         text-align: center;
-        width: 85%;
+        width: 100%;
+        position: absolute;
+        padding: 0 12.5% 0 12.5%;
     }
     
     #quote {
@@ -301,7 +303,16 @@ transform-origin: left;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        height: 1274px;
+        height: 1670px;
+        margin-top: 100px;
+    }
+    
+    .grid-container {
+        display: inline-grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        grid-gap: 80px;
+        padding: 10px;
     }
     
     #back2 {
@@ -321,12 +332,11 @@ transform-origin: left;
     .cardlayanan {
         background-color: white;
         border-color: transparent;
-        border-radius: 30px 30px 30px 30px;
+        border-radius: 20px 20px 20px 20px;
         transition: 0.3s;
-        border-color: transparent !important;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        Width: 269px;
-        Height: 430px;
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+        Width: 185px;
+        Height: 300px;
         position: relative;
     }
     
@@ -335,6 +345,50 @@ transform-origin: left;
         height: 200px;
         border-radius: 30px 30px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .nameTitle {
+        width: 100%;
+        text-align: start;
+        height: 18%;
+        font-family: madetommy;
+        font-size: 100px;
+        line-height: 69px;
+        color: #545454;
+    }
+    
+    .jabatan {
+        font-family: PoppinsSB;
+        font-size: 30px;
+        line-height: 27px;
+        text-align: start;
+        color: #FFA216;
+        width: 100%;
+    }
+    
+    .modal-dialog {
+        max-width: 2200px;
+        height: 1360px;
+    }
+    
+    .modal-content {
+        height: 1360px;
+    }
+    
+    .description {
+        font-family: madetommy;
+        font-size: 29px;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: justify;
+        color: #545454;
+        width: 95%;
+    }
+    
+    #profilePhoto {
+        width: 20vw;
+        left: 73px;
+        border-radius: 30px;
     }
     
     .panel {

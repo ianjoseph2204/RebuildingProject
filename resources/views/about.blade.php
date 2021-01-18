@@ -74,9 +74,10 @@
         </div>
     </div>
 </section>
+<br><br>
 
 <section id="backgroundTeam">
-    <div class="container my-5">
+    <div class="container my-3">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 mt-5 text-center">
                 <h1 class="grid1 my-2">Our Team</h1>
@@ -90,51 +91,68 @@
                 <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
             </div>
         </div>
-        <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
-            <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row justify-content-center">
+    </div>
+    <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
+        <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
+            <div class="grid-container">
 
-                            @foreach($users as $user)
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="cardlayanan" data-toggle="modal" data-target="#joshlyneCard">
-                                    <img class="card-img-top" src="{{asset('assets/profile/'.$user->photo)}}" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title-profile"><b>{{$user->name}}</b></h5>
-                                        <p id="card-text">{{$user->user_positions->name}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            @endforeach
+                @foreach($users as $user)
+                <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                    <div class="cardlayanan" data-toggle="modal" data-target="#joshlyneCard">
+                        <img class="card-img-top" src="{{asset('assets/profile/'.$user->photo)}}" alt="Card image cap" style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
 
+                        <div style="display:flex; height: 25%; justify-content: center; align-items: center;">
+                            <h5 class="card-title-profile"><b>{{$user->name}}</b></h5>
+                        </div>
+
+                        <!-- <div  id="card-text style="height: 15%; width: 100%; text-align: center; position: absolute; bottom: 0; padding: 10px 12.5% 0 12.5%;"> -->
+                        <div id="card-text">
+                            {{$user->user_positions->name}}
                         </div>
                     </div>
+                </div>
+                @endforeach
+            </div>
 
-                    <!-- <div class="carousel-item"> -->
-                    <div class="col-xl-1 col-lg-1 col-sm-1 prevnext" style="float: left; vertical-align: middle;">
-                        <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    </div>
-                    <div class="row ">
-                        <!-- <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3">
-                                <div class="cardlayanan">
-                                    <img class="card-img-top" src="assets/profile/Celine.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><b>Celine Miranda</b></h5>
-                                        <p id="card-text">Program Development Team</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                    </div>
-                    <!-- </div> -->
+            <div style="position: absolute; top: 0; right: 10px; height: 100%;">
+                <div class="button-container prevnext" style="float: right; vertical-align: middle; overflow-y: auto">
+                    <a class="btn" href="{{$users->nextPageUrl()}}" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                </div>
+            </div>
 
-                    <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext" style="float: right; vertical-align: middle;">
-                        <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            <div class="modal fade" id="joshlyneCard" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" style="border-radius: 30px 30px 0px 0px">
+                        <div class="row" style="padding-top: 120px; padding-left: 6%">
+                            <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
+                                <img src="assets/profile/Joshlyne.png" id="profilePhoto">
+                            </div>
+                            <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
+                                <h1 class="mt-4 nameTitle">Joshlyne Edwina</h1>
+                                <h4 class="mt-2 jabatan">Founder & Executive Director</h4>
+                                <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
+                                <p class="my-3 description">“I believe that being educated is such a privilege.
+                                    Since I was young, I realized that I am privileged, to be educated in a good school and university, and to be supported supportively by my parents.
+                                    And I believe a privilege that has been entrusted and given to me is not something that should be consumed only for my own sake.
+                                    Instead, the more privileged we are, the more we need to extend hands for those who are not as privileged as we are.
+                                    That also explains why we decided to build Rebuilding Project as a platform, to empower more orphan children to receive and value how important education is,
+                                    and also allowing them to be able to pursue their dream for the future. Education is power, and education change lives.
+                                    So, let's empower children through education together, shall we?”</p>
+                            </div>
+
+                        </div>
+                        <div class="footer" style="position: absolute;bottom: 0; width: inherit">
+                            <img src="{{asset('assets/headerfooter/footerModal.png')}}" style="width: inherit">
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+            <!-- <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext" style="float: right; vertical-align: middle;">
+                        <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                    </div> -->
+        </div>
+    </section>
+
 </section>
 
 <section id="04">
@@ -261,6 +279,11 @@
         x4.style.transition = "2s"
         down4.style.display = "block";
     }
+
+    function fetch_data(url) {
+
+    }
+
     window.onclick = function(event) {
         if (event.target == x1) {
             down1.style.display = "none";

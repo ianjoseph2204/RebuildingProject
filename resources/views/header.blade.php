@@ -60,9 +60,9 @@
 
 
     <footer class="footer mt-5" style="bottom: 0px;">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
-                <img src="assets/headerfooter/foot.png" width="100%">
+                <img src="assets/headerfooter/flow.png" width="100%">
             </div>
             <div class="row justify-content-center" style="background-color: #FFB341; color:black">
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
