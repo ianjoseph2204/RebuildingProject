@@ -101,6 +101,20 @@ transform-origin: left;
         display: none;
     }
     
+    .buttonUpload {
+        display: inline-block;
+        background-color: #FFA216;
+        color: white;
+        padding: 0.5rem;
+        font-family: madetommy;
+        border-radius: 1.3rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        width: 40%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
     #login,
     #expand {
         background-color: #FFA216;
@@ -129,6 +143,9 @@ transform-origin: left;
         color: white;
         transition: 0.5s;
         text-decoration: none;
+        font-size: 20px;
+        font-family: madetommy;
+        line-height: 38px;
     }
     
     .drop-zone {
@@ -208,6 +225,20 @@ transform-origin: left;
     h4 {
         line-height: 45px;
         text-align: center;
+    }
+    
+    .judulForm {
+        color: #545454;
+        font-family: madetommy;
+        font-size: 65px;
+        Line-height: 90.22px;
+    }
+    
+    #subJudulForm {
+        font-family: madetommy;
+        font-size: 18px;
+        line-height: 20px;
+        color: #545454;
     }
     
     .grid1,
@@ -525,6 +556,10 @@ transform-origin: left;
     .iconfooter:hover {
         background-color: white;
         color: #FFB341;
+    }
+    
+    .form-control-file-center {
+        content: 'Select some files';
     }
     
     @media (max-width: 768px) {
