@@ -347,7 +347,7 @@
         function showUser(user) {
             document.getElementById("modalName").innerHTML = user['name'];
             document.getElementById("modalPosition").innerHTML = user['user_positions'].name;
-            document.getElementById("modalStory").innerHTML = user['story'];
+            document.getElementById("modalStory").innerHTML = '"' + user['story'] + '"';
             document.getElementById("profilePhoto").src = 'assets/profile/' + user['photo'];
             console.log(user);
         }

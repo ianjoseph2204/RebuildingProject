@@ -13,6 +13,7 @@
 
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserPositionController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -31,30 +32,9 @@ Route::get('/contact', function () {
 Route::get('/getinvolved', function () {
     return view('getinvolved');
 });
-Route::get('/add', function () {
-    return view('add');
-});
-Route::get('/joshlyene', function () {
-    return view('joshlyene');
-});
-Route::get('/karen', function () {
-    return view('karen');
-});
-Route::get('/bella', function () {
-    return view('bella');
-});
-Route::get('/ediva', function () {
-    return view('ediva');
-});
-Route::get('/kevin', function () {
-    return view('kevin');
-});
-Route::get('/angel', function () {
-    return view('angel');
-});
-Route::get('/celine', function () {
-    return view('celine');
-});
+Route::get('/add', [UserPositionController::class, 'list']);
+Route::post('/users', [UserController::class, 'create']);
+
 Route::get('/more', function () {
     return view('more');
 });
