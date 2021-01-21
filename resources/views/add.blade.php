@@ -235,12 +235,13 @@
     @endif
 
     <script>
-        var article = document.getElementById('postarticle');
-        var member = document.getElementById('postmember');
-        var merch = document.getElementById('postmerch');
-        var buttonarticle = document.getElementById('buttonpostarticle');
-        var buttonmember = document.getElementById('buttonpostmember');
-        var buttonmerch = document.getElementById('buttonpostmerch');
+        let article = document.getElementById('postarticle');
+        let member = document.getElementById('postmember');
+        let merch = document.getElementById('postmerch');
+        let buttonarticle = document.getElementById('buttonpostarticle');
+        let buttonmember = document.getElementById('buttonpostmember');
+        let buttonmerch = document.getElementById('buttonpostmerch');
+
         member.style.display = "none";
         merch.style.display = "none";
         buttonarticle.onclick = function(event) {
