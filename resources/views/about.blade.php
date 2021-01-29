@@ -103,7 +103,6 @@
         <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
             <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
                 <div class="grid-container">
-
                     @foreach($users as $user)
                         <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
                             <div class="cardlayanan" data-toggle="modal" data-target="#joshlyneCard"
