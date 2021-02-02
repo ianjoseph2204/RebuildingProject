@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Rebuilding Project</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/headerfooter/logo.png')}}">
-    <link rel="apple-touch-icon" type="image/png" href="{{asset('assets/headerfooter/logo.png')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/header-footer/logo.png')}}">
+    <link rel="apple-touch-icon" type="image/png" href="{{asset('assets/header-footer/logo.png')}}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -25,7 +25,7 @@
 <body>
 <section id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-        <img src="{{asset('assets/headerfooter/logo.png')}}" class="logoutama my-1">
+        <img src="{{asset('assets/header-footer/logo.png')}}" class="main-logo my-1">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" style="color: #0a0a0a;"></i>
@@ -43,14 +43,14 @@
                     <a id="story" class="nav-link mx-lg-3 mx-xl-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <img src="{{asset('assets/headerfooter/logo.png')}}" width="200px" class="logonav mx-1 my-1">
+                    <img src="{{asset('assets/header-footer/logo.png')}}" width="200px" class="nav-logo mx-1 my-1">
                 </li>
                 <li class="nav-item">
                     <a id="contact" class="nav-link mx-lg-3 mx-xl-5 my-2" href="contact">Contact Us<span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a id="getinvolved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="getinvolved">Get Involved<span
+                    <a id="get-involved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="get-involved">Get Involved<span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -60,30 +60,31 @@
 
 <section id="01">
     <div class="container">
-        <div class="row jeda"></div>
+        <div class="row space"></div>
         <div class="row justify-content-center">
             <div class="col-lg-11 col-10 mt-5">
                 <div class="row" style="margin-right: 0; margin-left: 0">
-                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostarticle" id="buttonpostarticle"><b>
+                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostarticle"
+                       id="post-article-button"><b>
                             Post an Article</b></a>
-                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostmember" id="buttonpostmember"><b>Post
+                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostmember" id="post-member-button"><b>Post
                             a New Member</b></a>
-                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostmerch" id="buttonpostmerch"><b>Post
+                    <a class="col mt-5 mx-1 px-3 py-2 text-center" href="#buttonpostmerch" id="post-merch-button"><b>Post
                             a New Merch</b></a>
                 </div>
             </div>
             <div class="col-lg-11 col-10" id="back">
 
                 {{--Create new story section--}}
-                <div class="section" id="postarticle">
+                <div class="section" id="post-article">
                     <h1 class="judulForm pt-5 px-4 pb-4  animate__animated animate__fadeIn">Post an Article</h1>
                     <form method="POST" action="">
                         @csrf
                         <div class="row justify-content-center  animate__animated animate__fadeIn">
                             <div class="col-lg-6 col-12 px-5 pb-4">
-                                <label for="namawriter" id="subJudulForm">Nama
+                                <label for="user-name" id="subJudulForm">Nama
                                     Lengkap</label>
-                                <input id="namawriter" style="border-radius:10px;border: 0" type="name"
+                                <input id="user-name" style="border-radius:10px;border: 0" type="name"
                                        class="form-control col-lg-12 col-12" name="writer" required autofocus>
                                 <div class="row">
                                 </div>
@@ -118,7 +119,7 @@
                                 <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Attachments</label>
                                 <input type="file" class="form-control-file-center" name="image" id="txtChooseFile"
                                        hidden/>
-                                <label class="buttonUpload" for="txtChooseFile">+ Add Media</label>
+                                <label class="upload-button" for="txtChooseFile">+ Add Media</label>
                             </div>
                         </div>
                         <div class="row  animate__animated animate__fadeIn">
@@ -132,23 +133,22 @@
                 </div>
 
                 {{--Create new member section--}}
-                <div class="section" id="postmember">
+                <div class="section" id="post-member">
                     <h1 class="judulForm pt-5 px-4 pb-4 animate__animated animate__fadeIn">Add a New Team Member</h1>
                     <form method="POST" action="/users" enctype="multipart/form-data">
                         @csrf
                         <div class="row justify-content-center animate__animated animate__fadeIn">
                             <div class="col-lg-6 col-12 px-5 pb-4">
-                                <label for="namawriter" id="subJudulForm">Nama
-                                    Lengkap</label>
-                                <input id="namawriter" style="border-radius:10px;border: 0"
+                                <label for="user-name" id="subJudulForm">Nama Lengkap</label>
+                                <input id="user-name" style="border-radius:10px;border: 0"
                                        class="form-control col-lg-12 col-12" name="user_name" required autofocus>
                             </div>
 
                             <div class="col-lg-6 col-12 px-5 pb-4 form-group">
-                                <label for="posisi" id="subJudulForm">Jabatan</label>
+                                <label for="user-position" id="subJudulForm">Jabatan</label>
 
                                 <select placeholder="Pilih Jabatan" class="form-control" name="user_position_id"
-                                        id="posisi" style="border-radius:10px; border: 0" required autofocus>
+                                        id="user-position" style="border-radius:10px; border: 0" required autofocus>
                                     <option value="0">Pilih Jabatan</option>
                                     @foreach($userPositions as $userPosition)
                                         <option value="{{$userPosition->id}}">{{$userPosition->name}}</option>
@@ -159,18 +159,21 @@
 
                         <div class="row justify-content  animate__animated animate__fadeIn">
                             <div class="col-lg-12 col-12 px-5 pb-3">
-                                <label for="cerita" id="subJudulForm">Cerita</label>
-                                <textarea id="cerita" style="border-radius:10px;border: 0" type="text"
+                                <label for="user-story" id="subJudulForm">Cerita</label>
+                                <textarea id="user-story" style="border-radius:10px;border: 0" type="text"
                                           class="form-control col-lg-12 col-12" rows="8" name="user_story" required
                                           autofocus></textarea>
                             </div>
 
                             <div class="col-lg-6 col-12 px-5 pb-4 pt-2">
-                                <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Photo
-                                    Attachment</label>
-                                <input type="file" class="form-control-file-center" name="user_photo" id="user_photo"
+                                <label class="col-md-8 px-0 col-form-label" id="subJudulForm">Photo Attachment</label>
+                                <input type="file" class="form-control-file-center" name="user_photo" id="user-photo"
                                        hidden/>
-                                <label class="buttonUpload" for="user_photo">+ Add Media</label>
+                                <label id="user-photo-button" class="upload-button" for="user-photo">+ Add Media</label>
+
+                                <div>
+
+                                </div>
                             </div>
                         </div>
 
@@ -185,7 +188,7 @@
                 </div>
 
                 {{--Create new merch item section--}}
-                <div class="section" id="postmerch">
+                <div class="section" id="post-merch">
                     <h1 class="judulForm pt-5 px-4 pb-4 animate__animated animate__fadeIn">Add a Merch Item</h1>
                     <form method="POST" action="insertMerch">
                         @csrf
@@ -214,10 +217,10 @@
                             <div class="col-lg-6 col-12 px-5 pb-4 pt-2">
                                 <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Photo
                                     Attachment</label>
-                                <input type="file" class="form-control-file-center buttonUpload" name="image"
+                                <input type="file" class="form-control-file-center upload-button" name="image"
                                        id="txtChooseFile"
                                        hidden/>
-                                <label class="buttonUpload" for="txtChooseFile">+ Add Media</label>
+                                <label class="upload-button" for="txtChooseFile">+ Add Media</label>
                             </div>
                         </div>
 
@@ -249,12 +252,38 @@
 @endif
 
 <script>
-    let article = document.getElementById('postarticle');
-    let member = document.getElementById('postmember');
-    let merch = document.getElementById('postmerch');
-    let buttonArticle = document.getElementById('buttonpostarticle');
-    let buttonMember = document.getElementById('buttonpostmember');
-    let buttonMerch = document.getElementById('buttonpostmerch');
+    let memberPhotoInput = document.getElementById('user-photo');
+    let memberPhotoLabel = document.getElementById('user-photo-button');
+
+
+    let article = document.getElementById('post-article');
+    let member = document.getElementById('post-member');
+    let merch = document.getElementById('post-merch');
+    let buttonArticle = document.getElementById('post-article-button');
+    let buttonMember = document.getElementById('post-member-button');
+    let buttonMerch = document.getElementById('post-merch-button');
+
+    memberPhotoInput.addEventListener('input', (event) => {
+        if(memberPhotoInput.value == null){
+            memberPhotoLabel.hidden = false
+            console.log("photo is empty");
+        } else{
+            memberPhotoLabel.hidden = true
+            console.log(memberPhotoInput.value);
+        }
+    });
+
+    function listenSingleInput(input, mediaButton, file){
+        input.addEventListener('input', () =>{
+            if(input.value == null){
+                mediaButton.hidden = false;
+                file.hidden = true;
+            } else{
+                mediaButton.hidden = true;
+                file.hidden = false;
+            }
+        })
+    }
 
     member.style.display = "none";
     merch.style.display = "none";
@@ -330,11 +359,14 @@
             thumbnailElement.style.backgroundImage = null;
         }
     }
+
+
 </script>
+
 <footer class="footer mt-5" style="bottom: 0;">
     <div class="container">
         <div class="row justify-content-center">
-            <img src="{{asset('assets/headerfooter/footerModal.png')}}" style="width: inherit">
+            <img src="{{asset('assets/header-footer/footerModal.png')}}" style="width: inherit">
         </div>
     </div>
 </footer>

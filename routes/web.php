@@ -29,8 +29,8 @@ Route::post('/stories', [StoryController::class, 'create']);
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/getinvolved', function () {
-    return view('getinvolved');
+Route::get('/get-involved', function () {
+    return view('get-involved');
 });
 Route::get('/add', [UserPositionController::class, 'list']);
 Route::post('/users', [UserController::class, 'create']);

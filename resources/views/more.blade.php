@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-lg-12 mt-5" id="moretop">
-            <div class="row jeda my-5"></div>
-            <div class="row jeda my-5"></div>
+        <div class="col-lg-12 mt-5" id="more-top">
+            <div class="row space my-5"></div>
+            <div class="row space my-5"></div>
             <a class="ml-3" style="color: white;font-family: Poppins;font-size:12pt;">Our Story /</a><a style="color: #FFB341;font-family: Poppins;font-size:12pt;"> Event 001</a><br>
             <img src="{{asset('assets/more/line.png')}}" width="30%" class="ml-3">
             <h1 class="ml-3" style="color: white; font-size:50pt; font-family: PoppinsSB;"><b>Event 001’s Title</b></h1>
@@ -69,7 +69,7 @@
                     Commodo et nunc amet, eu dis mauris, ultrices in leo. In nulla cursus ultrices est vulputate sed ac.
                     Tincidunt sollicitudin nunc eu amet lectus purus. Est semper in dignissim mi tempor in lectus
                     ultricies sagittis. Est, urna, sed at nunc, lobortis leo hendrerit viverra.<br><br>
-                    
+
                     Nec sed ut porta morbi ut. Lacus sit vel convallis velit lacus. Sed eu, nulla sociis urna amet.
                     Dignissim nec sit pellentesque dui libero, mattis. In adipiscing cursus vel id at vestibulum
                     ultrices quis sit. Netus mi sagittis quis in vestibulum habitant lorem in magna. Mattis mauris dolor

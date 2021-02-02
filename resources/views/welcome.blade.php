@@ -3,30 +3,30 @@
 @section('content')
 <section id="01">
     <div class="container my-5">
-        <div class="row jeda"></div>
+        <div class="row space"></div>
         <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
                 <img src="assets/home/landing.png" width="60%" class="mx-1 my-1">
             </div>
             <div class="col-lg-5 col-sm-5 col-10 mt-3">
-                <a id="misikami">01 - MISI KAMI</a>
-                <h1 class="grid0">Empowering</h1>
-                <h1 class="grid4">Children</h1>
-                <h1 class="grid0">Through</h1>
-                <h1 class="grid4">Education</h1>
-                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="getinvolved"><b>Donate Now</b></a>
+                <a id="our-mission">01 - MISI KAMI</a>
+                <h1 class="grid-0">Empowering</h1>
+                <h1 class="grid-4">Children</h1>
+                <h1 class="grid-0">Through</h1>
+                <h1 class="grid-4">Education</h1>
+                <a class="btn px-5 py-2 my-1" type="submit" id="login" href="get-involved"><b>Donate Now</b></a>
             </div>
         </div>
     </div>
 </section>
 
 <section id="02">
-    <div class="container" id="backwelcome">
+    <div class="container" id="back-welcome">
         <div class="row">
             <div class="col-lg-12 col-sm-10 col-12 mt-5 text-center">
-                <a class="mt-10" id="misikami">02 - PROGRAM KAMI</a><br><br>
-                <h4 class="grid1 px-5 pb-5">
-                    "Karena pembelajaran <span class="grid2">tidak hanya di ruang kelas</span>, kami <br>memfasilitasi program edukasi yang <span class="grid2">menarik </span> dan <br>menyenangkan untuk anak-anak”<br>
+                <a class="mt-10" id="our-mission">02 - PROGRAM KAMI</a><br><br>
+                <h4 class="grid-1 px-5 pb-5">
+                    "Karena pembelajaran <span class="grid-2">tidak hanya di ruang kelas</span>, kami <br>memfasilitasi program edukasi yang <span class="grid-2">menarik </span> dan <br>menyenangkan untuk anak-anak”<br>
                 </h4>
                 <a class="col-10" id="quote">Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
             </div>
@@ -37,7 +37,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/home/image1.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pelajaran Umum</b></h5>
-                            <p id="quote1">Matematika, Bahasa Inggris, dsb.</p>
+                            <p id="quote-1">Matematika, Bahasa Inggris, dsb.</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/home/image2.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Skill</b></h5>
-                            <p id="quote1">Bisnis, kepemimpinan, kewirausahaan, seni, public speaking, dsb.</p>
+                            <p id="quote-1">Bisnis, kepemimpinan, kewirausahaan, seni, public speaking, dsb.</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/home/image3.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Sharing Session</b></h5>
-                            <p id="quote1">Khusus untuk remaja, sharing session seputar passion dan dunia kerja</p>
+                            <p id="quote-1">Khusus untuk remaja, sharing session seputar passion dan dunia kerja</p>
                         </div>
                     </div>
                 </div>
@@ -67,13 +67,13 @@
                         <div class="card-body">
                             <img class="mt-5" src="assets/home/image4.png" alt="Avatar" style="width:40%"><br><br>
                             <h5 class="card-title"><b>Pendidikan Karakter</b></h5>
-                            <p id="quote1">Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p>
+                            <p id="quote-1">Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col p-3 text-center">
-                <a class="btn px-5 py-2 mb-4" type="submit" id="login" href="getinvolved"><b>Get Involved</b></a>
+                <a class="btn px-5 py-2 mb-4" type="submit" id="login" href="get-involved"><b>Get Involved</b></a>
             </div>
         </div>
     </div>
@@ -86,9 +86,9 @@
                 <img src="assets/home/who.png" width="70%" class="mx-1 my-1">
             </div>
             <div class="col-lg-5 col-10 mt-3">
-                <a id="siapakahkami">03 - SIAPAKAH KAMI</a>
-                <h1 class="grid2">Who We Are</h1>
-                <a id="quote2">Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
+                <a id="about-us">03 - SIAPAKAH KAMI</a>
+                <h1 class="grid-2">Who We Are</h1>
+                <a id="quote-2">Rebuilding Project merupakan gerakan sosial dibidang edukasi yang bekerja sama dengan panti asuhan yang ada di Indonesia. Gerakan sosial ini bertujuan untuk membekali anak-anak yatim piatu yang berusia 6 hingga 18 tahun dengan pengetahuan, kemampuan, dan nilai-nilai positif sehingga mendorong anak-anak untuk berani bermimpi dan memberikan harapan untuk membangun masa depan yang lebih baik. </a>
             </div>
         </div>
     </div>
@@ -98,8 +98,8 @@
     <div class="container my-5 text-center">
         <div class="row p-3 justify-content-center">
             <div class="col-lg-12 text-center">
-                <a class="mt-3" id="misikami">04 - APA YANG KAMI LAKUKAN</a><br>
-                <h1 class="grid1 px-5"> What We Do</h1><br><br>
+                <a class="mt-3" id="our-mission">04 - APA YANG KAMI LAKUKAN</a><br>
+                <h1 class="grid-1 px-5"> What We Do</h1><br><br>
             </div>
         </div>
         <div class="row my-2">

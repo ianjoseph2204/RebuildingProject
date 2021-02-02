@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Rebuilding Project</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/headerfooter/logo.png">
-    <link rel = "apple-touch-icon" type = "image/png" href = "assets/headerfooter/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/header-footer/logo.png')}}">
+    <link rel = "apple-touch-icon" type = "image/png" href = "{{asset('assets/header-footer/logo.png')}}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,13 +18,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 </head>
 <body>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-            <img src="{{asset('assets/headerfooter/logo.png')}}" class="logoutama my-1">
+            <img src="{{asset('assets/header-footer/logo.png')}}" class="main-logo my-1">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #0a0a0a;"></i>
             </button>
@@ -40,13 +40,13 @@
                         <a id="story" class="nav-link mx-lg-3 mx-xl-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <img src="assets/headerfooter/logo.png" width="200px" class="logonav mx-1 my-1">
+                        <img src="{{asset('assets/header-footer/logo.png')}}" width="200px" class="nav-logo mx-1 my-1" alt="header-logo">
                     </li>
                     <li class="nav-item">
                         <a id="contact" class="nav-link mx-lg-3 mx-xl-5 my-2" href="contact">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="getinvolved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="getinvolved">Get Involved<span class="sr-only">(current)</span></a>
+                        <a id="get-involved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="get-involved">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-lg-3 mx-xl-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>
@@ -62,27 +62,27 @@
     <footer class="footer mt-5" style="bottom: 0px;">
         <div class="container">
             <div class="row justify-content-center">
-                <img src="assets/headerfooter/flow.png" width="100%">
+                <img src="{{asset('assets/header-footer/flow.png')}}" width="100%" alt="footer-flow">
             </div>
             <div class="row justify-content-center" style="background-color: #FFB341; color:black">
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
-                    <img src="assets/headerfooter/logofooter.png" width="100%"><br><br>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-phone iconfooter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope iconfooter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram iconfooter"></i></a>
+                    <img src="{{asset('assets/header-footer/logofooter.png')}}" width="100%" alt="footer-logo"><br><br>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-phone footer-icon"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-10 text-center justify-content-center my-3">
                     <a href="about" style="text-decoration: none !important; color:#0a0a0a;">About </a> <br><br>
                     <a href="story" style="text-decoration: none !important; color:#0a0a0a;">Our Story</a> <br><br>
                     <a href="contact" style="text-decoration: none !important; color:#0a0a0a;">Contact </a> <br><br>
-                    <a href="getinvolved" style="text-decoration: none !important; color:#0a0a0a;">Get Involved</a> <br>
+                    <a href="get-involved" style="text-decoration: none !important; color:#0a0a0a;">Get Involved</a> <br>
                 </div>
                  <div class="col-xl-3 col-lg-4 col-sm-6 col-10 justify-content-center my-3">
-                    <a class="kontak"><i class="fab fa-instagram "></i> @rebuildingproject </a> <br><br>
-                    <a class="kontak"><i class="fab fa-linkedin"></i> rebuildingproject</a> <br><br>
-                    <a class="kontak"><i class="far fa-envelope"></i> RebuildingProject@gmail.com </a> <br><br>
-                    <a class="kontak"><i class="fab fa-whatsapp"></i> (+62) 8123445678</a> <br>
+                    <a class="contact"><i class="fab fa-instagram "></i> @rebuildingproject </a> <br><br>
+                    <a class="contact"><i class="fab fa-linkedin"></i> rebuildingproject</a> <br><br>
+                    <a class="contact"><i class="far fa-envelope"></i> RebuildingProject@gmail.com </a> <br><br>
+                    <a class="contact"><i class="fab fa-whatsapp"></i> (+62) 8123445678</a> <br>
                 </div>
             </div>
             <div class="row justify-content-center text-center" style="background-color: #FFB341; color:black">

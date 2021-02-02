@@ -3,10 +3,10 @@
 @section('content')
     <section id="01">
         <div class="container">
-            <div class="row jeda"></div>
+            <div class="row space"></div>
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 mt-5 text-center">
-                    <h1 class="grid1 my-2"><span class="grid2">Our</span> Story</h1>
+                    <h1 class="grid-1 my-2"><span class="grid-2">Our</span> Story</h1>
                 </div>
             </div>
         </div>
@@ -17,11 +17,11 @@
             <div class="row justify-content-center">
                 @foreach($stories as $story)
                     <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
-                        <img src="assets/story/storypic1.png" class="fotostory">
+                        <img src="assets/story/storypic1.png" class="card-picture">
                         <div class="card p-3">
                             <div class="box p-3">
                                 <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
-                                <h3 class="grid1">{{$story->title}}</h3>
+                                <h3 class="grid-1">{{$story->title}}</h3>
 {{--                                <a><i class="fas fa-map-marker-alt" style="color:#f5c150"></i> Jakarta,--}}
 {{--                                    Indonesia</a><br>--}}
                                 <a><i class="fas fa-user" style="color:#f5c150"></i>{{$story->writer}}</a>
@@ -36,11 +36,11 @@
                     </div>
                 @endforeach
                             <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
-                            <img src="assets/story/storypic1.png" class="fotostory">
+                            <img src="assets/story/storypic1.png" class="card-picture">
                                 <div class="card p-3">
                                     <div class="box p-3">
                                         <a style="color:#f5c150"><b>29 SEPT 2020</b></a><br>
-                                        <h3 class="grid1">Event #001</h3>
+                                        <h3 class="grid-1">Event #001</h3>
                                         <a><i class="fas fa-map-marker-alt" style="color:#f5c150"></i> Jakarta, Indonesia</a><br>
                                         <a><i class="fas fa-user" style="color:#f5c150"></i> Team member A</a>
                                         <div class="row mt-3">

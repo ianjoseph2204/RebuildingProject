@@ -3,15 +3,15 @@
 @section('content')
 <section id="01">
     <div class="container">
-        <div class="row jeda"></div>
+        <div class="row space"></div>
         <div class="row justify-content-center">
             <div class="col-lg-4 mx-4 my-5" style="vertical-align: middle;">
-                <h1 class="grid1 my-2">Contact Us </h1>
+                <h1 class="grid-1 my-2">Contact Us </h1>
                 <a>Let's Get in Touch</a>
                 <div class="row ml-1 my-2">
-                    <a href=""><i class="contacticon mx-1 fas fa-phone"></i></a>
-                    <a href=""><i class="contacticon mx-1 fas fa-envelope"></i></a>
-                    <a href=""><i class="contacticon mx-1 fab fa-instagram"></i></a>
+                    <a href=""><i class="contact-icon mx-1 fas fa-phone"></i></a>
+                    <a href=""><i class="contact-icon mx-1 fas fa-envelope"></i></a>
+                    <a href=""><i class="contact-icon mx-1 fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -46,7 +46,7 @@
                                         text: "Your Message Has Been Sent!",
                                         icon: "success",
                                         confirmButtonText: 'OK',
-                                        closeOnConfirm: true, 
+                                        closeOnConfirm: true,
                                         allowOutsideClick: false
                                     });
                                 </script>
@@ -59,12 +59,12 @@
                                 Kirim
                             </button>
                         </div>
-                    </div>      
+                    </div>
                 </form>
             </div>
-        </div>  
+        </div>
     </div>
 </section>
 
 <script> var contact = document.getElementById('contact').id = 'this'; </script>
-@endsection 
+@endsection
