@@ -117,12 +117,13 @@
                             </div>
 
                             <div class="col-lg-6 col-12 px-5 pb-4 pt-2">
-                                <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Attachments</label>
-                                <input type="file" class="form-control-file-center" name="image" id="txtChooseFile"
-                                       hidden/>
-                                <label class="upload-button" for="txtChooseFile">+ Add Media</label>
+{{--                                <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Attachments</label>--}}
+                                <input type="file" class="form-control-file-center" name="image" id="story-photos-input"
+                                       multiple/>
+{{--                                <input type="file" class="form-control-file-center" name="image" id="story-photos-input"--}}
+{{--                                       multiple hidden/>--}}
+                                <label class="upload-button" for="story-photo-input">+ Add Media</label>
                             </div>
-
                         </div>
 
                         <div class="row  animate__animated animate__fadeIn">
@@ -348,12 +349,27 @@
     const buttonMember = document.getElementById('post-member-button');
     const buttonMerch = document.getElementById('post-merch-button');
 
+    const storyPhotoInputs = document.getElementById('story-photos-input')
+
     function removeSinglePicture(inputId) {
         document.getElementById(inputId).value = null;
         document.getElementById(inputId).dispatchEvent(new Event('change', {bubbles: true}));
     }
 
-    function listenSingleInput(inputId, labelId, displayId, photoNameId) {
+    function multipleInputListener(){
+        document.getElementById('story-photo-input').addEventListener('change', () => {
+            const inputValue = document.getElementById('story-photos-input');
+
+            console.log(inputValue.files.length);
+            // if (inputValue === null || inputValue === ''){
+            //
+            // }
+        })
+    }
+
+    multipleInputListener();
+
+    function singleInputListener(inputId, labelId, displayId, photoNameId) {
         document.getElementById(inputId).addEventListener('change', () => {
             const inputValue = document.getElementById(inputId).value;
 
@@ -380,7 +396,7 @@
     }
 
     // Setup a listener on some inputs
-    listenSingleInput('user-photo', 'user-photo-button', 'user-photo-display', 'user-photo-name')
+    singleInputListener('user-photo', 'user-photo-button', 'user-photo-display', 'user-photo-name');
 
     member.style.display = "none";
     merch.style.display = "none";
