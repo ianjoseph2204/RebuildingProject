@@ -15,6 +15,9 @@ class CreateStoryPicturesTable extends Migration
     {
         Schema::create('story_pictures', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('story_id');
+            $table->foreign('story_id')->references('id')->on('stories');
+            $table->string('name');
             $table->timestamps();
         });
     }

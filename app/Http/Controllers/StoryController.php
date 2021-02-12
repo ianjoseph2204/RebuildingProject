@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Story;
+use App\StoryPicture;
 use Illuminate\Http\Request;
 
 class StoryController extends Controller
@@ -17,6 +18,19 @@ class StoryController extends Controller
         ]);
 
         $story->save();
+        $pictures = array();
+
+        foreach ($request->file('story_pictures') as $file) {
+
+            $filename = now()->timestamp . now()->microsecond . '.' . $file->getClientOriginalExtension();
+            $file->move(base_path('public/assets/story/'.$story->id.'/'), $filename);
+
+            array_push($pictures, [
+                'name' => $filename
+            ]);
+        }
+
+        $story->story_pictures()->createMany($pictures);
 
         return redirect('/add');
     }

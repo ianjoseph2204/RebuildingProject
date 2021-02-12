@@ -25,7 +25,7 @@ class UserController extends Controller
 
     public function create(Request $request){
         $photo = $request->file('user_photo');
-        $filename = now()->timestamp . '.' . $photo->getClientOriginalExtension();
+        $filename = now()->timestamp . now()->microsecond . '.' . $photo->getClientOriginalExtension();
         $photo->move(base_path('public/assets/profile/'), $filename);
 
         $user = new User([

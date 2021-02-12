@@ -79,13 +79,13 @@
                 {{--Create new story section--}}
                 <div class="section" id="post-article">
                     <h1 class="judulForm pt-5 px-4 pb-4  animate__animated animate__fadeIn">Post an Article</h1>
-                    <form method="POST" action="">
+                    <form method="POST" action="/stories" enctype="multipart/form-data">
                         @csrf
                         <div class="row justify-content-center  animate__animated animate__fadeIn">
                             <div class="col-lg-6 col-12 px-5 pb-4">
                                 <label for="user-name" id="subJudulForm">Nama
                                     Lengkap</label>
-                                <input id="user-name" style="border-radius:10px;border: 0" type="name"
+                                <input id="user-name" style="border-radius:10px;border: 0"
                                        class="form-control col-lg-12 col-12" name="writer" required autofocus>
                                 <div class="row">
                                 </div>
@@ -95,12 +95,12 @@
                                     <div class="col-lg-6 col-sm-6 col-12">
                                         <label for="titlearticle" id="subJudulForm">Judul
                                             Artikel</label>
-                                        <input id="titlearticle" style="border-radius:10px;border: 0" type="name"
+                                        <input id="titlearticle" style="border-radius:10px;border: 0"
                                                class="form-control col-lg-12 col-12" name="title" required autofocus>
                                     </div>
                                     <div class="col-lg-6 col-sm-6 col-12">
                                         <label for="category" id="subJudulForm">Kategori Artikel</label>
-                                        <input id="category" style="border-radius:10px;border: 0" type="category"
+                                        <input id="category" style="border-radius:10px;border: 0"
                                                class="form-control col-lg-12 col-12" name="category_id" required
                                                autofocus>
                                     </div>
@@ -117,66 +117,15 @@
                             </div>
 
                             <div class="col-lg-6 col-12 px-5 pb-4 pt-2">
-{{--                                <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Attachments</label>--}}
-                                <input type="file" class="form-control-file-center" name="image" id="story-photos-input"
-                                       multiple/>
-{{--                                <input type="file" class="form-control-file-center" name="image" id="story-photos-input"--}}
-{{--                                       multiple hidden/>--}}
-                                <label class="upload-button" for="story-photo-input">+ Add Media</label>
+                                <label for="fotobarang" class="col-md-8 px-0 col-form-label" id="subJudulForm">Attachments</label>
+                                <input type="file" class="form-control-file-center" name="story_pictures[]"
+                                       id="story-photos-input" multiple hidden/>
+                                <label class="upload-button" for="story-photos-input">+ Add Media</label>
                             </div>
                         </div>
 
-                        <div class="row  animate__animated animate__fadeIn">
-                            <div class="col-lg-5 col-10 mx-5 mb-4"
-                                 style="border-radius: 20px; background-color: white;">
-                                <div style="float: left; margin-top: 5px;">
-                                    <button class="btn" style="padding:0; margin:2px"><i class="fa fa-close"></i>
-                                    </button>
-                                </div>
-                                <div class="column">
-                                    <img style="width: 100%;" src="{{asset('assets/image.png')}}" alt="Avatar">
-                                </div>
-
-                                <div class="column"
-                                     style="display:flex; height: 100%;justify-content: center;align-items: center;">
-                                    <h5 class="card-title"><b>IMG_00001</b></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row  animate__animated animate__fadeIn">
-                            <div class="col-lg-5 col-10 mx-5 mb-4" style="border-radius: 20px;background-color: white;">
-                                <div style="float: left; margin-top: 5px;">
-                                    <button class="btn" style="padding:0; margin:2px"><i class="fa fa-close"></i>
-                                    </button>
-                                </div>
-                                <div class="column">
-                                    <img style="width: 100%;" src="{{asset('assets/image.png')}}" alt="Avatar">
-                                </div>
-
-                                <div class="column"
-                                     style="display:flex; height: 100%;justify-content: center;align-items: center;">
-                                    <h5 class="card-title"><b>IMG_00001</b></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row  animate__animated animate__fadeIn">
-                            <div class="col-lg-5 col-10 mx-5 mb-4" style="border-radius: 20px;background-color: white;">
-                                <div style="float: left; margin-top: 5px;">
-                                    <button class="btn" style="padding:0; margin:2px"><i class="fa fa-close"></i>
-                                    </button>
-                                </div>
-                                <div class="column">
-                                    <img style="width: 100%;" src="{{asset('assets/image.png')}}" alt="Avatar">
-                                </div>
-
-                                <div class="column"
-                                     style="display:flex; height: 100%;justify-content: center;align-items: center;">
-                                    <h5 class="card-title"><b>IMG_00001</b></h5>
-                                </div>
-                            </div>
-                        </div>
+                        {{--                        Display the uploaded pictures using Javascript--}}
+                        <div id="display-pictures"></div>
 
                         <div class="row  animate__animated animate__fadeIn">
                             <div class="mt-4 mb-5 px-5" style="text-align: end;position: relative;flex: auto;">
@@ -234,7 +183,7 @@
                             <div class="col-lg-5 col-10 mx-5 mb-4" style="border-radius: 20px;background-color: white;">
                                 <div style="float: left; margin-top: 5px;">
                                     <div id="close-user-photo-display" class="btn" style="padding:0; margin:2px"
-                                         onclick="removeSinglePicture('user-photo')">
+                                         onclick="removePicture('user-photo')">
                                         <i class="fa fa-close"></i>
                                     </div>
                                 </div>
@@ -245,7 +194,7 @@
 
                                 <div class="column"
                                      style="display:flex; height: 100%;justify-content: center;align-items: center;">
-                                    <h5 class="card-title"><b id="user-photo-name" ></b></h5>
+                                    <h5 class="card-title"><b id="user-photo-name"></b></h5>
                                 </div>
                             </div>
                         </div>
@@ -341,6 +290,10 @@
     </script>
 @endif
 
+<?php
+
+?>
+
 <script>
     const article = document.getElementById('post-article');
     const member = document.getElementById('post-member');
@@ -348,6 +301,8 @@
     const buttonArticle = document.getElementById('post-article-button');
     const buttonMember = document.getElementById('post-member-button');
     const buttonMerch = document.getElementById('post-merch-button');
+    let storyPictures = [];
+    let removedStoryPictures = [];
 
     const storyPhotoInputs = document.getElementById('story-photos-input')
 
@@ -356,47 +311,59 @@
         document.getElementById(inputId).dispatchEvent(new Event('change', {bubbles: true}));
     }
 
-    function multipleInputListener(){
-        document.getElementById('story-photo-input').addEventListener('change', () => {
-            const inputValue = document.getElementById('story-photos-input');
+    function multipleInputListener() {
+        document.getElementById('story-photos-input').addEventListener('change', () => {
+            const element = document.getElementById('story-photos-input');
+            if (element.value !== null || element.value !== '') {
+                const displayElement = document.getElementById("display-pictures");
+                displayElement.innerHTML = "";
 
-            console.log(inputValue.files.length);
-            // if (inputValue === null || inputValue === ''){
-            //
-            // }
-        })
-    }
-
-    multipleInputListener();
-
-    function singleInputListener(inputId, labelId, displayId, photoNameId) {
-        document.getElementById(inputId).addEventListener('change', () => {
-            const inputValue = document.getElementById(inputId).value;
-
-            if (inputValue === null || inputValue === '') {
-                document.getElementById(labelId).hidden = false;
-                document.getElementById(displayId).hidden = true
-            } else {
-                displayFileName(inputValue, photoNameId)
-                document.getElementById(labelId).hidden = true;
-                document.getElementById(displayId).hidden = false
+                for (let i = 0; i < element.files.length; i++) {
+                    let fileName = checkFileName(element.files[i].name);
+                    displayElement.innerHTML += '<div id="story-display" class="row animate__animated animate__fadeIn">' +
+                        '<div class="col-lg-5 col-10 mx-5 mb-4" style="border-radius: 20px;background-color: white;">' +
+                        '<div class="column">' +
+                        '<img style="width: 100%;" src="{{asset('assets/image.png')}}" alt="Avatar"></div>' +
+                        '<div class="column"' +
+                        'style="display:flex; height: 100%;justify-content: center;align-items: center;">' +
+                        '<h5 class="card-title"><b>' + fileName + '</b></h5></div>' +
+                        '</div>' +
+                        '</div>'
+                }
             }
         })
     }
 
-    function displayFileName(filePath, photoNameId) {
-        const file = filePath.split('\\');
-        let fileName = file[file.length - 1].split('.')
 
-        if (fileName[0].length > 8) {
-            file[file.length - 1] = fileName[0].slice(0, 8) + '_.' + fileName[1]
-        }
+    function singleInputListener(inputId, labelId, displayId, photoNameId) {
+        document.getElementById(inputId).addEventListener('change', () => {
+            const inputElement = document.getElementById(inputId);
 
-        document.getElementById(photoNameId).innerHTML = file[file.length - 1];
+            if (inputElement.value === null || inputElement.value === '') {
+                document.getElementById(labelId).hidden = false;
+                document.getElementById(displayId).hidden = true
+            } else {
+                const fileName = checkFileName(inputElement.files[0].name)
+                document.getElementById(labelId).hidden = true;
+                document.getElementById(displayId).hidden = false
+                document.getElementById(photoNameId).innerHTML = fileName
+            }
+        })
     }
 
-    // Setup a listener on some inputs
-    singleInputListener('user-photo', 'user-photo-button', 'user-photo-display', 'user-photo-name');
+    function checkFileName(fileName) {
+        const temp = fileName.split('.');
+        if (temp[0].length > 8) {
+            return temp[0].slice(0, 7) + '_.' + temp[1];
+        }
+
+        return fileName;
+    }
+
+    function removePicture(id) {
+        document.getElementById(id).value = null;
+        document.getElementById(id).dispatchEvent(new Event('change', {bubbles: true}));
+    }
 
     member.style.display = "none";
     merch.style.display = "none";
@@ -472,12 +439,17 @@
             thumbnailElement.style.backgroundImage = null;
         }
     }
+
+    // Setup a listener on some inputs
+    singleInputListener('user-photo', 'user-photo-button', 'user-photo-display', 'user-photo-name');
+
+    multipleInputListener();
 </script>
 
 <footer class="footer mt-5" style="bottom: 0;">
     <div class="container">
         <div class="row justify-content-center">
-            <img src="{{asset('assets/header-footer/footerModal.png')}}" style="width: inherit">
+            <img src="{{asset('assets/header-footer/footerModal.png')}}" alt="footer" style="width: inherit">
         </div>
     </div>
 </footer>

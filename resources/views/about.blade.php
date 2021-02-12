@@ -16,7 +16,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                    <img src="assets/about/bg.jpg" width="100%">
+                    <img src="{{asset('assets/about/bg.jpg')}}" width="100%">
                 </div>
             </div>
         </div>
