@@ -18,7 +18,7 @@ use App\Http\Controllers\UserPositionController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about', [UserController::class, 'list']);
+Route::get('/about', [UserController::class, 'aboutPage']);
 
 Route::get('/story', [StoryController::class, 'list']);
 
@@ -32,6 +32,8 @@ Route::get('/get-involved', function () {
     return view('get-involved');
 });
 Route::get('/add', [UserPositionController::class, 'list']);
+
+Route::get('/users', [UserController::class, 'getList']);
 Route::post('/users', [UserController::class, 'create']);
 
 Route::get('/more', function () {

@@ -9,12 +9,13 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function list()
+    public function aboutPage()
     {
         //Join between User and UserPositions
-        $users = User::with('user_positions')->paginate(6, ['id', 'name', 'photo', 'story', 'position_id']);
-        // return $users;
-        return view('about', compact('users'));
+        $users = User::all();
+        $userLimit = 6; // Limit for carousel profile
+//         return $users;
+        return view('about', compact('users', 'userLimit'));
     }
 
     public function read($id)

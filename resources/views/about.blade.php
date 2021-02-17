@@ -113,26 +113,51 @@
 
         <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
             <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
-                <div class="grid-container">
-                    @foreach($users as $user)
+                @for($i=0; $i<count($users)/6; $i+=6)
+                    <div class="grid-container carousel-item">
+                        @for($j = $i; $j<6*$i; $j++)
+                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                <div class="service-card" data-toggle="modal" data-target="#joshlyneCard"
+                                     onclick="showUser({{$users[$j]}})">
+                                    <img class="card-img-top" src="{{asset('assets/profile/'.$users[$j]->photo)}}"
+                                         alt="Card image cap"
+                                         style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
+
+                                    <div
+                                        style="display:flex; height: 25%; justify-content: center; align-items: center;">
+                                        <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b></h5>
+                                    </div>
+
+                                    <div id="card-text">
+                                        {{$users[$j]->user_positions->name}}
+                                    </div>
+                                </div>
+                            </div>
+                        @endfor
+                    </div>
+                @endfor
+
+                @for($j=count($users) - count($users) % 6 - 1; $j<count($users); $j++)
+                    <div class="grid-container carousel-item">
                         <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
                             <div class="service-card" data-toggle="modal" data-target="#joshlyneCard"
-                                 onclick="showUser({{$user}})">
-                                <img class="card-img-top" src="{{asset('assets/profile/'.$user->photo)}}"
+                                 onclick="showUser({{$users[$j]}})">
+                                <img class="card-img-top" src="{{asset('assets/profile/'.$users[$j]->photo)}}"
                                      alt="Card image cap"
                                      style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
 
-                                <div style="display:flex; height: 25%; justify-content: center; align-items: center;">
-                                    <h5 class="card-title-profile"><b>{{$user->name}}</b></h5>
+                                <div
+                                    style="display:flex; height: 25%; justify-content: center; align-items: center;">
+                                    <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b></h5>
                                 </div>
 
                                 <div id="card-text">
-                                    {{$user->user_positions->name}}
+                                    {{$users[$j]->user_positions->name}}
                                 </div>
                             </div>
                         </div>
-                    @endforeach
-                </div>
+                    </div>
+                @endfor
 
                 <div style="position: absolute; top: 0; right: 10px; height: 100%;">
                     <div class="button-container prevnext"
@@ -256,6 +281,7 @@
     </section>
 
     <script>
+        let limit = 6;
         let down1 = document.getElementById("down-1");
         let down2 = document.getElementById("down-2");
         let down3 = document.getElementById("down-3");
