@@ -16,7 +16,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                    <img src="{{asset('assets/about/bg.jpg')}}" width="100%">
+                    <img src="assets/about/bg.jpg" width="100%">
                 </div>
             </div>
         </div>
@@ -111,58 +111,43 @@
             </div>
         </div>
 
-        <section class="carousel slide" id="myCarousel" data-interval="false" id="postsCarousel">
+        <section class="carousel slide" id="myCarousel" data-interval="false">
             <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
-                @for($i=0; $i<count($users)/6; $i+=6)
-                    <div class="grid-container carousel-item">
-                        @for($j = $i; $j<6*$i; $j++)
-                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                                <div class="service-card" data-toggle="modal" data-target="#joshlyneCard"
-                                     onclick="showUser({{$users[$j]}})">
-                                    <img class="card-img-top" src="{{asset('assets/profile/'.$users[$j]->photo)}}"
-                                         alt="Card image cap"
-                                         style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
+                <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
+                    <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i
+                            class="fa fa-lg fa-chevron-left"></i></a>
+                </div>
 
-                                    <div
-                                        style="display:flex; height: 25%; justify-content: center; align-items: center;">
-                                        <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b></h5>
+                <div class="carousel-inner">
+                    @for($i=0; $i<count($users)/6; $i++)
+{{--                        Still error, can't put activate in class. will be error like stupid--}}
+                        <div class="carousel-item grid-container">
+                            @for($j = $i*6; $j < ((count($users) - $i * 6 >= 6 ? ($i+1)*6 : count($users))); $j++)
+                                <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
+                                    <div class="service-card" data-toggle="modal" data-target="#joshlyneCard"
+                                         onclick="showUser({{$users[$j]}})">
+                                        <img class="card-img-top" src="{{asset('assets/profile/'.$users[$j]->photo)}}"
+                                             alt="Card image cap"
+                                             style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
+
+                                        <div
+                                            style="display:flex; height: 25%; justify-content: center; align-items: center;">
+                                            <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b></h5>
+                                        </div>
+
+                                        <div id="card-text">
+                                            {{$users[$j]->user_positions->name}}
+                                        </div>
                                     </div>
-
-                                    <div id="card-text">
-                                        {{$users[$j]->user_positions->name}}
-                                    </div>
                                 </div>
-                            </div>
-                        @endfor
-                    </div>
-                @endfor
-
-                @for($j=count($users) - count($users) % 6 - 1; $j<count($users); $j++)
-                    <div class="grid-container carousel-item">
-                        <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 ml-5 my-3" id="OTprofile">
-                            <div class="service-card" data-toggle="modal" data-target="#joshlyneCard"
-                                 onclick="showUser({{$users[$j]}})">
-                                <img class="card-img-top" src="{{asset('assets/profile/'.$users[$j]->photo)}}"
-                                     alt="Card image cap"
-                                     style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
-
-                                <div
-                                    style="display:flex; height: 25%; justify-content: center; align-items: center;">
-                                    <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b></h5>
-                                </div>
-
-                                <div id="card-text">
-                                    {{$users[$j]->user_positions->name}}
-                                </div>
-                            </div>
+                            @endfor
                         </div>
-                    </div>
-                @endfor
+                    @endfor
+                </div>
 
                 <div style="position: absolute; top: 0; right: 10px; height: 100%;">
-                    <div class="button-container prevnext"
-                         style="float: right; vertical-align: middle; overflow-y: auto">
-                        <a class="btn" href="{{$users->nextPageUrl()}}" data-slide="next" id="scheduleprevnext"
+                    <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
+                        <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext"
                            title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -281,7 +266,6 @@
     </section>
 
     <script>
-        let limit = 6;
         let down1 = document.getElementById("down-1");
         let down2 = document.getElementById("down-2");
         let down3 = document.getElementById("down-3");
@@ -400,6 +384,10 @@
 
         $('.carousel').carousel({
             interval: false,
+        });
+
+        $(document).ready(function () {
+            $('#myCarousel').find('.item').first().addClass('active');
         });
     </script>
 @endsection
