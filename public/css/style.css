@@ -485,6 +485,17 @@ h4 {
     transform: translateY(-50%);
 }
 
+.next{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    right: 10px;
+    justify-content: center;
+}
+
 .cardWWD {
     background-color: #FBEFE4;
     border-color: transparent !important;
