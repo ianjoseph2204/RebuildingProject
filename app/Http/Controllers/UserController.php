@@ -12,10 +12,9 @@ class UserController extends Controller
     public function aboutPage()
     {
         //Join between User and UserPositions
-        $users = User::all();
-        $userLimit = 6; // Limit for carousel profile
-//         return $users;
-        return view('about', compact('users', 'userLimit'));
+        $users = User::with('user_positions')->get();
+//        return $users;
+        return view('about', compact('users'));
     }
 
     public function read($id)
