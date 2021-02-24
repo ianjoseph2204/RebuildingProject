@@ -8,7 +8,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-sm-12 col-11 text-center">
                     <h1 class="grid-1 mt-5 mb-2">Let’s get to know <span class="grid-2">Rebuilding Project</span> and
-                        <span class="grid-2">the people</span> behind !</h1>
+                        <span class="grid-2">the people</span> behind !
+                    </h1>
                     <a>Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk
                         anak-anak di panti asuhan di Indonesia.</a>
                 </div>
@@ -103,97 +104,94 @@
                 </div>
 
                 <div class="col-xl-12 col-lg-12 text-center prevnexthp">
-{{--                    <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i--}}
-{{--                            class="fa fa-lg fa-chevron-left"></i></a>--}}
-{{--                    <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i--}}
-{{--                            class="fa fa-lg fa-chevron-right"></i></a>--}}
+                    {{-- <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i--}}
+                    {{-- class="fa fa-lg fa-chevron-left"></i></a>--}}
+                    {{-- <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i--}}
+                    {{-- class="fa fa-lg fa-chevron-right"></i></a>--}}
                 </div>
             </div>
         </div>
 
         <section class="carousel slide" id="myCarousel" data-interval="false">
 
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators" style="top: 105%;">
                 <li data-target="#joshlyneCard" data-slide-to="0" class="active"></li>
                 <li data-target="#joshlyneCard" data-slide-to="1"></li>
             </ol>
 
             <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
+
+
+                <div class="carousel-inner">
+                    @for($i=0; $i<count($users) /6; $i++) @if($i==0)
+                        <div class="carousel-item active">
+                            @else
+                                <div class="carousel-item">
+                                    @endif
+
+                                    <div class="grid-container">
+                                        @for($j = $i*6; $j < ((count($users) - $i * 6>= 6 ? ($i+1)*6 : count($users))); $j++)
+                                            <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3" id="OTprofile">
+                                                <div class="service-card" data-toggle="modal"
+                                                     data-target="#joshlyneCard" onclick="showUser({{$users[$j]}})">
+                                                    <img class="card-img-top"
+                                                         src="{{asset('assets/profile/'.$users[$j]->photo)}}"
+                                                         alt="Card image cap"
+                                                         style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
+
+                                                    <div
+                                                        style="display:flex; height: 25%; justify-content: center; align-items: center;">
+                                                        <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b>
+                                                        </h5>
+                                                    </div>
+
+                                                    <div id="card-text">
+                                                        {{$users[$j]->user_positions->name}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endfor
+                                    </div>
+                                </div>
+                                @endfor
+                        </div>
+
+
+
+                        <div class="modal fade" id="modal-profile" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content" style="border-radius: 30px 30px 0px 0px">
+                                    <div class="row" style="padding-top: 120px; padding-left: 6%">
+                                        <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
+                                            <img id="modal-profile-picture">
+                                        </div>
+                                        <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
+                                            <h1 class="mt-4 modal-name"></h1>
+                                            <h4 class="mt-2 modal-position"></h4>
+                                            <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
+                                            <p class="my-3 modal-description"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="footer" style="position: absolute;bottom: 0; width: inherit">
+                                        <img src="{{asset('assets/header-footer/footerModal.png')}}"
+                                             style="width: inherit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
                 <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
                     <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i
                             class="fa fa-lg fa-chevron-left"></i></a>
                 </div>
 
-                <div class="carousel-inner">
-                    @for($i=0; $i<count($users)/6; $i++)
-                        @if($i == 0)
-                            <div class="carousel-item active">
-                                @else
-                                    <div class="carousel-item">
-                                        @endif
-
-                                        <div class="grid-container">
-                                            @for($j = $i*6; $j < ((count($users) - $i * 6 >= 6 ? ($i+1)*6 : count($users))); $j++)
-                                                <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3"
-                                                     id="OTprofile">
-                                                    <div class="service-card" data-toggle="modal"
-                                                         data-target="#joshlyneCard"
-                                                         onclick="showUser({{$users[$j]}})">
-                                                        <img class="card-img-top"
-                                                             src="{{asset('assets/profile/'.$users[$j]->photo)}}"
-                                                             alt="Card image cap"
-                                                             style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
-
-                                                        <div
-                                                            style="display:flex; height: 25%; justify-content: center; align-items: center;">
-                                                            <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b>
-                                                            </h5>
-                                                        </div>
-
-                                                        <div id="card-text">
-                                                            {{$users[$j]->user_positions->name}}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            @endfor
-                                        </div>
-                                    </div>
-                                    @endfor
-                            </div>
-
-                            <div style="position: absolute; top: 0; right: 10px; height: 100%;">
-{{--                                <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">--}}
-{{--                                    <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext"--}}
-{{--                                       title="more"><i class="fa fa-lg fa-chevron-right"></i></a>--}}
-{{--                                </div>--}}
-                            </div>
-
-                            <div class="modal fade" id="modal-profile" tabindex="-1" role="dialog"
-                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
-                                 style="padding-left: 33px">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content" style="border-radius: 30px 30px 0px 0px">
-                                        <div class="row" style="padding-top: 120px; padding-left: 6%">
-                                            <div
-                                                class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
-                                                <img id="modal-profile-picture">
-                                            </div>
-                                            <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
-                                                <h1 class="mt-4 modal-name"></h1>
-                                                <h4 class="mt-2 modal-position"></h4>
-                                                <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
-                                                <p class="my-3 modal-description"></p>
-                                            </div>
-                                        </div>
-
-                                        <div class="footer" style="position: absolute;bottom: 0; width: inherit">
-                                            <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                                 style="width: inherit">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                <div class="col-xl-1 col-lg-1 col-sm-1 text-center next">
+                    <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i
+                            class="fa fa-lg fa-chevron-right"></i></a>
                 </div>
         </section>
     </section>
