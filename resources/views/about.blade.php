@@ -182,13 +182,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="footer" style="position: absolute;bottom: 0; width: inherit">
-                                <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                     style="width: inherit">
-                            </div>
                         </div>
-                    </div>
                 </div>
 
             </div>
