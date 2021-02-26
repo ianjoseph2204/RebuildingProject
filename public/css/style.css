@@ -139,7 +139,7 @@ transform-origin: left;
 #post-merch-button,
 #post-member-button {
     background-color: #FFA216;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
     border-color: transparent;
     cursor: pointer;
     color: white;
@@ -194,7 +194,7 @@ transform-origin: left;
 #post-merch-button:target,
 #post-member-button:target {
     background-color: #FBEFE4;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
     border-color: transparent;
     cursor: pointer;
     color: #FFA216;
@@ -387,7 +387,7 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.modal-name {
+#modal-name {
     width: 100%;
     text-align: start;
     height: 18%;
@@ -397,7 +397,7 @@ h4 {
     color: #545454;
 }
 
-.modal-position {
+#modal-position {
     font-family: PoppinsSB;
     font-size: 30px;
     line-height: 27px;
@@ -415,7 +415,7 @@ h4 {
     height: 1360px;
 }
 
-.modal-description {
+#modal-description {
     font-family: madetommy;
     font-size: 29px;
     line-height: 40px;
@@ -446,7 +446,7 @@ h4 {
 .card {
     background-color: white;
     border-color: transparent !important;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0 0 30px 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s;
     height: 299px;

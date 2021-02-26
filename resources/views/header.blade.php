@@ -59,7 +59,7 @@
     @yield('content')
 
 
-    <footer class="footer mt-5" style="bottom: 0px;">
+    <footer class="footer mt-5" style="bottom: 0;">
         <div class="container">
             <div class="row justify-content-center">
                 <img src="{{asset('assets/header-footer/flow.png')}}" width="100%" alt="footer-flow">

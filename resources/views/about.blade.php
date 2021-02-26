@@ -102,13 +102,6 @@
                 <div class="col-xl-12 col-lg-12 col-10 mt-4 mb-5 text-center">
                     <a>The wonderful faces behind Rebuilding Project. Hey, There!</a>
                 </div>
-
-                <div class="col-xl-12 col-lg-12 text-center prevnexthp">
-                    {{--                    <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i--}}
-                    {{--                            class="fa fa-lg fa-chevron-left"></i></a>--}}
-                    {{--                    <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i--}}
-                    {{--                            class="fa fa-lg fa-chevron-right"></i></a>--}}
-                </div>
             </div>
         </div>
 
@@ -120,8 +113,6 @@
             </ol>
 
             <div class="col-xl-12 col-lg-12 col-sm-12 text-center">
-
-
                 <div class="carousel-inner">
                     @for($i=0; $i<count($users) / 6; $i++)
                         <div class="carousel-item {{$i == 0 ?  "active" : ''}}">
@@ -131,7 +122,7 @@
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3"
                                          id="OTprofile">
                                         <div class="service-card" data-toggle="modal"
-                                             data-target="#joshlyneCard" onclick="showUser({{$users[$j]}})">
+                                             data-target="#modal-card" onclick="showUser({{$users[$j]}})">
                                             <img class="card-img-top"
                                                  src="{{asset('assets/profile/'.$users[$j]->photo)}}"
                                                  alt="Card image cap"
@@ -160,41 +151,42 @@
                     @endfor
                 </div>
 
-                        <div class="modal fade" id="joshlyneCard" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content" style="border-radius: 30px 30px 0px 0px">
-                                    <div class="row" style="padding-top: 120px; padding-left: 6%">
-                                        <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
-                                            <img id="modal-profile-picture">
-                                        </div>
-                                        <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
-                                            <h1 class="mt-4 modal-name"></h1>
-                                            <h4 class="mt-2 modal-position"></h4>
-                                            <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
-                                            <p class="my-3 modal-description"></p>
-                                        </div>
-                                    </div>
+                <div class="modal fade" id="modal-card" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content" style="border-radius: 30px 30px 0 0">
+                            <div class="row" style="padding-top: 120px; padding-left: 6%">
+                                <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
+                                    <img id="modal-profile-picture" alt="profile-picture" src="">
+                                </div>
 
-                                    <div class="footer" style="position: absolute;bottom: 0; width: inherit">
-                                        <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                             style="width: inherit">
-                                    </div>
+                                <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
+                                    <h1 class="mt-4" id="modal-name"></h1>
+                                    <h4 class="mt-2" id="modal-position"></h4>
+                                    <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
+                                    <p class="my-3" id="modal-description"></p>
                                 </div>
                             </div>
-                        </div>
-                </div>
 
+                            <div class="footer" style="position: absolute;bottom: 0; width: inherit">
+                                <img src="{{asset('assets/header-footer/footerModal.png')}}"
+                                     style="width: inherit" alt="footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-xl-1 col-lg-1 col-sm-1 text-center prevnext">
-                <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back"><i
-                        class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn" href="#myCarousel" data-slide="prev" id="scheduleprevnext" title="go back">
+                    <i class="fa fa-lg fa-chevron-left"></i>
+                </a>
             </div>
 
             <div class="col-xl-1 col-lg-1 col-sm-1 text-center next">
-                <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more"><i
-                        class="fa fa-lg fa-chevron-right"></i></a>
+                <a class="btn" href="#myCarousel" data-slide="next" id="scheduleprevnext" title="more">
+                    <i class="fa fa-lg fa-chevron-right"></i>
+                </a>
             </div>
         </section>
     </section>
@@ -394,10 +386,10 @@
         }
 
         function showUser(user) {
-            document.getElementsByClassName("modal-name").innerHTML = user['name'];
-            document.getElementsByClassName("modal-position").innerHTML = user['user_positions'].name;
-            document.getElementsByClassName("modal-story").innerHTML = '"' + user['story'] + '"';
-            document.getElementsByClassName("modal-profile-picture").src = 'assets/profile/' + user['photo'];
+            document.getElementById("modal-name").innerHTML = user['name'];
+            document.getElementById("modal-position").innerHTML = user['user_positions'].name;
+            document.getElementById("modal-description").innerHTML = '"' + user['story'] + '"';
+            document.getElementById("modal-profile-picture").src = 'assets/profile/' + user['photo'];
             console.log(user);
         }
 
