@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use App\UserPosition;
-use Faker\Provider\Image;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -23,7 +21,8 @@ class UserController extends Controller
         return view('profile', compact('user'));
     }
 
-    public function create(Request $request){
+    public function create(Request $request)
+    {
         $photo = $request->file('user_photo');
         $filename = now()->timestamp . now()->microsecond . '.' . $photo->getClientOriginalExtension();
         $photo->move(base_path('public/assets/profile/'), $filename);

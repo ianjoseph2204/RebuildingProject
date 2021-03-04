@@ -19,7 +19,7 @@ class CreateStoriesTable extends Migration
             $table->string('writer');
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('story_categories');
-            $table->string('content');
+            $table->text('content');
             $table->timestamps();
         });
     }

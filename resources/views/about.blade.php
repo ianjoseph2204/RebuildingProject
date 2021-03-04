@@ -10,6 +10,7 @@
                     <h1 class="grid-1 mt-5 mb-2">Let’s get to know <span class="grid-2">Rebuilding Project</span> and
                         <span class="grid-2">the people</span> behind !
                     </h1>
+
                     <a>Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk
                         anak-anak di panti asuhan di Indonesia.</a>
                 </div>
@@ -17,7 +18,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                    <img src="assets/about/bg.jpg" width="100%">
+                    <img src="{{asset('assets/about/bg.jpg')}}" width="100%" alt="background-about">
                 </div>
             </div>
         </div>
@@ -39,6 +40,7 @@
                         <div class="col-xl- col-lg-1 col-1 ml-2 my-3">
                             <h1 class="grid-2 aligned">01</h1>
                         </div>
+
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a>Meningkatkan kualitas pendidikan di panti asuhan di Indonesia.</a>
                         </div>
@@ -48,6 +50,7 @@
                         <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
                             <h1 class="grid-2 aligned">02</h1>
                         </div>
+
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a>Memperbanyak dan memperlengkapi variasi pengembangan pengetahuan untuk anak-anak di panti
                                 asuhan, yang berumur 6 - 18 tahun.</a>
@@ -58,6 +61,7 @@
                         <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
                             <h1 class="grid-2 aligned">03</h1>
                         </div>
+
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a>Mendorong dan mengembangkan pengetahuan serta keterampilan anak-anak di panti asuhan
                                 melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap kategori
@@ -71,14 +75,17 @@
                         <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
                             <h1 class="grid-2 aligned">04</h1>
                         </div>
+
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a>Menjalin sinergi dan aktif bekerjasama dengan panti asuhan yang ada di Indonesia</a>
                         </div>
                     </div>
+
                     <div class="row my-3 mx-1" id="back">
                         <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
                             <h1 class="grid-2 aligned">05</h1>
                         </div>
+
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a>Mendorong anak-anak muda untuk berkontribusi secara aktif dalam kegiatan sosial melalui
                                 program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</a>
@@ -106,7 +113,6 @@
         </div>
 
         <section class="carousel slide" id="myCarousel" data-interval="false">
-
             <ol class="carousel-indicators" style="top: 105%;">
                 <li data-target="#joshlyneCard" data-slide-to="0" class="active"></li>
                 <li data-target="#joshlyneCard" data-slide-to="1"></li>
@@ -116,7 +122,6 @@
                 <div class="carousel-inner">
                     @for($i=0; $i<count($users) / 6; $i++)
                         <div class="carousel-item {{$i == 0 ?  "active" : ''}}">
-
                             <div class="grid-container">
                                 @for($j = $i*6; $j < ((count($users) - $i * 6>= 6 ? ($i+1)*6 : count($users))); $j++)
                                     <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3"
@@ -127,6 +132,7 @@
                                                  src="{{asset('assets/profile/'.$users[$j]->photo)}}"
                                                  alt="Card image cap"
                                                  style="max-height: 65%; height: auto; width: 100%; object-fit: cover; border-radius: 20px 20px 0 0">
+
                                             <div
                                                 style="display:flex; height: 25%; justify-content: center; align-items: center;">
                                                 <h5 class="card-title-profile"><b>{{$users[$j]->name}}</b>
@@ -138,6 +144,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     @if($i > (count($users) / 6 - 1) && $j == count($users) - 1)
                                         @for($k = 0; $k < (count($users) % 6 == 0 ? 0 : 6 - count($users) % 6); $k++)
                                             <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3">
@@ -216,6 +223,7 @@
 
                         <div class="col-xl-1 col-lg-1 col-sm-1 col-1 aligned">
                             <h4><i id="header-FAQ-1" class="fa fa-lg fa-caret-down carrot-1"></i></h4>
+
                             <h4><i id="header-FAQ-1-a" class="fa fa-lg fa-times carrot-1"></i></h4>
                         </div>
                     </div>

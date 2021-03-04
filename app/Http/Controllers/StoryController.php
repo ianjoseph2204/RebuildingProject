@@ -37,7 +37,7 @@ class StoryController extends Controller
 
     public function list()
     {
-        $stories = Story::paginate(3);
+        $stories = Story::paginate(6);
 
         return view('story', compact('stories'));
     }
