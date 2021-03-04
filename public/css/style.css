@@ -369,6 +369,12 @@ h4 {
     border-radius: 20px 20px 20px 20px;
 }
 
+#back-footer {
+    background-image: url('../assets/header-footer/flow2.png');
+    background-size: cover;
+    background-position: center center;
+}
+
 .service-card {
     background-color: white;
     border-color: transparent;
@@ -483,6 +489,11 @@ h4 {
     transform: translateY(-50%);
 }
 
+.logonav {
+    display: inline-block;
+    margin-left: 100px;
+}
+
 
 /* .panahcarousel {
     margin: 0;
@@ -593,18 +604,25 @@ label:not(:last-child):after {
 }
 
 .footer-icon {
-    font-size: large;
-    color: white;
+    font-size: larger;
+    color: #545454;
     padding: 15px;
     margin-right: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
+    border: 3px solid #545454;
+    border-radius: 30px;
     background-color: transparent;
 }
 
 .footer-icon:hover {
-    background-color: white;
+    background-color: #545454;
     color: #FFB341;
+}
+
+.footer-left {
+    font-size: larger;
+    color: #545454;
+    margin-right: 2px;
+    background-color: transparent;
 }
 
 .form-control-file-center {

@@ -1,19 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Rebuilding Project</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/header-footer/logo.png')}}">
-    <link rel = "apple-touch-icon" type = "image/png" href = "{{asset('assets/header-footer/logo.png')}}">
+    <link rel="apple-touch-icon" type="image/png" href="{{asset('assets/header-footer/logo.png')}}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -21,32 +21,36 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 </head>
+
 <body>
     <section id="navbar">
         <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-            <img src="{{asset('assets/header-footer/logo.png')}}" class="main-logo my-1">
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #0a0a0a;"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99;">
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;">
                 <ul class="navbar-nav">
+                    <a class="navbar-brand" href="#">
+                        <img src="{{asset('assets/header-footer/logo.png')}}" class="nav-logo mx-1 my-1 logonav" width="150px">
+                    </a>
+                    <!-- <li class="nav-item">
+                        <img src="{{asset('assets/header-footer/logo.png')}}"  class="nav-logo mx-1 my-1" alt="header-logo">
+                    </li> -->
                     <li class="nav-item">
-                        <a id="home" class="nav-link mx-lg-3 mx-xl-5 my-2" href="/">Home<span class="sr-only">(current)</span></a>
+                        <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="about" class="nav-link mx-lg-3 mx-xl-5 my-2" href="about">About Us<span class="sr-only">(current)</span></a>
+                        <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="about">About Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="story" class="nav-link mx-lg-3 mx-xl-5 my-2" href="story">Our Story<span class="sr-only">(current)</span></a>
+                        <a id="story" class="nav-link mx-lg-4 mx-xl-5 my-3" href="story">Our Story<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <img src="{{asset('assets/header-footer/logo.png')}}" width="200px" class="nav-logo mx-1 my-1" alt="header-logo">
+                        <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="contact">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="contact" class="nav-link mx-lg-3 mx-xl-5 my-2" href="contact">Contact Us<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="get-involved" class="nav-link mx-lg-3 mx-xl-5 my-2" href="get-involved">Get Involved<span class="sr-only">(current)</span></a>
+                        <a id="get-involved" class="nav-link mx-lg-4 mx-xl-5 my-3" href="get-involved">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-lg-3 mx-xl-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>
@@ -60,37 +64,35 @@
 
 
     <footer class="footer mt-5" style="bottom: 0;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <img src="{{asset('assets/header-footer/flow.png')}}" width="100%" alt="footer-flow">
-            </div>
-            <div class="row justify-content-center" style="background-color: #FFB341; color:black">
+        <div class="container" id="back-footer">
+            <div class="row justify-content-center" style="color:black">
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
-                    <img src="{{asset('assets/header-footer/logofooter.png')}}" width="100%" alt="footer-logo"><br><br>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-phone footer-icon"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
+                    <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo"><br><br>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-facebook-f footer-icon" style="width: 15%;"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-xl-3 col-lg-3 col-sm-6 col-10 text-center justify-content-center my-3">
-                    <a href="about" style="text-decoration: none !important; color:#0a0a0a;">About </a> <br><br>
-                    <a href="story" style="text-decoration: none !important; color:#0a0a0a;">Our Story</a> <br><br>
-                    <a href="contact" style="text-decoration: none !important; color:#0a0a0a;">Contact </a> <br><br>
-                    <a href="get-involved" style="text-decoration: none !important; color:#0a0a0a;">Get Involved</a> <br>
+                <div class="col-xl-2 col-lg-2 col-sm-5 col-8 justify-content-center my-3" style="font-family: Poppins;">
+                    <a href="about" style="text-decoration: none !important;  color:#545454">About Us</a> <br><br>
+                    <a href="story" style="text-decoration: none !important;  color:#545454">Our Story</a> <br><br>
+                    <a href="contact" style="text-decoration: none !important;  color:#545454">Contact Us</a> <br><br>
+                    <a href="get-involved" style="text-decoration: none !important;  color:#545454">Get Involved</a> <br>
                 </div>
-                 <div class="col-xl-3 col-lg-4 col-sm-6 col-10 justify-content-center my-3">
-                    <a class="contact"><i class="fab fa-instagram "></i> @rebuildingproject </a> <br><br>
-                    <a class="contact"><i class="fab fa-linkedin"></i> rebuildingproject</a> <br><br>
-                    <a class="contact"><i class="far fa-envelope"></i> RebuildingProject@gmail.com </a> <br><br>
-                    <a class="contact"><i class="fab fa-whatsapp"></i> (+62) 8123445678</a> <br>
+                <div class="col-xl-4 col-lg-4 col-sm-7 col-11 justify-content-center my-3" style="font-family: Poppins;">
+                    <a class="contact" style= "color:#545454"><i class="fab fa-instagram footer-left"></i> @rebuildingproject </a> <br><br>
+                    <a class="contact" style= "color:#545454"><i class="fab fa-facebook-f footer-left"></i> @reproes</a> <br><br>
+                    <a class="contact" style= "color:#545454"><i class="far fa-envelope footer-left"></i> rebuildinglivesforchildren@gmail.com </a> <br><br>
                 </div>
+                <div class="row justify-content-center text-center" style="color:#545454; font-family: Poppins">
+                    <div class="col-lg-12 col-sm-12 justify-content-center text-center my-3">
+                        © Copyright Rebuilding Project 2020. All Rights Reserved
+                    </div>
+                </div>
+
+                <!-- <div class="row justify-content-center text-center" style="background-color:#ffb341;"></div> -->
             </div>
-            <div class="row justify-content-center text-center" style="background-color: #FFB341; color:black">
-                <div class="col-lg-12 col-sm-12 justify-content-center text-center my-3">
-                    © Copyright<b> Rebuilding Project </b>2020. All Rights Reserved
-                </div>
-            </div>
-        </div>
     </footer>
 </body>
+
 </html>
