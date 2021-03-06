@@ -64,8 +64,8 @@
 
 
     <footer class="footer mt-5" style="bottom: 0;">
-        <div class="container" id="back-footer">
-            <div class="row justify-content-center" style="color:black">
+        <div id="back-footer">
+            <div class="row justify-content-center" style="color:black; align-self: flex-end; width: 100%">
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
                     <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo"><br><br>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
@@ -92,6 +92,7 @@
 
                 <!-- <div class="row justify-content-center text-center" style="background-color:#ffb341;"></div> -->
             </div>
+        </div>
     </footer>
 </body>
 
