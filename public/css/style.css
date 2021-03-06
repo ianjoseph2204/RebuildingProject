@@ -42,7 +42,7 @@ body {
     font-family: Poppins !important;
 }
 
- ::selection {
+::selection {
     background: #f5c150;
 }
 
@@ -185,7 +185,6 @@ transform-origin: left;
     width: 100%;
     padding: 5px 0;
     columns: #0a0a0a;
-    ;
     background-color: #FBEFE4;
     text-align: center;
 }
@@ -577,6 +576,35 @@ label:not(:last-child):after {
     color: white !important;
 }
 
+.pagination {
+    justify-content: center;
+    border-color: #FFA216;
+    transform: scale(1.2);
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #FFA216;
+    border-color: #FFA216;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    background: lightgrey;
+    color: #FFA216;;
+}
+
+.pagination > .active > .page-link,
+.pagination > .active > span
+/*.pagination > .active > a:focus,
+.pagination > .active > span:focus*/
+{
+    background-color: #FFA216;
+    border-color: #FFA216;
+    color: white;
+}
+
+
 #scheduleprevnext {
     background-color: #FFA216;
     border-radius: 25px;
@@ -635,13 +663,16 @@ label:not(:last-child):after {
     .nav-logo {
         display: none;
     }
+
     .main-logo {
         display: block;
         width: 30%;
     }
+
     .service-card {
         height: 150px;
     }
+
     #this::after {
         width: 20%;
         left: 40%;
@@ -652,26 +683,33 @@ label:not(:last-child):after {
     .prevnext {
         display: none;
     }
+
     .prevnexthp {
         display: block;
     }
+
     #post-article-button {
         content: 'Article'
     }
+
     #post-merch-button {
         content: attr('Merch');
     }
+
     #post-member-button {
         content: attr('Member');
     }
+
     .contact {
         text-align: center;
         align-items: center;
     }
+
     .main-logo {
         display: block;
         width: 45%;
     }
+
     .service-card {
         height: 100px !important;
     }

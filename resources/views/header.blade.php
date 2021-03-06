@@ -31,26 +31,23 @@
             </button> -->
             <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;">
                 <ul class="navbar-nav">
-                    <a class="navbar-brand" href="#">
+                    <div class="navbar-brand">
                         <img src="{{asset('assets/header-footer/logo.png')}}" class="nav-logo mx-1 my-1 logonav" width="150px">
-                    </a>
-                    <!-- <li class="nav-item">
-                        <img src="{{asset('assets/header-footer/logo.png')}}"  class="nav-logo mx-1 my-1" alt="header-logo">
-                    </li> -->
+                    </div>
                     <li class="nav-item">
-                        <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="/">Home<span class="sr-only">(current)</span></a>
+                        <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="about">About Us<span class="sr-only">(current)</span></a>
+                        <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/about')}}">About Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="story" class="nav-link mx-lg-4 mx-xl-5 my-3" href="story">Our Story<span class="sr-only">(current)</span></a>
+                        <a id="story" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/stories')}}">Our Story<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="contact">Contact Us<span class="sr-only">(current)</span></a>
+                        <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/contact')}}">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="get-involved" class="nav-link mx-lg-4 mx-xl-5 my-3" href="get-involved">Get Involved<span class="sr-only">(current)</span></a>
+                        <a id="get-involved" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/get-involved')}}">Get Involved<span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-lg-3 mx-xl-5 my-2 px-3" href="add" id="login">Add<span class="sr-only">(current)</span></a>

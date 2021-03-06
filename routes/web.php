@@ -20,9 +20,8 @@ Route::get('/', function () {
 });
 Route::get('/about', [UserController::class, 'aboutPage']);
 
-Route::get('/story', [StoryController::class, 'list']);
-
 Route::get('/stories/{id}', [StoryController::class, 'read']);
+Route::get('/stories', [StoryController::class, 'list']);
 Route::post('/stories', [StoryController::class, 'create']);
 
 Route::get('/contact', function () {

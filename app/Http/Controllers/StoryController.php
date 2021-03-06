@@ -37,15 +37,15 @@ class StoryController extends Controller
 
     public function list()
     {
-        $stories = Story::paginate(6);
+        $stories = Story::latest()->paginate(6, ['id', 'title', 'writer', 'created_at']);
 
-        return view('story', compact('stories'));
+        return view('stories', compact('stories'));
     }
 
     public function read($id)
     {
         $story = Story::findOrFail($id);
 
-        return view('more', compact('story'));
+        return view('story', compact('story'));
     }
 }
