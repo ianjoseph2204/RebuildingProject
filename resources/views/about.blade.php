@@ -18,7 +18,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                    <img src="{{asset('assets/about/bg.jpg')}}" width="100%" alt="background-about">
+                    <img src="{{asset('assets/Group_33.png')}}" width="100%" alt="background-about">
                 </div>
             </div>
         </div>
@@ -101,12 +101,12 @@
         <div class="container my-3">
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-12 mt-5 text-center">
-                    <h1 class="grid-1 my-2">Our Team</h1>
+                    <h1 class="grid-1 my-2 ourTeam">Our Team</h1>
                 </div>
 
-                <div style="border: 3px solid #FFA216; width:140px;"></div>
+                <div style="border: solid #FFA216; width:223px;"></div>
 
-                <div class="col-xl-12 col-lg-12 col-10 mt-4 mb-5 text-center">
+                <div class="col-xl-12 col-lg-12 col-10 mt-4 mb-5 text-center" id="quote">
                     <a>The wonderful faces behind Rebuilding Project. Hey, There!</a>
                 </div>
             </div>
@@ -162,22 +162,22 @@
                      aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content" style="border-radius: 30px 30px 0 0">
-                            <div class="row" style="padding-top: 120px; padding-left: 6%">
+                            <div class="row" style="padding-top: 35px; padding-left: 6%">
                                 <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
-                                    <img id="modal-profile-picture" alt="profile-picture" src="">
+                                    <img id="modal-profile-picture" class="float-left" alt="profile-picture" src="">
                                 </div>
 
-                                <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-5">
-                                    <h1 class="mt-4" id="modal-name"></h1>
+                                <div class="col-lg-8 col-sm-10 col-4 my-lg-5 my-sm-0 my-4 pt-3 ml-2">
+                                    <h1 id="modal-name"></h1>
                                     <h4 class="mt-2" id="modal-position"></h4>
                                     <hr style="height:3px;width: 95%;background-color:#FFA216;float:left;margin-top:1%;margin-bottom:4%">
                                     <p class="my-3" id="modal-description"></p>
                                 </div>
                             </div>
 
-                            <div class="footer" style="position: absolute;bottom: 0; width: inherit">
+                            <div class="footer" style="position: absolute;bottom: 0; width: inherit; ">
                                 <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                     style="width: inherit" alt="footer">
+                                     style="width: inherit; height: 180px;" alt="footer">
                             </div>
                         </div>
                     </div>
