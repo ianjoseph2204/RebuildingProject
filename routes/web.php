@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\InquiryController;
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\UserPositionController;
@@ -34,6 +35,8 @@ Route::get('/add', [UserPositionController::class, 'list']);
 
 Route::get('/users', [UserController::class, 'getList']);
 Route::post('/users', [UserController::class, 'create']);
+
+Route::post('/inquiries', [InquiryController::class, 'create']);
 
 Route::get('/more', function () {
     return view('more');
