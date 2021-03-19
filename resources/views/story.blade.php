@@ -4,8 +4,6 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-12 mt-5" id="more-top">
-            <div class="row space my-5"></div>
-            <div class="row space my-5"></div>
         </div>
         <div class="col-lg-12 col-sm-12 col-12 my-5 ml-5" style="top: 265px;">
             <!-- <div class="col-lg-5 col-sm-5 col-5 mt-5 center"> -->
