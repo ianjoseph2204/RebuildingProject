@@ -6,7 +6,7 @@
         <div class="row space"></div>
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 mt-5 text-center">
-                <h1 class="grid-1 my-2"><span class="grid-2">Our</span> Story</h1>
+                <h1 class="grid-1 my-2" style="font-size: 60px;height: 18%;><span class="grid-2">Our</span> Story</h1>
             </div>
         </div>
     </div>

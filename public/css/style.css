@@ -252,7 +252,7 @@ transform-origin: left;
         
         .grid-1,
         .grid-2 {
-            font-family: PoppinsEB;
+            font-family: PoppinsB;
         }
         
         .grid-3 {
@@ -270,9 +270,10 @@ transform-origin: left;
         .card-title-profile {
             font-family: madetommy;
             font-size: 24px;
-            line-height: 27.11px;
+            line-height: 35px;
             color: #545454;
             padding: 0 12.5% 0 12.5%;
+            margin-bottom: 0px;
         }
         
         #card-text {
@@ -280,16 +281,16 @@ transform-origin: left;
             font-size: 10px;
             line-height: 15px;
             color: #FFA216;
-            bottom: 10px;
             text-align: center;
             width: 100%;
+            margin-top: -3px;
             position: absolute;
             padding: 0 12.5% 0 12.5%;
         }
         
         #quote {
             line-height: 27px;
-            font-size: 23px;
+            font-size: 16px;
             font-family: Poppins;
         }
         
@@ -333,7 +334,7 @@ transform-origin: left;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
-            height: 1095px;
+            height: 1200px;
             margin-top: 100px;
         }
         
@@ -562,6 +563,8 @@ transform-origin: left;
         #more-top {
             background-image: url('../assets/backgroundBrown.png');
             background-size: cover;
+            position: absolute;
+            height: 550px;
         }
         
         label:not(:last-child):after {

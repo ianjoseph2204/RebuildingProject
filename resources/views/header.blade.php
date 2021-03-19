@@ -66,7 +66,7 @@
                 <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
                     <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo"><br><br>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram footer-icon"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-facebook-f footer-icon" style="width: 11%;"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-facebook-f footer-icon"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->

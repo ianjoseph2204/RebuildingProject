@@ -18,7 +18,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-4 text-right">
-                    <img src="{{asset('assets/Group_33.png')}}" width="100%" alt="background-about">
+                    <img src="{{asset('assets/about.png')}}" width="100%" alt="background-about">
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 text-center">
-                    <h1 class="grid-1 my-2"><span class="grid-2">Our</span> Mission</h1>
+                    <h1 class="grid-1 mb-5" style="font-size: 60px;height: 18%;"><span class="grid-2">Our</span> Mission</h1>
                 </div>
             </div>
 
@@ -148,7 +148,7 @@
                                     @if($i > (count($users) / 6 - 1) && $j == count($users) - 1)
                                         @for($k = 0; $k < (count($users) % 6 == 0 ? 0 : 6 - count($users) % 6); $k++)
                                             <div class="col-xl-3 col-lg-5 col-sm-5 col-12 mx-xl-1 my-3">
-                                                <div style="Width: 185px; Height: 300px;"></div>
+                                                <div style="Width: 185px; Height: 325px;"></div>
                                             </div>
                                         @endfor
                                     @endif
@@ -161,7 +161,7 @@
                 <div class="modal fade" id="modal-card" tabindex="-1" role="dialog"
                      aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="padding-left: 33px">
                     <div class="modal-dialog" role="document">
-                        <div class="modal-content" style="border-radius: 30px 30px 0 0">
+                        <div class="modal-content" style="border-radius: 30px 30px 30px 30px">
                             <div class="row" style="padding-top: 35px; padding-left: 6%">
                                 <div class="col-lg-3 col-sm-7 col-8 my-lg-5 my-sm-5 mt-5 mb-3 mr-5 text-center">
                                     <img id="modal-profile-picture" class="float-left" alt="profile-picture" src="">
@@ -177,7 +177,7 @@
 
                             <div class="footer" style="position: absolute;bottom: 0; width: inherit; ">
                                 <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                     style="width: inherit; height: 180px;" alt="footer">
+                                     style="width: inherit; height: 180px; border-radius: 0px 0px 30px 30px" alt="footer">
                             </div>
                         </div>
                     </div>
