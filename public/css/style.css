@@ -324,7 +324,7 @@ transform-origin: left;
         }
         
         #back {
-            background-color: #FBEFE4;
+            background-color: #E7E0D9;
             border-radius: 20px;
             border-color: transparent;
         }
@@ -389,7 +389,7 @@ transform-origin: left;
             transition: 0.3s;
             box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
             Width: 210px;
-            Height: 325px;
+            Height: 315px;
             position: relative;
         }
         
@@ -564,7 +564,7 @@ transform-origin: left;
             background-image: url('../assets/backgroundBrown.png');
             background-size: cover;
             position: absolute;
-            height: 550px;
+            height: 525px;
         }
         
         label:not(:last-child):after {

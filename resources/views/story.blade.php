@@ -8,7 +8,7 @@
         <div class="col-lg-12 col-sm-12 col-12 my-5 ml-5" style="top: 265px;">
             <!-- <div class="col-lg-5 col-sm-5 col-5 mt-5 center"> -->
             <a style="color: white;font-family: Poppins;font-size:12pt; ">Our Story</a><br>
-            <img src="{{asset('assets/more/line.png')}}" width="30%">
+            <img src="{{asset('assets/more/line.png')}}" width="17%">
             <h1 style="color: white; font-size:50pt; font-family: PoppinsSB;"><b>{{$story->title}}</b>
             </h1>
 
@@ -21,7 +21,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-12 col-sm-12 col-12 my-5">
-            <p style="text-align: justify; font-family: Poppins; Line-height: 28.5px;margin-top: 250px;" class="ml-4 mr-4 ">{{$story->content}}</p>
+            <p style="text-align: justify; font-family: Poppins; Line-height: 28.5px;margin-top: 200px;" class="ml-4 mr-4 ">{{$story->content}}</p>
         </div>
         <div class="col-lg-10 col-sm-10 col-10 my-5 text-center">
             <h2><b>Attachments</b></h2>
