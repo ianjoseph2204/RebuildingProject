@@ -6,9 +6,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-sm-6 col-12 p-5" id="everyone">
                     <div class="row space my-5"></div>
-                    <a style="color:#f5c150; font-weight:bold; font-size:32px">"everyone can<br>
-                        contribute to<br>
-                        something <span style="color:#FFA216">GOOD</span>"</a>
+                    <a style="color:white; font-weight:bold; font-size:48px;">
+                        <span style="color:#FFA216">"</span>Everyone can contribute<br>
+                        &nbsp;&nbsp;to something <span style="color:#FFA216">GOOD.</span><br>
+                        &nbsp;&nbsp;Your support <span style="color:#FFA216">Matters."</span></a>
                 </div>
                 <div class="col-lg-5 col-sm-6 col-12 p-5 text-center" style="background-color:#FBEFE4">
                     <h2 class="grid-2 my-3">Donate Now</h2>

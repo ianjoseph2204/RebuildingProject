@@ -30,7 +30,8 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 text-center">
-                    <h1 class="grid-1 mb-5" style="font-size: 60px;height: 18%;"><span class="grid-2">Our</span> Mission</h1>
+                    <h1 class="grid-1 mb-5" style="font-size: 60px;height: 18%;"><span class="grid-2">Our</span> Mission
+                    </h1>
                 </div>
             </div>
 
@@ -177,7 +178,8 @@
 
                             <div class="footer" style="position: absolute;bottom: 0; width: inherit; ">
                                 <img src="{{asset('assets/header-footer/footerModal.png')}}"
-                                     style="width: inherit; height: 180px; border-radius: 0px 0px 30px 30px" alt="footer">
+                                     style="width: inherit; height: 180px; border-radius: 0px 0px 30px 30px"
+                                     alt="footer">
                             </div>
                         </div>
                     </div>
