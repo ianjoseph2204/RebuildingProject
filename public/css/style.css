@@ -89,6 +89,7 @@ ul li a,
     transform-origin: right;
 }
 
+
 /* ul li a:hover::after {
 transform: scaleX(0);
 transform-origin: left;
@@ -550,6 +551,25 @@ h4 {
     font-size: 22px;
 }
 
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
 #everyone {
     background-image: url('../assets/get-involved/donate.png');
     background-size: cover;
@@ -587,20 +607,21 @@ label:not(:last-child):after {
     transform: scale(1.2);
 }
 
-.pagination > li > a,
-.pagination > li > span {
+.pagination>li>a,
+.pagination>li>span {
     color: #FFA216;
     border-color: #FFA216;
 }
 
-.pagination > li > a:hover,
-.pagination > li > span:hover {
+.pagination>li>a:hover,
+.pagination>li>span:hover {
     background: lightgrey;
-    color: #FFA216;;
+    color: #FFA216;
+    ;
 }
 
-.pagination > .active > .page-link,
-.pagination > .active > span {
+.pagination>.active>.page-link,
+.pagination>.active>span {
     background-color: #FFA216;
     border-color: #FFA216;
     color: white;
@@ -664,16 +685,13 @@ label:not(:last-child):after {
     .nav-logo {
         display: none;
     }
-
     .main-logo {
         display: block;
         width: 30%;
     }
-
     .service-card {
         height: 150px;
     }
-
     #this::after {
         width: 20%;
         left: 40%;
@@ -684,33 +702,26 @@ label:not(:last-child):after {
     .prevnext {
         display: none;
     }
-
     .prevnexthp {
         display: block;
     }
-
     #post-article-button {
         content: 'Article'
     }
-
     #post-merch-button {
         content: attr('Merch');
     }
-
     #post-member-button {
         content: attr('Member');
     }
-
     .contact {
         text-align: center;
         align-items: center;
     }
-
     .main-logo {
         display: block;
         width: 45%;
     }
-
     .service-card {
         height: 100px !important;
     }
