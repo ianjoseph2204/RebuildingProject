@@ -26,7 +26,7 @@
 
                                 <div class="input-icons mb-3">
                                     <i class="far fa-user icon"></i>
-                                    <input id="nama" style="border-radius:10px; border-color:transparent" class="form-control input-field" name="name" required autofocus>
+                                    <input id="nama"  style="border-radius:10px; border-color:transparent" class="form-control input-field" name="name" required autofocus>
                                 </div>
 
                                 <div class="row">
@@ -34,7 +34,7 @@
                                         <label for="email" style="font-size: 14px; font-weight: bold;">Email</label>
                                         <div class="input-icons mb-3">
                                             <i class="far fa-envelope-open icon"></i>
-                                            <input id="email" style="border-radius:10px; border-color:transparent" type="email" class="form-control" name="email" required autofocus>
+                                            <input id="email" style="border-radius:10px; border-color:transparent" type="email" class="form-control input-field" name="email" required autofocus>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -42,7 +42,7 @@
                                             Telephone</label>
                                         <div class="input-icons mb-3">
                                             <img src="{{asset('assets/phone-call.png')}}" class="icon" style="width: 37px;position: absolute;min-width: 0px;">
-                                            <input id="phone" style="border-radius:10px; border-color:transparent" class="form-control" name="phone" required autofocus>
+                                            <input id="phone" style="border-radius:10px; border-color:transparent" class="form-control input-field" name="phone" required autofocus>
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +51,10 @@
                                 <input id="judul" style="border-radius:10px; border-color:transparent" class="form-control" name="title" required autofocus>
                                 <br>
                                 <label for="Pesan" style="font-size: 14px; font-weight: bold;">Pesan</label>
-                                <input id="Pesan" style="border-radius:10px; border-color:transparent; height:135px" class="form-control" name="message" required autofocus></textarea>
+                                <textarea id="Pesan" style="border-radius:10px;border-color:transparent;" type="text"
+                                          class="form-control col-lg-12 col-12" rows="8" name="message" required
+                                          autofocus></textarea>
+
                                 @if(\Session::has('successContact'))
                                 <script>
                                     swal({

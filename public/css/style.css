@@ -559,11 +559,15 @@ h4 {
 .input-field {
     width: 100%;
     padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 35px;
 }
 
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .input-icons i {
