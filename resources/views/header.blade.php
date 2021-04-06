@@ -60,7 +60,7 @@
 
 
 <footer class="footer mt-5" style="bottom: 0;">
-    <div id="back-footer">
+    <div class="justify-content-center" id="back-footer">
         <div class="row justify-content-center" style="color:black; align-self: flex-end;">
             <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
                 <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo"><br><br>

@@ -27,7 +27,7 @@
                                 <i class="fas fa-user" style="color:#f5c150; margin-right: 3px"></i>
                                 {{$story->writer}}
                             </a>
-                            <div class="row mt-3">
+                            <div class="row mt-5">
                                 <div class="col-xl-12 col-lg-12 text-right">
                                     <a class="btn px-3 py-2 my-4" id="login" href="stories/{{$story->id}}"><b>Read
                                             More</b></a>
@@ -41,11 +41,6 @@
 
             <div class="row">
                 <div class="col-xl-12 col-lg-12 my-5 text-center" style="color: #FFA216">
-                    {{-- @if($paginator->onFirstPage())--}}
-                    {{-- <a href="" class="page mx-1"><i class="fas fa-chevron-left"></i></a>--}}
-                    {{-- @endif--}}
-                    {{-- <a href="#" class="page mx-1 px-3">1</a>--}}
-                    {{-- <a href="#" class="page mx-1"><i class="fas fa-chevron-right"></i></a>--}}
                     {{$stories->links()}}
                 </div>
             </div>

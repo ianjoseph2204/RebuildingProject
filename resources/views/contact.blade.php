@@ -6,7 +6,7 @@
         <div class="container">
 
             <div class="row space"></div>
-            <div class="row justify-content-center pt-5">
+            <div class="row justify-content-center pt-5" style="height: 1000px">
                 <div class="col-lg-4 mx-4 my-5" style="vertical-align: middle;">
                     <h1 class="judulForm" style="font-size: 45px;line-height: 55px;">Contact Us </h1>
                     <a id="quote">Let's Get in Touch!</a>
