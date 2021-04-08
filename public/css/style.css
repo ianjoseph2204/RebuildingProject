@@ -3,27 +3,27 @@
 }
 
 @font-face {
-    src: url('/fonts/PoppinsLight.otf');
+    src: url('../fonts/PoppinsLight.otf');
     font-family: Poppins;
 }
 
 @font-face {
-    src: url('/fonts/PoppinsBold.otf');
+    src: url('../fonts/PoppinsBold.otf');
     font-family: PoppinsB;
 }
 
 @font-face {
-    src: url('/fonts/MADETOMMYBold.otf');
+    src: url('../fonts/MADETOMMYBold.otf');
     font-family: madetommy;
 }
 
 @font-face {
-    src: url('/fonts/PoppinsExtrabold.otf');
+    src: url('../fonts/PoppinsExtrabold.otf');
     font-family: PoppinsEB;
 }
 
 @font-face {
-    src: url('/fonts/PoppinsSemibold.otf');
+    src: url('../fonts/PoppinsSemibold.otf');
     font-family: PoppinsSB;
 }
 
