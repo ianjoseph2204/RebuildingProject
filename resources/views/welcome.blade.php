@@ -12,7 +12,7 @@
                 <a id="our-mission">01 - MISI KAMI</a>
                 <h1 class="grid-0">Empowering</h1>
                 <h1 class="grid-4">Children</h1>
-                <h1 class="grid-0">Through</h1>
+                <h1 class="grid-0">through</h1>
                 <h1 class="grid-4">Education</h1>
                 <a class="btn px-5 py-2 my-1" type="submit" id="login" href="{{url('/get-involved')}}"><b>Donate Now</b></a>
             </div>
@@ -26,7 +26,7 @@
             <div class="col-lg-12 col-sm-10 col-12 mt-5 text-center">
                 <a class="mt-10" id="our-mission">02 - PROGRAM KAMI</a><br><br>
                 <h4 class="grid-1 px-5 pb-5">
-                    "Karena pembelajaran <span class="grid-2">tidak hanya di ruang kelas</span>, kami <br>memfasilitasi program edukasi yang <span class="grid-2">menarik </span> dan <br>menyenangkan untuk anak-anak”<br>
+                    "Karena pembelajaran <span class="grid-2">tidak hanya di ruang kelas</span>, kami <br>memfasilitasi program edukasi yang <span class="grid-2">menarik </span> dan <br><span class="grid-2">menyenangkan</span> untuk anak-anak”<br>
                 </h4>
                 <a class="col-10" id="quote">Seluruh program edukasi yang diberikan dikemas dengan tema Fun-Learning:</a>
             </div>

@@ -218,9 +218,9 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
-                    <div class="row">
+                    <div class="row" style="align-items: center">
                         <div class="col-xl-11 col-lg-11 col-sm-11 col-10">
-                            <h3 class="grid-2">Apa itu Rebuilding Project?</h3>
+                            <h3 class="grid-2" style="margin: 0;">Apa itu Rebuilding Project?</h3>
                         </div>
 
                         <div class="col-xl-1 col-lg-1 col-sm-1 col-1 aligned">
@@ -235,9 +235,9 @@
                 </div>
 
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back-2">
-                    <div class="row">
+                    <div class="row" style="align-items: center">
                         <div class="col-xl-11 col-lg-11 col-sm-11 col-10">
-                            <h3 class="grid-3">Dimana lokasi gerakan sosial Rebuilding Project?</h3>
+                            <h3 class="grid-3" style="margin: 0;">Dimana lokasi gerakan sosial Rebuilding Project?</h3>
                         </div>
 
                         <div class="col-xl-1 col-lg-1 col-sm-1 col-1 aligned">
@@ -252,9 +252,9 @@
                         kota di Indonesia. </a>
                 </div>
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back">
-                    <div class="row">
+                    <div class="row" style="align-items: center">
                         <div class="col-xl-11 col-lg-11 col-sm-11 col-10">
-                            <h3 class="grid-2">Mengapa Rebuilding Project dibentuk?</h3>
+                            <h3 class="grid-2" style="margin: 0;">Mengapa Rebuilding Project dibentuk?</h3>
                         </div>
 
                         <div class="col-xl-1 col-lg-1 col-sm-1 col-1 aligned">
@@ -270,9 +270,9 @@
                 </div>
 
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-4" id="back-2">
-                    <div class="row">
+                    <div class="row" style="align-items: center">
                         <div class="col-xl-11 col-lg-11 col-sm-11 col-10">
-                            <h3 class="grid-3">Siapa target Rebuilding Project?</h3>
+                            <h3 class="grid-3" style="margin: 0;">Siapa target Rebuilding Project?</h3>
                         </div>
 
                         <div class="col-xl-1 col-lg-1 col-sm-1 col-1 aligned">

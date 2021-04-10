@@ -79,7 +79,7 @@
                 {{--Create new story section--}}
                 <div class="section" id="post-article">
                     <h1 class="judulForm pt-5 px-4 pb-4  animate__animated animate__fadeIn">Post an Article</h1>
-                    <form method="POST" action="/stories" enctype="multipart/form-data">
+                    <form method="POST" action="{{url('/stories')}}" enctype="multipart/form-data">
                         @csrf
                         <div class="row justify-content-center  animate__animated animate__fadeIn">
                             <div class="col-lg-6 col-12 px-5 pb-4">
@@ -90,6 +90,7 @@
                                 <div class="row">
                                 </div>
                             </div>
+
                             <div class="col-lg-6 col-12 px-5">
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6 col-12">
@@ -140,7 +141,7 @@
                 {{--Create new member section--}}
                 <div class="section" id="post-member">
                     <h1 class="judulForm pt-5 px-4 pb-4 animate__animated animate__fadeIn">Add a New Team Member</h1>
-                    <form method="POST" action="/users" enctype="multipart/form-data">
+                    <form method="POST" action="{{url('/users')}}" enctype="multipart/form-data">
                         @csrf
                         <div class="row justify-content-center animate__animated animate__fadeIn">
                             <div class="col-lg-6 col-12 px-5 pb-4">

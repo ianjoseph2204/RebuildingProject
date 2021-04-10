@@ -9,7 +9,7 @@
             <div class="row justify-content-center pt-5" style="height: 1000px">
                 <div class="col-lg-4 mx-4 my-5" style="vertical-align: middle;">
                     <h1 class="judulForm" style="font-size: 45px;line-height: 55px;">Contact Us </h1>
-                    <a id="quote">Let's Get in Touch!</a>
+                    <b><a id="quote">Let's get in touch!</a></b>
                     <div class="row my-2" style="margin-left: -3px;">
                         <a href=""><i class="contact-icon mx-1 fab fa-whatsapp"></i></a>
                         <a href=""><i class="contact-icon mx-1 far fa-envelope"></i></a>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <form method="POST" action="/inquiries">
+                    <form method="POST" action="{{url('/inquiries')}}">
                         @csrf
                         <div class="row justify-content-center">
                             <div class="col-lg-9 col-10 p-4" id="back">
@@ -31,7 +31,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <label for="email" style="font-size: 14px; font-weight: bold;">Email</label>
+                                        <label for="email" style="font-size: 14px; font-weight: bold;">Alamat E-mail</label>
                                         <div class="input-icons mb-3">
                                             <i class="far fa-envelope-open icon"></i>
                                             <input id="email" style="border-radius:10px; border-color:transparent" type="email" class="form-control input-field" name="email" required autofocus>
@@ -39,7 +39,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="phone" style="font-size: 14px; font-weight: bold;">Nomor
-                                            Telephone</label>
+                                            Telepon</label>
                                         <div class="input-icons mb-3">
                                             <img src="{{asset('assets/phone-call.png')}}" class="icon" style="width: 37px;position: absolute;min-width: 0px;">
                                             <input id="phone" style="border-radius:10px; border-color:transparent" class="form-control input-field" name="phone" required autofocus>
