@@ -117,6 +117,41 @@ transform-origin: left;
     text-align: center;
 }
 
+.get-involved {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: PoppinsB;
+}
+
+.donatenow {
+    background-image: url('../assets/backgroundCream.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#donateBut {
+    background-color: #FFA216;
+    border-radius: 20px;
+    border: 4px solid #FFB341 !important;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    font-family: madetommy;
+    text-decoration: none;
+    width: 285px;
+    height: 71px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#donateBut:hover {
+    background-color: transparent;
+    color: #FFA216;
+}
+
 #login,
 #expand {
     background-color: #FFA216;
@@ -577,13 +612,18 @@ h4 {
 #everyone {
     background-image: url('../assets/get-involved/donate.png');
     background-size: cover;
+    margin-top: 50px;
+    height: 385px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 #more-top {
     background-image: url('../assets/backgroundBrown.png');
     background-size: cover;
     position: absolute;
-    height: 525px;
+    height: 570px;
 }
 
 label:not(:last-child):after {

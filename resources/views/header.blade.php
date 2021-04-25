@@ -28,9 +28,9 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
         <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;">
             <ul class="navbar-nav">
-                <li class="navbar-brand">
-                    <img src="{{asset('assets/header-footer/logo.png')}}" class="nav-logo mx-1 my-1 logonav"
-                         width="150px">
+                <li class="navbar-brand " >
+                    <a href="{{url('/')}}"> <img src="{{asset('assets/header-footer/logo.png')}}"   class="nav-logo mx-1 my-1 logonav"
+                         width="150px"> </a>
                 </li>
                 <li class="nav-item">
                     <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span class="sr-only">(current)</span></a>
