@@ -7,15 +7,15 @@
         </div>
         <div class="col-lg-12 col-sm-12 col-12 my-5 ml-5" style="top: 265px;">
             <!-- <div class="col-lg-5 col-sm-5 col-5 mt-5 center"> -->
-            <a style="color: white;font-family: Poppins;font-size:12pt; ">Our Story</a><br>
-            <img src="{{asset('assets/more/line.png')}}" width="17%">
-            <h1 style="color: white; font-size:50pt; font-family: PoppinsSB;"><b>{{$story->title}}</b>
+            <a style="color: white;font-family: Poppins;font-size:13pt; ">Our Story</a><br>
+            <img src="{{asset('assets/more/line.png')}}">
+            <h1 style="color: white; font-size:50pt; font-family: PoppinsSB; margin-bottom: 100px;"><b>{{$story->title}}</b>
             </h1>
 
             <div class="col-lg-12 col-sm-12 col-12 my-5" style="color: white;font-family: Poppins;font-size:13pt;padding: 0px;">
-                <label><a style="color: white;">{{$story->writer}}</a></label>
-                <label><a style="color: white;">Event</a></label>
-                <label><a style="color: white;">{{date('d M Y', strtotime($story->created_at))}}</a></label>
+                <label><a style="color: white;">{{$story->writer}}&nbsp;</a></label>
+                <label> &nbsp; <a style="color: white;">Event &nbsp; </a></label>
+                <label> &nbsp; <a style="color: white;">{{date('d M Y', strtotime($story->created_at))}}</a></label>
             </div>
         </div>
     </div>
