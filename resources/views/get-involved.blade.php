@@ -5,10 +5,10 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-lg-7 col-sm-6 col-12 p-5" id="everyone">
-                    <a class="get-involved" style="color: white;">
-                        <span style="color:#FFA216;">"</span>Everyone can contribute<br>
-                        &nbsp;&nbsp;to something <span style="color:#FFA216">GOOD.</span><br>
-                        &nbsp;&nbsp;Your support <span style="color:#FFA216">MATTERS."</span></a>
+                <a class="get-involved" style="color: white;">
+                    <span style="color:#FFA216;">"</span>Everyone can contribute<br>
+                    &nbsp;&nbsp;to something <span style="color:#FFA216">GOOD.</span><br>
+                    &nbsp;&nbsp;Your support <span style="color:#FFA216">MATTERS."</span></a>
             </div>
             <div class="col-lg-5 col-sm-6 col-12 p-5 text-center donatenow">
                 <div style="display: flex; justify-content: center; height: 115%; align-items: center;">
@@ -79,10 +79,10 @@
             </div>
             <div class="col-lg-5 col-sm-5 col-10 m-3">
                 <div class="volunteer-panel p-3">
-                    <img class="mt-5" src="{{asset('assets/home/image2.png')}}" alt="Avatar" style="width:40%"><br><br>
+                    <img class="mt-5" src="{{asset('assets/get-involved/Vols001.png')}}" alt="Avatar" style="width:40%"><br><br>
                     <div class="box">
-                        <h4><b>Field Worker</b></h4>
-                        <p>Matematika, Bahasa Inggris, dsb.</p>
+                        <h4 style="margin-left:20px;"><b>Committe</b></h4>
+                        <p  style="margin-left:20px;">Kami mencari orang-orang untuk menjadi bagian dalam tim kami untuk memberdayakan lebih banyak anak melalui pendidikan. Apakah Anda bersemangat dalam memberdayakan anak-anak? Bergabunglah dalam tim kami dan bagikan bakat serta ide Anda!</p>
                         <div class="row mt-3">
                             <div class="col-lg-12 text-center">
                                 <a class="btn px-3 py-1 my-4" id="login" href="{{url('/more')}}"><b>Register Now</b></a>
@@ -93,10 +93,10 @@
             </div>
             <div class="col-lg-5 col-sm-5 col-10 m-3">
                 <div class="volunteer-panel p-3">
-                    <img class="mt-5" src="{{asset('assets/home/image3.png')}}" alt="Avatar" style="width:40%"><br><br>
+                    <img class="mt-5" src="{{asset('assets/get-involved/Vols002.png')}}" alt="Avatar" style="width:40%"><br><br>
                     <div class="box">
-                        <h4><b>Committee</b></h4>
-                        <p>Toleransi, Kerjasama, Saling Menghargai, Kejujuran, dsb.</p>
+                        <h4  style="margin-left:20px;"><b>Volunteer</b></h4>
+                        <p  style="margin-left:20px;">Kami percaya bahwa setiap orang dapat berkontribusi untuk membantu kehidupan anak-anak yatim piatu di Indonesia menjadi lebih baik. Apakah Anda siap berpartisipasi dalam mengimplementasikan program pendidikan bagi anak-anak ini? Kami butuh Anda, mari kita berdayakan bersama!</p>
                         <div class="row mt-3">
                             <div class="col-lg-12 text-center">
                                 <a class="btn px-3 py-1 my-4" id="login" href="{{url('/more')}}"><b>Register Now</b></a>
