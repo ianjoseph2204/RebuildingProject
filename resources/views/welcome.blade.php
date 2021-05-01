@@ -31,8 +31,9 @@
                         program edukasi yang <span class="grid-2">menarik </span> dan <br><span class="grid-2">menyenangkan</span>
                         untuk anak-anak”<br>
                     </h4>
-                    <a class="col-10" id="quote">Seluruh program edukasi yang diberikan dikemas dengan konsep
-                        Fun-Learning:</a>
+                    <a class="col-10" id="quote"><b>Seluruh program edukasi yang diberikan dikemas dengan konsep
+                            Fun-Learning:</b>
+                    </a>
                 </div>
 
                 <div class="row p-5 my-2 justify-content-start">

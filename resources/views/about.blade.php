@@ -43,8 +43,8 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;">Meningkatkan kualitas pendidikan di panti asuhan di
-                                Indonesia.</a>
+                            <a style="font-family: PoppinsSB;"><b>Meningkatkan kualitas pendidikan di panti asuhan di
+                                    Indonesia.</b></a>
                         </div>
                     </div>
 
@@ -54,9 +54,9 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;">Memperbanyak dan memperlengkapi variasi pengembangan
+                            <a style="font-family: PoppinsSB;"><b>Memperbanyak dan memperlengkapi variasi pengembangan
                                 pengetahuan untuk anak-anak di panti
-                                asuhan, yang berumur 6 - 18 tahun.</a>
+                                    asuhan, yang berumur 6 - 18 tahun.</b></a>
                         </div>
                     </div>
 
@@ -66,10 +66,10 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;">Mendorong dan mengembangkan pengetahuan serta
+                            <a style="font-family: PoppinsSB;"><b>Mendorong dan mengembangkan pengetahuan serta
                                 keterampilan anak-anak di panti asuhan
                                 melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap kategori
-                                umur anak.</a>
+                                    umur anak.</b></a>
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,8 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;">Menjalin sinergi dan aktif bekerjasama dengan panti
-                                asuhan yang ada di Indonesia</a>
+                            <a style="font-family: PoppinsSB;"><b>Menjalin sinergi dan aktif bekerjasama dengan panti
+                                    asuhan yang ada di Indonesia</b></a>
                         </div>
                     </div>
 
@@ -92,9 +92,9 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;">Mendorong anak-anak muda untuk berkontribusi secara aktif
+                            <a style="font-family: PoppinsSB;"><b>Mendorong anak-anak muda untuk berkontribusi secara aktif
                                 dalam kegiatan sosial melalui
-                                program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</a>
+                                    program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</b></a>
                         </div>
                     </div>
                 </div>
