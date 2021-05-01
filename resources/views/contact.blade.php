@@ -11,7 +11,7 @@
                     <h1 class="judulForm" style="font-size: 45px;line-height: 55px;">Contact Us </h1>
                     <b><a id="quote">Let's get in touch!</a></b>
                     <div class="row my-2" style="margin-left: -3px;">
-                        <a href=""><i class="contact-icon mx-1 fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/6285247222583" target="_blank"><i class="contact-icon mx-1 fab fa-whatsapp"></i></a>
                         <a href=""><i class="contact-icon mx-1 far fa-envelope"></i></a>
                         <a href=""><i class="contact-icon mx-1 fab fa-instagram"></i></a>
                     </div>
