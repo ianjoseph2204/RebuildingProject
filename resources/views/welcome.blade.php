@@ -108,7 +108,7 @@
                     <div class="card-body">
                         <h2 class="number text-center">01</h2>
                         <br>
-                        <img src="{{asset('assets/home/ilus1.png')}}" alt="Avatar" style="width:100%"><br><br>
+                        <img src="{{asset('assets/home/ilus1.png')}}" alt="Avatar" style="width:85%"><br><br>
                         <p id="quote">Merancang program edukasi berkonsep Fun-Learning sesuai dengan kategori umur setiap anak</p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="card-body">
                         <h2 class="number text-center">02</h2>
                         <br>
-                        <img src="{{asset('assets/home/ilus2.png')}}" alt="Avatar" style="width:100%"><br><br>
+                        <img src="{{asset('assets/home/ilus2.png')}}" alt="Avatar" style="width:85%"><br><br>
                         <p id="quote">Memperluas pengetahuan anak-anak yatim piatu di luar institusi pendidikan formal</p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                     <div class="card-body">
                         <h2 class="number text-center">03</h2>
                         <br>
-                        <img src="{{asset('assets/home/ilus3.png')}}" alt="Avatar" style="width:100%"><br><br>
+                        <img src="{{asset('assets/home/ilus3.png')}}" alt="Avatar" style="width:85%"><br><br>
                         <p id="quote">Mendorong pengembangan kemampuan serta membangun pendidikan karakter </p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="card-body">
                     <h2 class="number text-center">04</h2>
                         <br>
-                        <img src="{{asset('assets/home/ilus4.png')}}" alt="Avatar" style="width:100%"><br><br>
+                        <img src="{{asset('assets/home/ilus4.png')}}" alt="Avatar" style="width:85%"><br><br>
                         <p id="quote">Mendorong partisipasi anak-anak muda untuk berkontribusi dalam meningkatkan kualitas edukasi di panti asuhan di Indonesia</p>
                     </div>
                 </div>

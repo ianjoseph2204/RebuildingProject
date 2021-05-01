@@ -67,7 +67,7 @@
                 <a href="https://www.instagram.com/rebuildingproject/" target="_blank"><i
                         class="fab fa-instagram footer-icon"></i></a>
                 <a href="https://www.facebook.com/reproes/" target="_blank"><i class="fab fa-facebook-f footer-icon"
-                                                                               style="width: 55px;"></i></a>
+                                                                               style="width: 60px;"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
             </div>
 
