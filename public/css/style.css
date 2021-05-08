@@ -3,6 +3,11 @@
     }
 
     @font-face {
+        src: url("../fonts/AbadiMTStd-CondExtraBold.otf");
+        font-family: AbadiMT;
+    }
+
+    @font-face {
         src: url('../fonts/PoppinsLight.otf');
         font-family: Poppins;
     }
@@ -443,7 +448,7 @@ transform-origin: left;
     }
 
     #back-story {
-        background-image: url('../assets/backgroundCream.png');
+        background-image: url('../assets/backgroundWhite.png');
         background-size: cover;
         background-position: center bottom;
         display: flex;
