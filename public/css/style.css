@@ -1,7 +1,12 @@
     * {
         scroll-behavior: smooth;
     }
-
+    
+    @font-face {
+        src: url('../fonts/Abadi.otf');
+        font-family: Abadi;
+    }
+    
     @font-face {
         src: url("../fonts/AbadiMTStd-CondExtraBold.otf");
         font-family: AbadiMT;
@@ -11,65 +16,65 @@
         src: url('../fonts/PoppinsLight.otf');
         font-family: Poppins;
     }
-
+    
     @font-face {
         src: url('../fonts/PoppinsBold.otf');
         font-family: PoppinsB;
     }
-
+    
     @font-face {
         src: url('../fonts/MADETOMMYBold.otf');
         font-family: madetommy;
     }
-
+    
     @font-face {
         src: url('../fonts/PoppinsExtrabold.otf');
         font-family: PoppinsEB;
     }
-
+    
     @font-face {
         src: url('../fonts/PoppinsSemibold.otf');
         font-family: PoppinsSB;
     }
-
+    
     body {
         width: 100%;
         color: darkslategrey;
         background-color: white;
     }
-
+    
     .grid-0,
     .grid-4 {
         font-family: madetommy;
     }
-
+    
     .option {
         font-family: Poppins !important;
     }
-
+    
      ::selection {
         background: #f5c150;
     }
-
+    
     .space {
         margin-bottom: 10%;
     }
-
+    
     .top-space {
         margin-bottom: 15%;
     }
-
+    
     .navbar {
         z-index: 99;
         background-color: whitesmoke;
         font-family: Poppins;
     }
-
+    
     .navbar a:hover,
     .active {
         color: #000000;
     }
-
+    
     ul li a,
     #this {
         text-align: center;
@@ -80,7 +85,7 @@
         padding: 4px 0;
         transition: 0.5s;
     }
-
+    
     #this::after {
         position: absolute;
         content: "";
@@ -97,15 +102,15 @@
 transform: scaleX(0);
 transform-origin: left;
 } */
-
+    
     .navbar-nav {
         margin: auto;
     }
-
+    
     .main-logo {
         display: none;
     }
-
+    
     .upload-button {
         display: inline-block;
         background-color: #FFA216;
@@ -119,20 +124,20 @@ transform-origin: left;
         font-size: 16px;
         text-align: center;
     }
-
+    
     .get-involved {
         font-weight: bold;
         font-size: 35px;
         font-family: PoppinsB;
     }
-
+    
     .donatenow {
         background-image: url('../assets/backgroundCream.png');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
-
+    
     #donateBut {
         background-color: #FFA216;
         border-radius: 20px;
@@ -149,12 +154,12 @@ transform-origin: left;
         display: flex;
         align-items: center;
     }
-
+    
     #donateBut:hover {
         background-color: transparent;
         color: #FFA216;
     }
-
+    
     #login,
     #expand {
         background-color: #FFA216;
@@ -166,13 +171,13 @@ transform-origin: left;
         font-family: madetommy;
         text-decoration: none;
     }
-
+    
     #login:hover,
     #expand:hover {
         background-color: transparent;
         color: #FFA216;
     }
-
+    
     #post-article-button,
     #post-merch-button,
     #post-member-button {
@@ -187,7 +192,7 @@ transform-origin: left;
         font-family: madetommy;
         line-height: 38px;
     }
-
+    
     .drop-zone {
         height: 200px;
         padding: 15px;
@@ -200,11 +205,11 @@ transform-origin: left;
         background-color: white;
         border-radius: 20px;
     }
-
+    
     .drop-zone__input {
         display: none;
     }
-
+    
     .drop-zone__thumb {
         width: 35%;
         height: 100%;
@@ -214,7 +219,7 @@ transform-origin: left;
         background-size: cover;
         position: relative;
     }
-
+    
     .drop-zone__thumb::after {
         content: attr(data-label);
         position: absolute;
@@ -226,7 +231,7 @@ transform-origin: left;
         background-color: #FBEFE4;
         text-align: center;
     }
-
+    
     #post-article-button:target,
     #post-merch-button:target,
     #post-member-button:target {
@@ -238,74 +243,74 @@ transform-origin: left;
         transition: 0.5s;
         text-decoration: none;
     }
-
+    
     #post-article-button {
         content: attr('Post an Article');
     }
-
+    
     #post-merch-button {
         content: attr('Post a New Merch');
     }
-
+    
     #post-member-button {
         content: attr('Post a New Member');
     }
-
+    
     #our-mission {
         color: #FFA216;
         font-family: PoppinsEB;
     }
-
+    
     #about-us {
         color: #545454;
         font-family: PoppinsEB;
     }
-
+    
     h4 {
         line-height: 45px;
     }
-
+    
     .judulForm {
         color: #545454;
         font-family: madetommy;
         font-size: 65px;
         Line-height: 90.22px;
     }
-
+    
     #subJudulForm {
         font-family: madetommy;
         font-size: 18px;
         line-height: 20px;
         color: #545454;
     }
-
+    
     .grid-1,
     .grid-0 {
         color: #545454;
     }
-
+    
     .grid-2,
     .grid-4 {
         color: #FFA216;
     }
-
+    
     .grid-1,
     .grid-2 {
         font-family: PoppinsB;
     }
-
+    
     .grid-3 {
         font-weight: bold;
         color: #FFE2AE;
     }
-
+    
     .card-title {
         font-family: madetommy;
         color: #545454;
         font-size: 20px;
         line-height: 25px;
     }
-
+    
     .card-title-profile {
         font-family: madetommy;
         font-size: 24px;
@@ -314,7 +319,7 @@ transform-origin: left;
         padding: 0 12.5% 0 12.5%;
         margin-bottom: 0;
     }
-
+    
     #card-text {
         font-family: PoppinsSB;
         font-size: 10px;
@@ -326,24 +331,24 @@ transform-origin: left;
         position: absolute;
         padding: 0 12.5% 0 12.5%;
     }
-
+    
     #quote {
         line-height: 27px;
         font-size: 16px;
         font-family: Poppins;
     }
-
+    
     #quote-1 {
         font-family: Poppins;
         font-size: 12px;
         line-height: 18px;
     }
-
+    
     #quote-2 {
         font-family: Poppins;
         line-height: 36px;
     }
-
+    
     .carrot-0 {
         color: #FFE2AE;
         cursor: pointer;
@@ -351,7 +356,7 @@ transform-origin: left;
         margin-top: auto;
         margin-bottom: auto;
     }
-
+    
     .carrot-1 {
         color: #FFA216;
         cursor: pointer;
@@ -359,20 +364,20 @@ transform-origin: left;
         margin-top: auto;
         margin-bottom: auto;
     }
-
+    
     .carrot-2 {
         cursor: pointer;
         transition: 0.5s;
         padding-top: auto;
         padding-bottom: auto;
     }
-
+    
     #back {
         background-color: #FBEFE4;
         border-radius: 30px;
         border-color: transparent;
     }
-
+    
     #team-background {
         background-image: url('../assets/backgroundCream.png');
         background-size: cover;
@@ -381,7 +386,7 @@ transform-origin: left;
         height: 1200px;
         margin-top: 100px;
     }
-
+    
     .grid-container {
         display: inline-grid;
         justify-content: center;
@@ -389,31 +394,31 @@ transform-origin: left;
         grid-gap: 80px;
         padding: 10px;
     }
-
+    
     .column {
         float: left;
         padding: 5px;
         margin-block: 5px;
         margin-right: 5px;
     }
-
+    
     .faqTitle {
         display: flex;
         align-items: center;
     }
-
+    
     .faqNum {
         font-size: 50px;
         color: #FFA216;
         font-family: PoppinsB;
     }
-
+    
     .faqNum2 {
         font-size: 50px;
         color: #FFE2AE;
         font-family: PoppinsB;
     }
-
+    
     #down-1,
     #down-2,
     #down-3,
@@ -424,13 +429,13 @@ transform-origin: left;
         line-height: 30px;
         color: #545454;
     }
-
+    
     #back-2 {
         background-color: #FFA216;
         border-radius: 30px;
         border-color: transparent;
     }
-
+    
     #back-welcome {
         background-image: url('../assets/backgroundCream.png');
         background-size: cover;
@@ -438,7 +443,7 @@ transform-origin: left;
         background-repeat: no-repeat;
         border-radius: 20px 20px 20px 20px;
     }
-
+    
     #back-footer {
         background-image: url('../assets/header-footer/flow.png');
         background-size: cover;
@@ -446,14 +451,14 @@ transform-origin: left;
         display: flex;
         height: 800px;
     }
-
+    
     #back-story {
         background-image: url('../assets/backgroundWhite.png');
         background-size: cover;
         background-position: center bottom;
         display: flex;
     }
-
+    
     .service-card {
         background-color: white;
         border-color: transparent;
@@ -464,14 +469,14 @@ transform-origin: left;
         Height: 315px;
         position: relative;
     }
-
+    
     .card-picture {
         width: 100%;
         height: 200px;
         border-radius: 30px 30px 0 0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
+    
     .ourTeam {
         width: 100%;
         height: 18%;
@@ -480,14 +485,14 @@ transform-origin: left;
         line-height: 69px;
         color: #545454;
     }
-
+    
     #modal-name {
         text-align: start;
         font-family: madetommy;
         font-size: 40px;
         color: #545454;
     }
-
+    
     #modal-position {
         font-family: PoppinsSB;
         font-size: 15px;
@@ -496,15 +501,15 @@ transform-origin: left;
         color: #FFA216;
         width: 100%;
     }
-
+    
     .modal-dialog {
         max-width: 1100px;
     }
-
+    
     .modal-content {
         height: 600px;
     }
-
+    
     #modal-description {
         font-family: madetommy;
         font-size: 14px;
@@ -514,17 +519,17 @@ transform-origin: left;
         color: #545454;
         width: 95%;
     }
-
+    
     #modal-profile-picture {
         max-width: 270px;
         border-radius: 30px;
     }
-
+    
     .panel {
         width: 326px;
         height: 403px;
     }
-
+    
     .volunteer-panel {
         background-color: #FBEFE4;
         height: 400px;
@@ -532,7 +537,7 @@ transform-origin: left;
         border-radius: 20px;
         height: fit-content;
     }
-
+    
     .get-involved .card {
         background-color: white;
         border-color: transparent !important;
@@ -541,7 +546,7 @@ transform-origin: left;
         transition: 0.3s;
         height: 299px;
     }
-
+    
     .cardProgramK {
         background-color: white;
         border-color: transparent !important;
@@ -550,21 +555,21 @@ transform-origin: left;
         width: 246px;
         height: 299px;
     }
-
+    
     .carousel-indicators li {
         width: 10px;
         height: 10px;
         border-radius: 100%;
         background-color: #FFA216;
     }
-
+    
     .buttonWrapper {
         float: left;
         height: 770px;
         width: fit-content;
         position: relative;
     }
-
+    
     .prevnext {
         margin: 0;
         position: absolute;
@@ -572,12 +577,12 @@ transform-origin: left;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
+    
     .logonav {
         display: inline-block;
         margin-left: 100px;
     }
-
+    
     .next {
         margin: 0;
         position: absolute;
@@ -588,7 +593,7 @@ transform-origin: left;
         right: 10px;
         justify-content: center;
     }
-
+    
     .cardWWD {
         background-color: #FBEFE4;
         border-color: transparent !important;
@@ -597,7 +602,7 @@ transform-origin: left;
         width: 260px;
         height: 420px;
     }
-
+    
     .number {
         color: #FFA216;
         font-family: PoppinsB;
@@ -605,7 +610,7 @@ transform-origin: left;
         font-size: 65px;
         margin-top: -60px;
     }
-
+    
     .profile-card {
         background-color: white;
         border-radius: 20px;
@@ -613,7 +618,7 @@ transform-origin: left;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         height: 430px;
     }
-
+    
     .contact-icon {
         border-radius: 100%;
         background-color: #FFA216;
@@ -621,12 +626,12 @@ transform-origin: left;
         padding: 12px;
         font-size: 22px;
     }
-
+    
     .icon {
         padding: 10px;
         min-width: 40px;
     }
-
+    
     .input-field {
         width: 100%;
         padding: 10px;
@@ -634,17 +639,17 @@ transform-origin: left;
         box-sizing: border-box;
         padding-left: 35px;
     }
-
+    
     .input-icons {
         width: 100%;
         margin-bottom: 10px;
         position: relative;
     }
-
+    
     .input-icons i {
         position: absolute;
     }
-
+    
     #everyone {
         background-image: url('../assets/get-involved/donate.png');
         background-size: cover;
@@ -654,19 +659,19 @@ transform-origin: left;
         justify-content: start;
         align-items: center;
     }
-
+    
     #more-top {
         background-image: url('../assets/backgroundBrown.png');
         background-size: cover;
         position: absolute;
         height: 510px;
     }
-
+    
     label:not(:last-child):after {
         content: " \2219 ";
         color: white;
     }
-
+    
     .page {
         padding: 12px;
         border: solid 1px #FFA216;
@@ -675,38 +680,38 @@ transform-origin: left;
         text-decoration: none !important;
         transition: 0.5s;
     }
-
+    
     .page:hover {
         background-color: #FFA216;
         color: white !important;
     }
-
+    
     .pagination {
         justify-content: center;
         border-color: #FFA216;
         transform: scale(1.2);
     }
-
+    
     .pagination>li>a,
     .pagination>li>span {
         color: #FFA216;
         border-color: #FFA216;
     }
-
+    
     .pagination>li>a:hover,
     .pagination>li>span:hover {
         background: lightgrey;
         color: #FFA216;
         ;
     }
-
+    
     .pagination>.active>.page-link,
     .pagination>.active>span {
         background-color: #FFA216;
         border-color: #FFA216;
         color: white;
     }
-
+    
     #scheduleprevnext {
         background-color: #FFA216;
         border-radius: 25px;
@@ -714,27 +719,27 @@ transform-origin: left;
         cursor: pointer;
         transition: 0.5s;
     }
-
+    
     #scheduleprevnext:hover {
         border: 2px solid #FFA216;
         color: #FFA216;
         background-color: transparent;
     }
-
+    
     .prevnexthp {
         display: none;
     }
-
+    
     .prevnext,
     .aligned {
         margin-top: auto;
         margin-bottom: auto;
     }
-
+    
     .bottom-border {
         border: 0 0 0 3px solid #FFA216;
     }
-
+    
     .footer-icon {
         font-size: x-large;
         color: #545454;
@@ -744,23 +749,23 @@ transform-origin: left;
         border-radius: 30px;
         background-color: transparent;
     }
-
+    
     .footer-icon:hover {
         background-color: #545454;
         color: #FFB341;
     }
-
+    
     .footer-left {
         font-size: larger;
         color: #545454;
         margin-right: 2px;
         background-color: transparent;
     }
-
+    
     .form-control-file-center {
         content: 'Select some files';
     }
-
+    
     @media (max-width: 768px) {
         .nav-logo {
             display: none;
@@ -777,7 +782,7 @@ transform-origin: left;
             left: 40%;
         }
     }
-
+    
     @media (max-width: 576px) {
         .prevnext {
             display: none;
