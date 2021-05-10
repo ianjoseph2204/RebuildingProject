@@ -176,6 +176,6 @@
     </section>
 
     <script>
-        var home = document.getElementById('home').id = 'this';
+        let home = document.getElementById('home').id = 'this';
     </script>
 @endsection

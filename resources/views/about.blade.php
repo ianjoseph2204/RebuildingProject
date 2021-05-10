@@ -55,7 +55,7 @@
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a style="font-family: PoppinsSB;"><b>Memperbanyak dan memperlengkapi variasi pengembangan
-                                pengetahuan untuk anak-anak di panti
+                                    pengetahuan untuk anak-anak di panti
                                     asuhan, yang berumur 6 - 18 tahun.</b></a>
                         </div>
                     </div>
@@ -67,8 +67,9 @@
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
                             <a style="font-family: PoppinsSB;"><b>Mendorong dan mengembangkan pengetahuan serta
-                                keterampilan anak-anak di panti asuhan
-                                melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap kategori
+                                    keterampilan anak-anak di panti asuhan
+                                    melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap
+                                    kategori
                                     umur anak.</b></a>
                         </div>
                     </div>
@@ -92,8 +93,9 @@
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Mendorong anak-anak muda untuk berkontribusi secara aktif
-                                dalam kegiatan sosial melalui
+                            <a style="font-family: PoppinsSB;"><b>Mendorong anak-anak muda untuk berkontribusi secara
+                                    aktif
+                                    dalam kegiatan sosial melalui
                                     program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</b></a>
                         </div>
                     </div>
@@ -240,12 +242,16 @@
                     </div>
 
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-8 pl-5 pr-0">
-                        <a class="ml-5 mb-2" id="down-1">Rebuilding Project merupakan gerakan sosial di bidang edukasi
-                            yang dijalankan oleh para sukarelawan muda untuk melayani anak-anak yang ternaung dalam
-                            panti asuhan di Indonesia. Rebuilding Project memfasilitasi program edukasi yang berkonsep
-                            Fun-Learning untuk memperlengkapi pengetahuan, kemampuan, serta pembentukan karakter untuk
-                            anak-anak panti asuhan di Indonesia. Karena pembelajaran tidak hanya di ruang kelas, kami
-                            memfasilitasi program edukasi yang menarik dan menyenangkan untuk anak-anak. </a>
+                        <b><a class="ml-5 mb-2" id="down-1">Rebuilding Project merupakan gerakan sosial di bidang
+                                edukasi
+                                yang dijalankan oleh para sukarelawan muda untuk melayani anak-anak yang ternaung dalam
+                                panti asuhan di Indonesia. Rebuilding Project memfasilitasi program edukasi yang
+                                berkonsep
+                                Fun-Learning untuk memperlengkapi pengetahuan, kemampuan, serta pembentukan karakter
+                                untuk
+                                anak-anak panti asuhan di Indonesia. Karena pembelajaran tidak hanya di ruang kelas,
+                                kami
+                                memfasilitasi program edukasi yang menarik dan menyenangkan untuk anak-anak. </a></b>
                     </div>
                 </div>
 
@@ -267,10 +273,12 @@
                     </div>
 
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-8 pl-5 pr-0">
-                        <a class="ml-5 mb-2" id="down-2">Sebagai starting point, proyek-proyek kami akan dimulai dengan
-                            panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding
-                            Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti asuhan
-                            di seluruh kota di Indonesia.</a>
+                        <b><a class="ml-5 mb-2" id="down-2">Sebagai starting point, proyek-proyek kami akan dimulai
+                                dengan
+                                panti asuhan yang berada di Pontianak, Indonesia. Harapan kami kedepannya, Rebuilding
+                                Project dapat bekerjasama dan membawa perubahan yang positif untuk anak-anak di panti
+                                asuhan
+                                di seluruh kota di Indonesia.</a></b>
                     </div>
                 </div>
                 <div class="col-xl-10 col-lg-10 col-sm-10 col-10 my-3 p-1" id="back">
@@ -292,10 +300,10 @@
                     </div>
 
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-8 pl-5 pr-0">
-                        <a class="ml-5 mb-2" id="down-3">Rebuilding Project dibangun dengan dasar untuk merespon
-                            kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia.
-                            Gerakan sosial ini juga dilandasi dengan rasa ingin berbagi dengan sesama, dan keinginan
-                            untuk memajukan bangsa Indonesia terutama melalui Pendidikan bagi kaum muda. </a>
+                        <b><a class="ml-5 mb-2" id="down-3">Rebuilding Project dibangun dengan dasar untuk merespon
+                                kebutuhan pendidikan yang lebih menyeluruh untuk anak-anak di panti asuhan di Indonesia.
+                                Gerakan sosial ini juga dilandasi dengan rasa ingin berbagi dengan sesama, dan keinginan
+                                untuk memajukan bangsa Indonesia terutama melalui Pendidikan bagi kaum muda. </a></b>
                     </div>
                 </div>
 
@@ -317,9 +325,9 @@
                     </div>
 
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-8 pl-5 pr-0">
-                        <a class="ml-5 mb-2" id="down-4">Target Rebuilding Project adalah anak-anak yatim piatu yang
-                            memiliki umur berkisar 6 sampai 18 tahun, dan ternaung di dalam panti asuhan di
-                            Indonesia.</a>
+                        <b><a class="ml-5 mb-2" id="down-4">Target Rebuilding Project adalah anak-anak yatim piatu yang
+                                memiliki umur berkisar 6 sampai 18 tahun, dan ternaung di dalam panti asuhan di
+                                Indonesia.</a></b>
                     </div>
                 </div>
 
@@ -341,20 +349,24 @@
                     </div>
 
                     <div class="col-xl-11 col-lg-11 col-sm-11 col-8 pl-5 pr-0">
-                        <a class="ml-5 mb-2" id="down-5">Kami percaya semua orang bisa berkontribusi dalam meningkatkan
-                            kualitas edukasi untuk anak yatim piatu di Indonesia. Ada beberapa cara untuk dapat
-                            berkontribusi, antara lain:
-                            <ul>
-                                <li>Bergabung menjadi volunteer lapangan untuk terjun langsung menjalankan program
-                                    edukasi yang telah dirancang oleh tim Rebuilding Project.
-                                </li>
-                                <li>Berdonasi melalui QR code yang tersedia di bagian ‘Get Involved’.</li>
-                                <li>Membeli merchandise Rebuilding Project. Seluruh profit penjualan merchandise ini
-                                    akan digunakan untuk mendukung program Rebuilding Project dalam mengedukasi anak
-                                    yatim piatu di Indonesia.
-                                </li>
-                            </ul>
-                        </a>
+                        <b><a class="ml-5 mb-2" id="down-5">Kami percaya semua orang bisa berkontribusi dalam
+                                meningkatkan
+                                kualitas edukasi untuk anak yatim piatu di Indonesia. Ada beberapa cara untuk dapat
+                                berkontribusi, antara lain:
+                                <ul>
+                                    <li>Bergabung menjadi volunteer lapangan untuk terjun langsung menjalankan program
+                                        edukasi
+                                        yang telah dirancang oleh tim Rebuilding Project.
+                                    </li>
+                                    <li>Berdonasi dengan mengklik tombol ‘Donate Now’ di bagian ‘Get Involved’.</li>
+                                    <li>Membeli merchandise Rebuilding Project. Seluruh profit penjualan merchandise ini
+                                        akan
+                                        digunakan untuk mendukung program Rebuilding Project dalam mengedukasi anak
+                                        yatim piatu di
+                                        Indonesia.
+                                    </li>
+                                </ul>
+                            </a></b>
                     </div>
                 </div>
 
@@ -420,6 +432,10 @@
         }
 
         expand.onclick = function () {
+            faqButtonStatus()
+        }
+
+        function faqButtonStatus(){
             if (!faqExpanded) {
                 faqExpanded = !faqExpanded;
                 down1.style.display = "block";
@@ -487,7 +503,27 @@
                 x5.style.display = "none";
                 c5.style.display = "block";
             }
+
+            if (x5.style.display === "block"
+                && x4.style.display === "block"
+                && x3.style.display === "block"
+                && x2.style.display === "block"
+                && x1.style.display === "block") {
+                faqExpanded = false;
+                faqButtonStatus()
+            }
+
+            if (x5.style.display === "none"
+                && x4.style.display === "none"
+                && x3.style.display === "none"
+                && x2.style.display === "none"
+                && x1.style.display === "none") {
+                faqExpanded = true;
+                faqButtonStatus()
+            }
         }
+
+
 
         function showUser(user) {
             document.getElementById("modal-name").innerHTML = user['name'];
