@@ -12,9 +12,9 @@
                             style="color:#FFA216; font-family: AbadiMT">"</span></a>
                 </div>
                 <div class="col-lg-5 col-sm-6 col-12 p-5 text-center donatenow">
-                    <div class="mt-5" style="display: flex; justify-content: center; align-items: center;">
-                        <h1 class="grid-1 my-2">Click Here</h1>
-                    </div>
+{{--                    <div class="mt-5" style="display: flex; justify-content: center; align-items: center;">--}}
+{{--                        <h1 class="grid-1 my-2">Click Here</h1>--}}
+{{--                    </div>--}}
                     <div style="display: flex; justify-content: center; height: 50%; align-items: center;">
                         <a class="btn px-5 py-2 my-1" type="submit" id="donateBut"
                            href="https://forms.gle/r8ddZzfxqxxh1PMW9" target="_blank"><b>DONATE NOW</b></a>
@@ -116,4 +116,7 @@
 </section>
 
 -->
+    <script>
+        let home = document.getElementById('get-involved').id = 'this';
+    </script>
 @endsection

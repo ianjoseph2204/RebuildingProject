@@ -211,7 +211,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-12 my-4 text-center">
                     <h1 class="grid-2" style="font-family: PoppinsB;font-size: 50px;">FAQ</h1>
-                    <a style="font-family: PoppinsB;"><b>FREQUENT ASKED QUESTION</b></a>
+                    <a style="font-family: PoppinsB;"><b>FREQUENTLY ASKED QUESTION</b></a>
                 </div>
             </div>
 
