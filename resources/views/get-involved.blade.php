@@ -6,18 +6,14 @@
             <div class="row">
                 <div class="col-lg-7 col-sm-6 col-12 p-5" id="everyone">
                     <a class="get-involved" style="color: white;">
-                        <span style="color:#FFA216; font-family: AbadiMT;">"</span>Everyone can contribute<br>
+                        <span style="color:#FFA216">"</span>Everyone can contribute<br>
                         &nbsp;&nbsp;to something <span style="color:#FFA216">GOOD.</span><br>
-                        &nbsp;&nbsp;Your support <span style="color:#FFA216">MATTERS.</span><span
-                            style="color:#FFA216; font-family: AbadiMT">"</span></a>
+                        &nbsp;&nbsp;Your support <span style="color:#FFA216">MATTERS."</span></a>
                 </div>
                 <div class="col-lg-5 col-sm-6 col-12 p-5 text-center donatenow">
-{{--                    <div class="mt-5" style="display: flex; justify-content: center; align-items: center;">--}}
-{{--                        <h1 class="grid-1 my-2">Click Here</h1>--}}
-{{--                    </div>--}}
-                    <div style="display: flex; justify-content: center; height: 50%; align-items: center;">
-                        <a class="btn px-5 py-2 my-1" type="submit" id="donateBut"
-                           href="https://forms.gle/r8ddZzfxqxxh1PMW9" target="_blank"><b>DONATE NOW</b></a>
+                    <div style="display: flex; justify-content: center; height: 115%; align-items: center;">
+                        <button class="btn px-5 py-2 my-1" type="submit" id="donateBut"
+                           href="https://forms.gle/r8ddZzfxqxxh1PMW9" target="_blank"><b>DONATE NOW</b></button>
                     </div>
                 </div>
             </div>

@@ -14,8 +14,8 @@
                     <h1 class="grid-4">Children</h1>
                     <h1 class="grid-0">through</h1>
                     <h1 class="grid-4">Education</h1>
-                    <a class="btn px-5 py-2 my-1" type="submit" id="login" href="{{url('/get-involved')}}"><b>Donate
-                            Now</b></a>
+                    <button class="btn px-5 py-2 my-1" type="submit" id="login" href="{{url('/get-involved')}}"><b>Donate
+                            Now</b></button>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col p-3 text-center">
-                    <a class="btn px-5 py-2 mb-4" type="submit" id="login" href="get-involved"><b>Get Involved</b></a>
+                    <button class="btn px-5 py-2 mb-4" type="submit" id="login" href="get-involved"><b>Get Involved</b></button>
                 </div>
             </div>
         </div>
