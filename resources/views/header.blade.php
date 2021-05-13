@@ -35,7 +35,7 @@
                 </li>
                 <li class="nav-item">
                     <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span
-                        class="sr-only">(current)</span></a>
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/about')}}">About Us<span
@@ -65,12 +65,19 @@
     <div class="justify-content-center" id="back-footer">
         <div class="row justify-content-center" style="color:black; align-self: flex-end;">
             <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
-                <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo"><br><br>
-                <a href="https://www.instagram.com/rebuildingproject/" target="_blank"><i
-                        class="fab fa-instagram footer-icon"></i></a>
-                <a href="https://www.facebook.com/reproes/" target="_blank"><i class="fab fa-facebook-f footer-icon"
-                                                                               style="width: 60px;"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="far fa-envelope footer-icon"></i></a>
+                <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo">
+                <br>
+                {{--                <div style="position:absolute; width: 150px; height: 50px">--}}
+                <a href="https://wa.me/6285388114785" target="_blank" style="margin-right: 5px;
+                    display: inline-block; width: 40px; height: 40px; background-size: contain;
+                    background-image: url('{{asset('assets/header-footer/Whatsapp.png')}}')"></a>
+                <a href="https://www.facebook.com/reproes/" target="_blank" style="margin-right: 5px;
+                    display: inline-block; width: 40px; height: 40px; background-size: contain;
+                    background-image: url('{{asset('assets/header-footer/Facebook.png')}}')"></a>
+                <a href="https://www.instagram.com/rebuildingproject/" target="_blank" style="margin-right: 5px;
+                    display: inline-block; width: 40px; height: 40px; background-size: contain;
+                    background-image: url('{{asset('assets/header-footer/Instagram.png')}}')"></a>
+                {{--                </div>--}}
             </div>
 
             <div class="col-xl-2 col-lg-2 col-sm-5 col-8 justify-content-center my-3" style="font-family: Poppins;">
