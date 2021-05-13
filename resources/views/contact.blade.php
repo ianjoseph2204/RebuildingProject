@@ -98,6 +98,6 @@
     </section>
 
     <script>
-        const contact = document.getElementById('contact-us').id = 'this';
+        const contact = document.getElementById('contact').id = 'this';
     </script>
 @endsection
