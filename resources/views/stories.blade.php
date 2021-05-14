@@ -19,19 +19,26 @@
                 <div class="row justify-content-center">
                     @foreach($stories as $story)
                         <div class="col-xl-3 col-lg-5 col-sm-5 col-10 my-3 mx-3">
-                            <img src="{{asset('assets/story/storypic1.png')}}" class="card-picture">
-                            <div class="card p-3">
-                                <div class="box p-3">
-                                    <a style="color:#f5c150"><b>{{date('d M Y', strtotime($story->created_at))}}</b></a><br>
-                                    <h3 class="grid-1">{{$story->title}}</h3>
-                                    <a>
-                                        <i class="fas fa-user" style="color:#f5c150; margin-right: 3px"></i>
-                                        {{$story->writer}}
-                                    </a>
-                                    <div class="row mt-5">
-                                        <div class="col-xl-12 col-lg-12 text-right">
-                                            <a class="btn px-3 py-2 my-4" id="login" href="stories/{{$story->id}}"><b>Read
-                                                    More</b></a>
+                            <div class="card-story">
+                                <img src="{{asset('assets/story/storypic.png')}}" class="card-picture">
+                                <div class="card" style="border-radius: 0 0 17px 17px">
+                                    <div class="box pt-3 px-4">
+                                        <a style="color:#f5c150">
+                                            <b>{{date('d M Y', strtotime($story->created_at))}}</b>
+                                        </a>
+                                        <br>
+                                        <h3 class="grid-1" style="margin: 0">{{$story->title}}</h3>
+                                        <a style="font-family: Poppins">
+                                            <i class="fas fa-user" style="color:#f5c150; margin-right: 3px"></i>
+                                            {{$story->writer}}
+                                        </a>
+
+                                        <div class="row mt-3">
+                                            <div class="col-xl-12 col-lg-12 text-right" style="padding: 0">
+                                                <form action="stories/{{$story->id}}">
+                                                    <button class="btn px-3 py-2 my-3" id="login"><b>Read More</b></button>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

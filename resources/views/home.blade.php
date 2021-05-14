@@ -8,13 +8,15 @@
                 <div class="col-lg-7 text-center">
                     <img src="{{asset('assets/home/landing.png')}}" width="60%" class="mx-1 my-1">
                 </div>
+
                 <div class="col-lg-5 col-sm-5 col-10 mt-3">
                     <a id="our-mission">01 - MISI KAMI</a>
                     <h1 class="grid-0">Empowering</h1>
                     <h1 class="grid-4">Children</h1>
                     <h1 class="grid-0">through</h1>
                     <h1 class="grid-4">Education</h1>
-                    <button class="btn px-5 py-2 my-1" type="submit" id="login" href="{{url('/get-involved')}}"><b>Donate
+                    <button class="btn px-5 py-2 my-1" type="submit" id="login"
+                        onclick="window.location='{{url('/get-involved')}}'"><b>Donate
                             Now</b></button>
                 </div>
             </div>
@@ -26,11 +28,13 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-10 col-12 mt-5 text-center">
                     <a class="mt-10" id="our-mission">02 - PROGRAM KAMI</a><br><br>
+
                     <h4 class="grid-1 px-5 pb-5">
                         "Karena pembelajaran <span class="grid-2">tidak hanya di ruang kelas</span>, kami <br>memfasilitasi
                         program edukasi yang <span class="grid-2">menarik </span> dan <br><span class="grid-2">menyenangkan</span>
                         untuk anak-anak”<br>
                     </h4>
+
                     <a class="col-10" id="quote"><b>Seluruh program edukasi yang diberikan dikemas dengan konsep
                             Fun-Learning:</b>
                     </a>
@@ -81,8 +85,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col p-3 text-center">
-                    <button class="btn px-5 py-2 mb-4" type="submit" id="login" href="get-involved"><b>Get Involved</b></button>
+                    <button class="btn px-5 py-2 mb-4" type="submit" id="login"
+                            onclick="window.location='{{url('get-involved')}}'"><b>Get Involved</b>
+                    </button>
                 </div>
             </div>
         </div>
@@ -94,6 +101,7 @@
                 <div class="col-lg-6 col-10 text-center">
                     <img src="{{asset('assets/home/who.png')}}" width="70%" class="mx-1 my-1">
                 </div>
+
                 <div class="col-lg-5 col-10 mt-3">
                     <a id="about-us">03 - SIAPAKAH KAMI</a>
                     <h1 class="grid-2">Who We Are</h1>
@@ -117,6 +125,7 @@
                     <h1 class="grid-1 px-5"> What We Do</h1><br><br>
                 </div>
             </div>
+
             <div class="row my-2">
                 <div class="col-lg-3 col-md-6">
                     <div class="cardWWD">

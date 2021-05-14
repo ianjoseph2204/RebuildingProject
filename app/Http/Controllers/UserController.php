@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function aboutPage()
+    public function list()
     {
         //Join between User and UserPositions
         $users = User::with('user_positions')->get();
 //        return $users;
-        return view('about', compact('users'));
+        return view('about-us', compact('users'));
     }
 
     public function read($id)

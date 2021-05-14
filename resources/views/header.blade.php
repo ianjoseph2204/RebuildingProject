@@ -24,6 +24,7 @@
 </head>
 
 <body>
+
 <section id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
         <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;">
@@ -31,14 +32,14 @@
                 <li class="navbar-brand ">
                     <a href="{{url('/')}}"> <img src="{{asset('assets/header-footer/logo.png')}}"
                                                  class="nav-logo mx-1 my-1 logonav"
-                                                 width="150px"> </a>
+                                                 width="150px"></a>
                 </li>
                 <li class="nav-item">
                     <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/about')}}">About Us<span
+                    <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/about-us')}}">About Us<span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -46,7 +47,7 @@
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/contact')}}">Contact Us<span
+                    <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/contact-us')}}">Contact Us<span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -60,14 +61,12 @@
 
 @yield('content')
 
-
 <footer class="footer mt-5" style="bottom: 0;">
     <div class="justify-content-center" id="back-footer">
         <div class="row justify-content-center" style="color:black; align-self: flex-end;">
             <div class="col-xl-4 col-lg-4 col-sm-12 col-10 justify-content-center text-center my-3">
                 <img src="{{asset('assets/header-footer/Logo_black.png')}}" width="250px" alt="footer-logo">
                 <br>
-                {{--                <div style="position:absolute; width: 150px; height: 50px">--}}
                 <a href="https://wa.me/6285388114785" target="_blank" style="margin-right: 5px;
                     display: inline-block; width: 40px; height: 40px; background-size: contain;
                     background-image: url('{{asset('assets/header-footer/Whatsapp.png')}}')"></a>
@@ -77,26 +76,26 @@
                 <a href="https://www.instagram.com/rebuildingproject/" target="_blank" style="margin-right: 5px;
                     display: inline-block; width: 40px; height: 40px; background-size: contain;
                     background-image: url('{{asset('assets/header-footer/Instagram.png')}}')"></a>
-                {{--                </div>--}}
             </div>
 
             <div class="col-xl-2 col-lg-2 col-sm-5 col-8 justify-content-center my-3" style="font-family: Poppins;">
-                <a href="{{url('about')}}" style="text-decoration: none !important;  color:#545454">About Us</a>
+                <a href="{{url('about-us')}}" style="text-decoration: none !important;  color:#545454">About Us</a>
                 <br><br>
                 <a href="{{url('stories')}}" style="text-decoration: none !important;  color:#545454">Our Story</a>
                 <br><br>
-                <a href="{{url('contact')}}" style="text-decoration: none !important;  color:#545454">Contact Us</a>
+                <a href="{{url('contact-us')}}" style="text-decoration: none !important;  color:#545454">Contact Us</a>
                 <br><br>
-                <a href="{{url('get-involved')}}" style="text-decoration: none !important;  color:#545454">Get
-                    Involved</a> <br>
+                <a href="{{url('get-involved')}}" style="text-decoration: none !important;  color:#545454">Get Involved</a> <br>
             </div>
 
             <div class="col-xl-4 col-lg-4 col-sm-7 col-11 justify-content-center my-3" style="font-family: Poppins;">
-                <a class="contact" style="color:#545454"><i class="fab fa-instagram footer-left"></i> @rebuildingproject
-                </a> <br><br>
-                <a class="contact" style="color:#545454"><i class="fab fa-facebook-f footer-left"></i> @reproes</a> <br><br>
+                <a class="contact" style="color:#545454"><i class="fab fa-instagram footer-left"></i> @rebuildingproject</a>
+                <br><br>
+                <a class="contact" style="color:#545454"><i class="fab fa-facebook-f footer-left"></i> @reproes</a>
+                <br><br>
                 <a class="contact" style="color:#545454"><i class="far fa-envelope footer-left"></i>
-                    rebuildinglivesforchildren@gmail.com </a> <br><br>
+                    rebuildinglivesforchildren@gmail.com </a>
+                <br><br>
             </div>
 
             <div class="row justify-content-center text-center" style="color:#545454; font-family: Poppins">

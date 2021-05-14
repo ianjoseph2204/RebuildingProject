@@ -12,8 +12,11 @@
                 </div>
                 <div class="col-lg-5 col-sm-6 col-12 p-5 text-center donatenow">
                     <div style="display: flex; justify-content: center; height: 115%; align-items: center;">
-                        <button class="btn px-5 py-2 my-1" type="submit" id="donateBut"
-                           href="https://forms.gle/r8ddZzfxqxxh1PMW9" target="_blank"><b>DONATE NOW</b></button>
+                        <form action="https://forms.gle/r8ddZzfxqxxh1PMW9" target="_blank">
+                            <button class="btn px-5 py-2 my-1" type="submit" id="donateButton">
+                                <b>DONATE NOW</b>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

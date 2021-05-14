@@ -132,13 +132,13 @@ transform-origin: left;
     }
 
     .donatenow {
-        background-image: url('../assets/backgroundCream.png');
+        background-image: url('../assets/backgrounds/Cream.png');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
 
-    #donateBut {
+    #donateButton {
         background-color: #FFA216;
         border-radius: 20px;
         border: 4px solid #FFB341 !important;
@@ -155,7 +155,7 @@ transform-origin: left;
         align-items: center;
     }
 
-    #donateBut:hover {
+    #donateButton:hover {
         background-color: transparent;
         color: #FFA216;
     }
@@ -379,7 +379,7 @@ transform-origin: left;
     }
 
     #team-background {
-        background-image: url('../assets/backgroundCream.png');
+        background-image: url('../assets/backgrounds/Cream.png');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -437,7 +437,7 @@ transform-origin: left;
     }
 
     #back-welcome {
-        background-image: url('../assets/backgroundCream.png');
+        background-image: url('../assets/backgrounds/Cream.png');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -453,8 +453,8 @@ transform-origin: left;
     }
 
     #back-story {
-        background-image: url('../assets/backgroundWhite.png');
-        background-size: cover;
+        background-image: url('../assets/backgrounds/White.png');
+        background-size: contain;
         background-position: center bottom;
         display: flex;
     }
@@ -470,11 +470,16 @@ transform-origin: left;
         position: relative;
     }
 
+    .card-story{
+        height: fit-content;
+        width: fit-content;
+        border-radius: 17px;
+        box-shadow: -1.5px 1px 4px 1px rgba(0, 0, 0, 0.3);
+    }
+
     .card-picture {
         width: 100%;
-        height: 200px;
-        border-radius: 30px 30px 0 0;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 50%;
     }
 
     .ourTeam {
@@ -661,7 +666,7 @@ transform-origin: left;
     }
 
     #more-top {
-        background-image: url('../assets/backgroundBrown.png');
+        background-image: url('../assets/backgrounds/Brown.png');
         background-size: cover;
         position: absolute;
         height: 510px;
