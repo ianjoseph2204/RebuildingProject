@@ -27,5 +27,5 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 .idea
-/public/assets/story/
+public/assets/story/*
 !/public/assets/story/storypic.png
