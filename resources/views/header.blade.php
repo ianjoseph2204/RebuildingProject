@@ -34,22 +34,28 @@
                                                  class="nav-logo mx-1 my-1 logonav"
                                                  width="150px"></a>
                 </li>
+
                 <li class="nav-item">
                     <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span
                             class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
                     <a id="about" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/about-us')}}">About Us<span
                             class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
-                    <a id="story" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/stories')}}">Our Story<span
+                    <a id="stories" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/stories')}}">Our Story<span
                             class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
-                    <a id="contact" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/contact-us')}}">Contact Us<span
+                    <a id="contact-us" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/contact-us')}}">Contact
+                        Us<span
                             class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
                     <a id="get-involved" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/get-involved')}}">Get
                         Involved<span class="sr-only">(current)</span></a>
@@ -85,7 +91,8 @@
                 <br><br>
                 <a href="{{url('contact-us')}}" style="text-decoration: none !important;  color:#545454">Contact Us</a>
                 <br><br>
-                <a href="{{url('get-involved')}}" style="text-decoration: none !important;  color:#545454">Get Involved</a> <br>
+                <a href="{{url('get-involved')}}" style="text-decoration: none !important;  color:#545454">Get
+                    Involved</a> <br>
             </div>
 
             <div class="col-xl-4 col-lg-4 col-sm-7 col-11 justify-content-center my-3" style="font-family: Poppins;">
@@ -100,7 +107,7 @@
 
             <div class="row justify-content-center text-center" style="color:#545454; font-family: Poppins">
                 <div class="col-lg-12 col-sm-12 justify-content-center text-center my-3">
-                    © Copyright Rebuilding Project 2020. All Rights Reserved
+                    © Copyright Rebuilding Project 2020-2021. All Rights Reserved
                 </div>
             </div>
         </div>

@@ -184,7 +184,5 @@
         </div>
     </section>
 
-    <script>
-        let home = document.getElementById('home').id = 'this';
-    </script>
+    <script src="{{asset('js/home.js')}}"></script>
 @endsection

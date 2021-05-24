@@ -23,7 +23,8 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-12 col-sm-12 col-12 my-5">
-                <p style="text-align: justify; font-family: Poppins; Line-height: 29px;margin-top: 280px;"
+                <p style="text-align: justify; font-family: Poppins; Line-height: 29px;margin-top: 280px;
+                    white-space: pre-wrap;"
                    class="ml-4 mr-4 ">{{$story->content}}</p>
             </div>
 
@@ -67,5 +68,5 @@
         </div>
     </div>
 
-    <script>let story = document.getElementById('story').id = 'this';</script>
+    <script src="{{asset('js/story.js')}}"></script>
 @endsection

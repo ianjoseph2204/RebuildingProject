@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class DataController extends Controller
 {
-    //
+
     public function contact(Request $request)
     {
 

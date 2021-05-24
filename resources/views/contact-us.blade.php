@@ -97,7 +97,5 @@
         </div>
     </section>
 
-    <script>
-        const contact = document.getElementById('contact').id = 'this';
-    </script>
+    <script src="{{asset('js/contact-us.js')}}"></script>
 @endsection

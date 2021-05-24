@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\AddController;
 use App\Http\Controllers\InquiryController;
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\UserController;
@@ -28,16 +29,17 @@ Route::get('/contact-us', function () {
 Route::get('/get-involved', function () {
     return view('get-involved');
 });
-Route::get('/more', function () {
-    return view('more');
-});
 
-Route::get('/add', [UserPositionController::class, 'list']);
+//Route::get('/add', [UserPositionController::class, 'list']);
+Route::get('/add', [AddController::class, 'page']);
+
 
 // Queries related
 Route::get('/stories/{id}', [StoryController::class, 'read']);
 Route::get('/stories', [StoryController::class, 'list']);
 Route::post('/stories', [StoryController::class, 'create']);
+
+//Route::get('/story-categories', [])
 
 Route::get('/users', [UserController::class, 'getList']);
 Route::post('/users', [UserController::class, 'create']);

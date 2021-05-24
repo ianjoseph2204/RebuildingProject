@@ -12,4 +12,9 @@ class UserPosition extends Model
     {
         return $this->hasMany(User::class, 'position_id', 'id');
     }
+
+    public static function list()
+    {
+        return self::all();
+    }
 }

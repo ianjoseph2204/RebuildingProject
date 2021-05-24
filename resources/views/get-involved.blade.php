@@ -115,7 +115,5 @@
 </section>
 
 -->
-    <script>
-        let home = document.getElementById('get-involved').id = 'this';
-    </script>
+    <script src="{{asset('js/get-involved.js')}}"></script>
 @endsection

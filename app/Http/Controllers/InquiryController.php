@@ -18,7 +18,6 @@ class InquiryController extends Controller
         ]);
 
         $inquiry->save();
-        return redirect('/contact
-        ');
+        return redirect('/contact-us');
     }
 }
