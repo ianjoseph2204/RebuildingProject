@@ -1,0 +1,91 @@
+        .programkami {
+            font-size: 23px;
+            line-height: 40px;
+            margin-inline: 150px;
+            margin-bottom: 50px;
+        }
+        
+        .whatwedocard {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #about-us {
+            color: #545454;
+            font-family: PoppinsEB;
+        }
+        
+        #our-mission {
+            color: #FFA216;
+            font-family: PoppinsEB;
+        }
+        
+        .whatWeDoPic {
+            max-width: 80%;
+            height: auto;
+        }
+        
+        @media (max-width: 576px) {
+            .programkami {
+                font-size: 13px;
+                line-height: 20px;
+                margin-inline: 10px;
+                margin-bottom: 0px;
+            }
+            #quote {
+                font-size: 10px;
+                line-height: 15px;
+                display: contents;
+            }
+            .cardgroup {
+                display: block;
+            }
+            .cardProgramK {
+                width: 200px;
+                height: 237px;
+                margin: 20px;
+            }
+            .card-title {
+                font-size: 17px;
+                line-height: 4px;
+            }
+            #quote-1 {
+                font-size: 9.5px;
+                line-height: 15px;
+            }
+            .btnGetInvolved {
+                display: none;
+            }
+            .whoweare {
+                text-align: center;
+            }
+            #quote-2 {
+                font-size: 12px;
+                line-height: 22px;
+                text-align: start;
+                display: block;
+            }
+            #about-us,
+            #our-mission {
+                font-size: 12px;
+            }
+            .pKarakter {
+                display: block;
+                margin-top: 14px;
+            }
+            .cardWWD {
+                width: 210px;
+                height: 260px;
+                margin: 10px;
+                margin-bottom: 80px;
+            }
+            .number {
+                font-size: 45px;
+                margin-top: -45px;
+            }
+            #quoteWWD {
+                font-size: 11px;
+                line-height: 17px;
+            }
+        }
