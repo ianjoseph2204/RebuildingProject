@@ -1,0 +1,31 @@
+        .ourMission {
+        font-size: 60px;
+        margin-bottom: 50px;
+        font-family: madetommy;
+    }
+    
+    .ourMissionOneFive {
+        font-family: PoppinsSB;
+    }
+    
+    @media (max-width: 576px) {
+        .aboutUsTitle {
+            font-size: 23px;
+            line-height: 33px;
+        }
+        #quote-2 {
+            font-size: 13px;
+            line-height: 20px;
+            display: block;
+            margin: 17px;
+        }
+        .ourMission {
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+        .ourMissionOneFive {
+            font-size: 12px;
+        }
+        #back {
+            border-radius: 20px;
+        }

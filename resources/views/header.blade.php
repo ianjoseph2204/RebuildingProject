@@ -21,6 +21,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/header.css')}}">
 
 </head>
 
@@ -28,14 +29,20 @@
 
 <section id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top" id="navbarUtama">
-        <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;">
-            <ul class="navbar-nav">
-                <li class="navbar-brand ">
+        <!-- <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99; width: fit-content;"> -->
+        <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navbar-nav">
+                <!-- <li class="navbar-brand"> -->
                     <a href="{{url('/')}}"> <img src="{{asset('assets/header-footer/logo.png')}}"
-                                                 class="nav-logo mx-1 my-1 logonav"
-                                                 width="150px"></a>
-                </li>
-
+                                            width="150px" id="headerLogo"></a>
+                <!-- </li> -->
+            </div>
+            <ul>
                 <li class="nav-item">
                     <a id="home" class="nav-link mx-lg-4 mx-xl-5 my-3" href="{{url('/')}}">Home<span
                             class="sr-only">(current)</span></a>
@@ -62,7 +69,9 @@
                         Involved<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
-        </div>
+
+            
+        <!-- </div> -->
     </nav>
 </section>
 
@@ -114,6 +123,8 @@
         </div>
     </div>
 </footer>
+
+<script src="{{asset('js/header.js')}}"></script>
 </body>
 
 </html>

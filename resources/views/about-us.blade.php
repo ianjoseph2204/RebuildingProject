@@ -1,17 +1,19 @@
 @extends('header')
 
 @section('content')
+<link rel="stylesheet" href="{{asset('css/aboutUs.css')}}">
+
     <section id="01">
         <div class="container">
             <div class="row space"></div>
 
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-sm-12 col-11 text-center">
-                    <h1 class="grid-1 mt-5 mb-2">Let’s get to know <span class="grid-2">Rebuilding Project</span> and
+                    <h1 class="aboutUsTitle grid-1 mt-5 mb-2">Let’s get to know <span class="grid-2">Rebuilding Project</span> and
                         <span class="grid-2">the people</span> behind !
                     </h1>
 
-                    <a>Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk
+                    <a id="quote-2">Rebuilding Project didirikan untuk merespon kebutuhan pendidikan yang lebih menyeluruh untuk
                         anak-anak di panti asuhan di Indonesia.</a>
                 </div>
             </div>
@@ -30,7 +32,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 text-center">
-                    <h1 class="grid-1 mb-5" style="font-size: 60px;height: 18%;"><span class="grid-2">Our</span> Mission
+                    <h1 class="ourMission grid-1"><span class="grid-2">Our</span> Mission
                     </h1>
                 </div>
             </div>
@@ -38,35 +40,35 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-5 mx-2">
                     <div class="row my-3 mx-1" id="back">
-                        <div class="col-xl- col-lg-1 col-1 ml-2 my-3">
+                        <div class="col-xl-1 col-lg-1 col-1 ml-1 my-3">
                             <h1 class="grid-2 aligned">01</h1>
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Meningkatkan kualitas pendidikan di panti asuhan di
+                            <a class= "ourMissionOneFive"><b>Meningkatkan kualitas pendidikan di panti asuhan di
                                     Indonesia.</b></a>
                         </div>
                     </div>
 
                     <div class="row my-3 mx-1" id="back">
-                        <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
+                        <div class="col-xl-1 col-lg-1 col-1 ml-1 my-3">
                             <h1 class="grid-2 aligned">02</h1>
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Memperbanyak dan memperlengkapi variasi pengembangan
+                            <a class= "ourMissionOneFive"><b>Memperbanyak dan memperlengkapi variasi pengembangan
                                     pengetahuan untuk anak-anak di panti
                                     asuhan, yang berumur 6 - 18 tahun.</b></a>
                         </div>
                     </div>
 
                     <div class="row my-3 mx-1" id="back">
-                        <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
+                        <div class="col-xl-1 col-lg-1 col-1 ml-1 my-3">
                             <h1 class="grid-2 aligned">03</h1>
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Mendorong dan mengembangkan pengetahuan serta
+                            <a class= "ourMissionOneFive"><b>Mendorong dan mengembangkan pengetahuan serta
                                     keterampilan anak-anak di panti asuhan
                                     melalui program edukasi berkonsep Fun-Learning, yang disesuaikan dengan setiap
                                     kategori
@@ -77,23 +79,23 @@
 
                 <div class="col-xl- col-lg-5 mx-2">
                     <div class="row my-3 mx-1" id="back">
-                        <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
+                        <div class="col-xl-1 col-lg-1 col-1 ml-1 my-3">
                             <h1 class="grid-2 aligned">04</h1>
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Menjalin sinergi dan aktif bekerjasama dengan panti
+                            <a class= "ourMissionOneFive"><b>Menjalin sinergi dan aktif bekerjasama dengan panti
                                     asuhan yang ada di Indonesia</b></a>
                         </div>
                     </div>
 
                     <div class="row my-3 mx-1" id="back">
-                        <div class="col-xl-1 col-lg-1 col-1 ml-2 my-3">
+                        <div class="col-xl-1 col-lg-1 col-1 ml-1 my-3">
                             <h1 class="grid-2 aligned">05</h1>
                         </div>
 
                         <div class="col-xl-10 col-lg-10 col-sm-10 col-9 ml-4 my-3">
-                            <a style="font-family: PoppinsSB;"><b>Mendorong anak-anak muda untuk berkontribusi secara
+                            <a class= "ourMissionOneFive"><b>Mendorong anak-anak muda untuk berkontribusi secara
                                     aktif
                                     dalam kegiatan sosial melalui
                                     program edukasi bagi anak-anak panti asuhan yang ada di Indonesia.</b></a>
